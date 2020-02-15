@@ -1,0 +1,13 @@
+OBJECT_SHARED Models/Airport/ndb.ac 24.121919 54.965756 63.65 180
+OBJECT_SHARED Models/Airport/ils.xml 24.06975 54.961911 68.94 274.36
+OBJECT_SHARED Models/Airport/ils.xml 24.099372 54.963567 74.29 94.37
+OBJECT_SHARED Models/Airport/marker.ac 24.05125 54.96225 56.05 180
+OBJECT_SHARED Models/Airport/marker.ac 24.121919 54.965756 63.65 180
+OBJECT_SHARED Models/Airport/localizer.xml 24.056239 54.962503 62.76 94.37
+OBJECT_SHARED Models/Airport/localizer.xml 24.113628 54.965347 69.29 274.36
+OBJECT_SHARED Models/Communications/VOR-DME_3.ac 24.065317 54.959803 68.63 180
+OBJECT_SHARED Models/Maritime/Misc/Buoy-IsolatedDanger.ac 24.0113335 54.8773421 40.78 30.33
+OBJECT_SHARED Models/Maritime/Misc/Buoy-IsolatedDanger.ac 24.0420826 54.882917 38.99 41.56
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Red.ac 24.0478278 54.8822561 39.2 120.07
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac 24.0277812 54.8832612 43.8 345.1
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac 24.0524807 54.8958458 41.75 275.42

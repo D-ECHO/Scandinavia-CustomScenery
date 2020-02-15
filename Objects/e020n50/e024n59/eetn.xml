@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+  <path>eetn.ac</path>
+
+  <animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-property>sim/rendering/static-lod/bare</max-property>
+  </animation>
+	
+
+  <animation>
+    <type>material</type>
+    <object-name>logo</object-name>
+    <condition>
+      <greater-than>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.47</value>
+      </greater-than>
+    </condition>
+    <emission>
+      <red>   0.9 </red>
+      <green> 0.9 </green>
+      <blue>  1.0 </blue>
+    </emission>
+  </animation>
+  <animation>
+    <type>material</type>
+    <object-name>logo</object-name>
+    <condition>
+      <less-than-equals>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.47</value>
+      </less-than-equals>
+    </condition>
+    <emission>
+      <red>   0 </red>
+      <green> 0 </green>
+      <blue>  0 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>window</object-name>
+    <condition>
+      <greater-than>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </greater-than>
+    </condition>
+    <emission>
+      <red>   0.6 </red>
+      <green> 0.6 </green>
+      <blue>  0.6 </blue>
+    </emission>
+  </animation>
+  <animation>
+    <type>material</type>
+    <object-name>window</object-name>
+    <condition>
+      <less-than-equals>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </less-than-equals>
+    </condition>
+    <emission>
+      <red>   0 </red>
+      <green> 0 </green>
+      <blue>  0 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>red_light</object-name>
+    <emission>
+      <red>   1.0 </red>
+      <green> 0.0 </green>
+      <blue>  0.0 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>window_top</object-name>
+    <condition>
+      <greater-than>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </greater-than>
+    </condition>
+    <emission>
+      <red>   0.4 </red>
+      <green> 0.4 </green>
+      <blue>  0.6 </blue>
+    </emission>
+  </animation>
+  <animation>
+    <type>material</type>
+    <object-name>window_top</object-name>
+    <condition>
+      <less-than-equals>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </less-than-equals>
+    </condition>
+    <emission>
+      <red>   0 </red>
+      <green> 0 </green>
+      <blue>  0 </blue>
+    </emission>
+  </animation>
+
+
+</PropertyList>

@@ -1,0 +1,5 @@
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 24.7832429 60.7032007 86.3 204.03
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 24.8186968 60.7109392 103.84 208.08
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 24.8401246 60.7175236 117.69 212.13
+OBJECT_SHARED Models/Communications/Generic_Antenna43m.xml 24.918516 60.701637 148.92 0
+OBJECT_SHARED Models/Sport/terrain_de_foot_generic.ac 24.874753 60.629286 104.32 0

@@ -1,0 +1,6 @@
+OBJECT_SHARED Models/Misc/generic_lighthouse.ac 26.2586 60.1626 -0.26 180
+OBJECT_SHARED Models/Misc/generic_lighthouse.ac 26.4075 60.2127 -0.38 180
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-North.ac 26.4450966 60.2433333 -0.26 120.58
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-East.ac 26.4036073 60.2354021 -0.47 87.86
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-East.ac 26.4113581 60.2420078 -0.41 0.12
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-West.ac 26.4280828 60.2358476 -0.36 258.58

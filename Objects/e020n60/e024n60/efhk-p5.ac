@@ -1,0 +1,217 @@
+AC3Db
+MATERIAL "8A9D98863D55E9AA4819DEB8730E3431" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0 0 0  shi 10  trans 0
+MATERIAL "9842890A2B73749FF8A7DE17C187E235" rgb 0.266667 0.266667 0.266667  amb 0.266667 0.266667 0.266667  emis 0 0 0  spec 0 0 0  shi 10  trans 0
+MATERIAL "F27310216161A736AD073BF94FE95DF9" rgb 0.533333 0.533333 0.533333  amb 0.533333 0.533333 0.533333  emis 0 0 0  spec 0 0 0  shi 10  trans 0
+MATERIAL "EC5A257902C1BCFFFEDDFE792F7D7C62" rgb 0.8 0.8 0.8  amb 0.8 0.8 0.8  emis 0 0 0  spec 0 0 0  shi 0  trans 0
+MATERIAL "7A87620FA54346E40902E2BE15A0D16D" rgb 0 0 0 amb 0 0 0 emis 0 0 0 spec 0 0 0 shi 0 trans 0
+MATERIAL "ECF8B6C7C287AFC71EC223FB2B3103EF" rgb 0 0 0 amb 0 0 0 emis 0 0 0 spec 0 0 0 shi 0 trans 0
+MATERIAL "D02232BCCE4E26135A09EE807AAFF0BF" rgb 0 0 0 amb 0 0 0 emis 0 0 0 spec 0 0 0 shi 0 trans 0
+MATERIAL "F374FBD770D8563D3299C5CDDFA709E7" rgb 0 0 0 amb 0 0 0 emis 0 0 0 spec 0 0 0 shi 0 trans 0
+OBJECT world
+kids 2
+OBJECT poly
+name "rect"
+crease 45.000000
+numvert 4
+-5 13 -25
+5 13 -25
+5 3 24
+-5 3 24
+numsurf 1
+SURF 0x0
+mat 0
+refs 4
+3 0 0
+2 1 0
+1 1 1
+0 0 1
+kids 0
+OBJECT poly
+name "rect"
+loc 0 10 -3.8147e-06
+crease 45.000000
+numvert 29
+-62 -10 -50
+62 -10 -50
+62 -10 50
+-62 -10 50
+-62 10 50
+62 10 50
+62 10 -50
+-62 10 -50
+-62 10 3.8147e-06
+62 10 3.8147e-06
+0 10 -50
+0 10 50
+-62 0 50
+16 4 3.8147e-06
+11 4 -11
+0 4 -16
+-11 4 -11
+-16 4 3.8147e-06
+-11 4 11
+0 4 16
+11 4 11
+16 10 3.8147e-06
+11 10 -11
+0 10 -16
+-11 10 -11
+-16 10 3.8147e-06
+-11 10 11
+0 10 16
+11 10 11
+numsurf 21
+SURF 0x0
+mat 0
+refs 4
+9 0 0
+21 0 0
+28 0 0
+5 0 0
+SURF 0x0
+mat 0
+refs 4
+5 0 0
+28 0 0
+27 0.375 1
+11 0 0.5
+SURF 0x0
+mat 0
+refs 4
+27 0.375 1
+26 0.25 1
+4 0 0
+11 0 0.5
+SURF 0x0
+mat 0
+refs 4
+26 0.25 1
+25 0.125 1
+8 0 0.5
+4 0 0
+SURF 0x0
+mat 0
+refs 4
+22 0.25 1
+21 0.125 1
+9 0 0.5
+6 0 0
+SURF 0x0
+mat 0
+refs 4
+23 0.375 1
+22 0.25 1
+6 0 0
+10 0 0.5
+SURF 0x0
+mat 0
+refs 4
+7 0 0
+24 0 0
+23 0.375 1
+10 0 0.5
+SURF 0x20
+mat 3
+refs 5
+9 0 0.5
+5 0 0
+2 1 0
+1 1 1
+6 0 1
+SURF 0x20
+mat 3
+refs 6
+8 0 0.5
+7 0 0
+0 1 0
+3 1 1
+12 0.5 1
+4 0 1
+SURF 0x20
+mat 3
+refs 5
+10 0 0.5
+6 0 0
+1 1 0
+0 1 1
+7 0 1
+SURF 0x20
+mat 3
+refs 6
+11 0 0.5
+4 0 0
+12 0.5 0
+3 1 0
+2 1 1
+5 0 1
+SURF 0x10
+mat 1
+refs 4
+21 0.125 1
+13 0.125 0
+20 0 0
+28 0 1
+SURF 0x10
+mat 1
+refs 4
+22 0.25 1
+14 0.25 0
+13 0.125 0
+21 0.125 1
+SURF 0x10
+mat 1
+refs 4
+23 0.375 1
+15 0.375 0
+14 0.25 0
+22 0.25 1
+SURF 0x10
+mat 1
+refs 4
+24 0.5 1
+16 0.5 0
+15 0.375 0
+23 0.375 1
+SURF 0x10
+mat 1
+refs 4
+25 0.625 1
+17 0.625 0
+16 0.5 0
+24 0.5 1
+SURF 0x10
+mat 1
+refs 4
+26 0.75 1
+18 0.75 0
+17 0.625 0
+25 0.625 1
+SURF 0x10
+mat 1
+refs 4
+27 0.875 1
+19 0.875 0
+18 0.75 0
+26 0.75 1
+SURF 0x10
+mat 1
+refs 4
+28 1 1
+20 1 0
+19 0.875 0
+27 0.875 1
+SURF 0x0
+mat 0
+refs 4
+8 0 0
+25 0 0
+24 0 0
+7 0 0
+SURF 0x0
+mat 2
+refs 4
+3 0 0
+2 1 0
+1 1 1
+0 0 1
+kids 0

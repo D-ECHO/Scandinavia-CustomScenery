@@ -1,0 +1,8 @@
+OBJECT_SHARED Models/Trees/coniferous-tree.xml 21.9957192 50.6250168 144.24 0
+OBJECT_SHARED Models/Trees/deciduous-tree.xml 21.9956789 50.625045 144.23 0
+OBJECT_SHARED Models/Airport/hangar-epst.xml 21.99541907 50.6253361 144.08 241
+OBJECT_SHARED Models/Industrial/garage_blue.ac 21.9961119 50.6251975 144 241.5
+OBJECT_SHARED Models/Industrial/garage_blue.ac 21.99616485 50.6251773 144 241.4
+OBJECT_SHARED Models/Industrial/garage_brown.ac 21.9960033 50.6252361 144 240
+OBJECT_SHARED Models/Industrial/garage_brown.ac 21.99605703 50.625217 144 240.1
+OBJECT_SHARED Models/Airport/hangar-small.xml 21.99655692 50.6250168 144 61.7

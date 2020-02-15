@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+  <path>tuletorn.ac</path>
+
+  <animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-property>sim/rendering/static-lod/bare</max-property>
+  </animation>
+
+
+ <animation>
+  <type>timed</type>
+ <object-name>window_light</object-name>
+ <object-name>window_dark</object-name>
+ <use-personality type="bool">true</use-personality>
+ <branch-duration-sec>3</branch-duration-sec>
+ <branch-duration-sec>3</branch-duration-sec>
+</animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>window_light</object-name>
+    <emission>
+      <red>   10 </red>
+      <green> 10 </green>
+      <blue>  7 </blue>
+    </emission>
+  </animation>
+
+</PropertyList>

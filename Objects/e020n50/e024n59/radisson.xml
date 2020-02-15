@@ -1,0 +1,212 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+  <path>radisson.ac</path>
+
+  <animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-property>sim/rendering/static-lod/bare</max-property>
+  </animation>
+	
+
+  <animation>
+    <type>material</type>
+    <object-name>logo_black</object-name>
+    <condition>
+      <greater-than>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.47</value>
+      </greater-than>
+    </condition>
+    <emission>
+      <red>   0.9 </red>
+      <green> 0.9 </green>
+      <blue>  0.9 </blue>
+    </emission>
+  </animation>
+  <animation>
+    <type>material</type>
+    <object-name>logo_black</object-name>
+    <condition>
+      <less-than-equals>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.47</value>
+      </less-than-equals>
+    </condition>
+    <emission>
+      <red>   0 </red>
+      <green> 0 </green>
+      <blue>  0 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>logo_blue</object-name>
+    <condition>
+      <greater-than>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.47</value>
+      </greater-than>
+    </condition>
+    <emission>
+      <red>   0.3 </red>
+      <green> 0.3 </green>
+      <blue>  1 </blue>
+    </emission>
+  </animation>
+  <animation>
+    <type>material</type>
+    <object-name>logo_blue</object-name>
+    <condition>
+      <less-than-equals>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.47</value>
+      </less-than-equals>
+    </condition>
+    <emission>
+      <red>   0 </red>
+      <green> 0 </green>
+      <blue>  0 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>window</object-name>
+    <condition>
+      <greater-than>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </greater-than>
+    </condition>
+    <emission>
+      <red>   0.7 </red>
+      <green> 0.7 </green>
+      <blue>  0.5 </blue>
+    </emission>
+  </animation>
+  <animation>
+    <type>material</type>
+    <object-name>window</object-name>
+    <condition>
+      <less-than-equals>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </less-than-equals>
+    </condition>
+    <emission>
+      <red>   0 </red>
+      <green> 0 </green>
+      <blue>  0 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>red_light</object-name>
+    <emission>
+      <red>   1.0 </red>
+      <green> 0.0 </green>
+      <blue>  0.0 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>window_light</object-name>
+    <condition>
+      <greater-than>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </greater-than>
+    </condition>
+    <emission>
+      <red>   0.9 </red>
+      <green> 0.9 </green>
+      <blue>  0.8 </blue>
+    </emission>
+  </animation>
+  <animation>
+    <type>material</type>
+    <object-name>window_light</object-name>
+    <condition>
+      <less-than-equals>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </less-than-equals>
+    </condition>
+    <emission>
+      <red>   0 </red>
+      <green> 0 </green>
+      <blue>  0 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>wall_light</object-name>
+    <condition>
+      <greater-than>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </greater-than>
+    </condition>
+    <emission>
+      <red>   0.4 </red>
+      <green> 0.4 </green>
+      <blue>  0.6 </blue>
+    </emission>
+  </animation>
+  <animation>
+    <type>material</type>
+    <object-name>wall_light</object-name>
+    <condition>
+      <less-than-equals>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </less-than-equals>
+    </condition>
+    <emission>
+      <red>   0 </red>
+      <green> 0 </green>
+      <blue>  0 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>wall_red</object-name>
+    <condition>
+      <greater-than>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </greater-than>
+    </condition>
+    <emission>
+      <red>   0.3 </red>
+      <green> 0.2 </green>
+      <blue>  0.2 </blue>
+    </emission>
+  </animation>
+  <animation>
+    <type>material</type>
+    <object-name>wall_red</object-name>
+    <condition>
+      <less-than-equals>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </less-than-equals>
+    </condition>
+    <emission>
+      <red>   0 </red>
+      <green> 0 </green>
+      <blue>  0 </blue>
+    </emission>
+  </animation>
+
+
+
+</PropertyList>

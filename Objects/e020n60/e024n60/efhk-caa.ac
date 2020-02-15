@@ -1,0 +1,243 @@
+AC3Db
+MATERIAL "8A9D98863D55E9AA4819DEB8730E3431" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0 0 0  shi 10  trans 0
+MATERIAL "9842890A2B73749FF8A7DE17C187E235" rgb 0.533333 0.533333 0.533333  amb 0.533333 0.533333 0.533333  emis 0 0 0  spec 0 0 0  shi 10  trans 0
+MATERIAL "F27310216161A736AD073BF94FE95DF9" rgb 0.153 0.235 0.235  amb 0.153 0.235 0.235  emis 0.18 0.157 0.267  spec 0 0 0  shi 10  trans 0
+MATERIAL "EC5A257902C1BCFFFEDDFE792F7D7C62" rgb 0 0 0 amb 0 0 0 emis 0 0 0 spec 0 0 0 shi 0 trans 0
+MATERIAL "7A87620FA54346E40902E2BE15A0D16D" rgb 0 0 0 amb 0 0 0 emis 0 0 0 spec 0 0 0 shi 0 trans 0
+MATERIAL "ECF8B6C7C287AFC71EC223FB2B3103EF" rgb 0 0 0 amb 0 0 0 emis 0 0 0 spec 0 0 0 shi 0 trans 0
+MATERIAL "D02232BCCE4E26135A09EE807AAFF0BF" rgb 0 0 0 amb 0 0 0 emis 0 0 0 spec 0 0 0 shi 0 trans 0
+MATERIAL "F374FBD770D8563D3299C5CDDFA709E7" rgb 0 0 0 amb 0 0 0 emis 0 0 0 spec 0 0 0 shi 0 trans 0
+OBJECT world
+kids 1
+OBJECT poly
+name "poly"
+loc 40 27.5 0
+crease 45.000000
+numvert 32
+-20 -22.5 0
+-20 25.5 0
+-20 25.5 16
+-20 -22.5 16
+-30 -22.5 0
+-30 25.5 0
+-30 -22.5 -16
+-30 25.5 -16
+-60 -22.5 -16
+-60 25.5 -16
+-60 -22.5 0
+-60 25.5 0
+-50 -22.5 0
+-50 25.5 0
+-50 -22.5 16
+-50 25.5 16
+-20 -27.5 0
+-20 -27.5 16
+-30 -27.5 0
+-30 -27.5 -16
+-60 -27.5 -16
+-60 -27.5 0
+-50 -27.5 0
+-50 -27.5 16
+-20 27.5 16
+-50 27.5 16
+-50 27.5 0
+-60 27.5 0
+-60 27.5 -16
+-30 27.5 -16
+-30 27.5 0
+-20 27.5 0
+numsurf 27
+SURF 0x0
+mat 1
+refs 8
+24 0 0
+31 0 0
+30 0 0
+29 0 0
+28 0 0
+27 0 0
+26 0 0
+25 0 0
+SURF 0x0
+mat 2
+refs 4
+0 0 0
+1 0 0
+2 0 0
+3 0 0
+SURF 0x0
+mat 2
+refs 4
+4 0 0
+5 0 0
+1 0 0
+0 0 0
+SURF 0x0
+mat 2
+refs 4
+6 0 0
+7 0 0
+5 0 0
+4 0 0
+SURF 0x0
+mat 2
+refs 4
+8 0 0
+9 0 0
+7 0 0
+6 0 0
+SURF 0x0
+mat 2
+refs 4
+10 0 0
+11 0 0
+9 0 0
+8 0 0
+SURF 0x0
+mat 2
+refs 4
+12 0 0
+13 0 0
+11 0 0
+10 0 0
+SURF 0x0
+mat 2
+refs 4
+14 0 0
+15 0 0
+13 0 0
+12 0 0
+SURF 0x0
+mat 2
+refs 4
+3 0 0
+2 0 0
+15 0 0
+14 0 0
+SURF 0x0
+mat 0
+refs 4
+16 0 0
+0 0 0
+3 0 0
+17 0 0
+SURF 0x0
+mat 0
+refs 4
+18 0 0
+4 0 0
+0 0 0
+16 0 0
+SURF 0x0
+mat 0
+refs 4
+19 0 0
+6 0 0
+4 0 0
+18 0 0
+SURF 0x0
+mat 0
+refs 4
+20 0 0
+8 0 0
+6 0 0
+19 0 0
+SURF 0x0
+mat 0
+refs 4
+21 0 0
+10 0 0
+8 0 0
+20 0 0
+SURF 0x0
+mat 0
+refs 4
+22 0 0
+12 0 0
+10 0 0
+21 0 0
+SURF 0x0
+mat 0
+refs 4
+23 0 0
+14 0 0
+12 0 0
+22 0 0
+SURF 0x0
+mat 0
+refs 4
+17 0 0
+3 0 0
+14 0 0
+23 0 0
+SURF 0x0
+mat 1
+refs 4
+2 0 0
+24 0 0
+25 0 0
+15 0 0
+SURF 0x0
+mat 1
+refs 4
+15 0 0
+25 0 0
+26 0 0
+13 0 0
+SURF 0x0
+mat 1
+refs 4
+13 0 0
+26 0 0
+27 0 0
+11 0 0
+SURF 0x0
+mat 1
+refs 4
+11 0 0
+27 0 0
+28 0 0
+9 0 0
+SURF 0x0
+mat 1
+refs 4
+9 0 0
+28 0 0
+29 0 0
+7 0 0
+SURF 0x0
+mat 1
+refs 4
+7 0 0
+29 0 0
+30 0 0
+5 0 0
+SURF 0x0
+mat 1
+refs 4
+5 0 0
+30 0 0
+31 0 0
+1 0 0
+SURF 0x0
+mat 1
+refs 4
+1 0 0
+31 0 0
+24 0 0
+2 0 0
+SURF 0x0
+mat 0
+refs 4
+20 0 0
+8 0 0
+10 0 0
+21 0 0
+SURF 0x0
+mat 1
+refs 4
+9 0 0
+28 0 0
+27 0 0
+11 0 0
+kids 0

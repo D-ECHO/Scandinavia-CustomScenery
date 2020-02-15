@@ -1,0 +1,3 @@
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-North.ac 25.7412842 59.9888079 -0.17 78.05
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-South.ac 25.6027439 59.9776009 -1.87 121.66
+OBJECT_STATIC kalbodagrund.xml 25.5988 59.986 -2.5 180
