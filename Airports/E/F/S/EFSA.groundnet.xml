@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<groundnet>
+  <version>1</version>
+  <parkingList>
+        <Parking index="0" type="gate" name="Stand_1" lat="N61 56.660444" lon="E28 55.922758" heading="253.3"  radius="32" pushBackRoute="5" airlineCodes="" />
+        <Parking index="1" type="gate" name="Stand_2" lat="N61 56.646383" lon="E28 55.963776" heading="259.08"  radius="32" pushBackRoute="5" airlineCodes="" />
+ </parkingList>
+ <TaxiNodes>
+        <node index="2" lat="N61 56.934924" lon="E28 55.670266" isOnRunway="1" holdPointType="none"  />
+        <node index="3" lat="N61 56.234380" lon="E28 57.742106" isOnRunway="1" holdPointType="none"  />
+        <node index="4" lat="N61 56.777858" lon="E28 56.132350" isOnRunway="1" holdPointType="none"  />
+        <node index="5" lat="N61 56.672722" lon="E28 55.971424" isOnRunway="0" holdPointType="PushBack"  />
+        <node index="6" lat="N61 56.740217" lon="E28 56.074397" isOnRunway="0" holdPointType="none"  />
+        <node index="7" lat="N61 56.668238" lon="E28 55.948739" isOnRunway="0" holdPointType="none"  />
+        <node index="8" lat="N61 56.651522" lon="E28 55.990409" isOnRunway="0" holdPointType="none"  />
+ </TaxiNodes>
+ <TaxiWaySegments>
+        <arc begin="6" end="5" isPushBackRoute="0" name="A"  />
+        <arc begin="5" end="6" isPushBackRoute="0" name="A"  />
+        <arc begin="4" end="6" isPushBackRoute="0" name="A"  />
+        <arc begin="6" end="4" isPushBackRoute="0" name="A"  />
+        <arc begin="0" end="7" isPushBackRoute="1" name="Stand_1"  />
+        <arc begin="7" end="0" isPushBackRoute="1" name="Stand_1"  />
+        <arc begin="7" end="5" isPushBackRoute="1" name="Stand_1"  />
+        <arc begin="5" end="7" isPushBackRoute="1" name="Stand_1"  />
+        <arc begin="1" end="8" isPushBackRoute="1" name="Stand_2"  />
+        <arc begin="8" end="1" isPushBackRoute="1" name="Stand_2"  />
+        <arc begin="8" end="5" isPushBackRoute="1" name="Stand_2"  />
+        <arc begin="5" end="8" isPushBackRoute="1" name="Stand_2"  />
+ </TaxiWaySegments>
+</groundnet>

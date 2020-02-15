@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<groundnet>
+  <version>1</version>
+  <parkingList>
+        <Parking index="0" type="gate" name="General_Aviation" lat="N67 31.622985" lon="E12 6.290393" heading="30"  radius="10" pushBackRoute="4" airlineCodes="" />
+        <Parking index="1" type="gate" name="Wideroe" lat="N67 31.652630" lon="E12 6.324670" heading="30"  radius="18" pushBackRoute="5" airlineCodes="" />
+ </parkingList>
+ <TaxiNodes>
+        <node index="2" lat="N67 31.659829" lon="E12 6.337183" isOnRunway="0" holdPointType="none"  />
+        <node index="3" lat="N67 31.648661" lon="E12 6.337084" isOnRunway="0" holdPointType="none"  />
+        <node index="4" lat="N67 31.617304" lon="E12 6.293712" isOnRunway="0" holdPointType="PushBack"  />
+        <node index="5" lat="N67 31.639225" lon="E12 6.297158" isOnRunway="0" holdPointType="PushBack"  />
+        <node index="6" lat="N67 31.665619" lon="E12 6.332541" isOnRunway="0" holdPointType="none"  />
+        <node index="7" lat="N67 31.672948" lon="E12 6.317243" isOnRunway="0" holdPointType="none"  />
+        <node index="8" lat="N67 31.643647" lon="E12 6.275954" isOnRunway="0" holdPointType="none"  />
+        <node index="9" lat="N67 31.829437" lon="E12 6.443857" isOnRunway="1" holdPointType="none"  />
+        <node index="10" lat="N67 31.349282" lon="E12 5.758553" isOnRunway="1" holdPointType="none"  />
+        <node index="11" lat="N67 31.659728" lon="E12 6.201818" isOnRunway="1" holdPointType="none"  />
+        <node index="12" lat="N67 31.688545" lon="E12 6.242743" isOnRunway="1" holdPointType="none"  />
+        <node index="13" lat="N67 31.599495" lon="E12 6.276830" isOnRunway="0" holdPointType="none"  />
+        <node index="14" lat="N67 31.629139" lon="E12 6.311108" isOnRunway="0" holdPointType="none"  />
+ </TaxiNodes>
+ <TaxiWaySegments>
+        <arc begin="8" end="5" isPushBackRoute="0" name="A"  />
+        <arc begin="5" end="8" isPushBackRoute="0" name="A"  />
+        <arc begin="7" end="6" isPushBackRoute="0" name="B"  />
+        <arc begin="6" end="7" isPushBackRoute="0" name="B"  />
+        <arc begin="12" end="7" isPushBackRoute="0" name="B"  />
+        <arc begin="7" end="12" isPushBackRoute="0" name="B"  />
+        <arc begin="11" end="8" isPushBackRoute="0" name="A"  />
+        <arc begin="8" end="11" isPushBackRoute="0" name="A"  />
+        <arc begin="0" end="13" isPushBackRoute="1" name="General_Aviation"  />
+        <arc begin="13" end="0" isPushBackRoute="1" name="General_Aviation"  />
+        <arc begin="13" end="4" isPushBackRoute="1" name="General_Aviation"  />
+        <arc begin="4" end="13" isPushBackRoute="1" name="General_Aviation"  />
+        <arc begin="1" end="14" isPushBackRoute="1" name="Wideroe"  />
+        <arc begin="14" end="1" isPushBackRoute="1" name="Wideroe"  />
+        <arc begin="14" end="5" isPushBackRoute="1" name="Wideroe"  />
+        <arc begin="5" end="14" isPushBackRoute="1" name="Wideroe"  />
+ </TaxiWaySegments>
+</groundnet>

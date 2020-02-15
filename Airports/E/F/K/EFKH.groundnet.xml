@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<groundnet>
+  <version>1</version>
+  <parkingList>
+        <Parking index="0" type="ga" name="Hangar" lat="N64 6.968563" lon="E29 25.823624" heading="114"  radius="10" airlineCodes="" />
+        <Parking index="1" type="ga" name="Gravel_parking" lat="N64 6.954550" lon="E29 25.899637" heading="267"  radius="10" airlineCodes="" />
+        <Parking index="2" type="ga" name="Grass_parking_1" lat="N64 6.923694" lon="E29 25.911150" heading="215.8"  radius="10" airlineCodes="" />
+        <Parking index="3" type="ga" name="Grass_parking_2" lat="N64 6.918390" lon="E29 25.928547" heading="215.8"  radius="10" airlineCodes="" />
+ </parkingList>
+</groundnet>

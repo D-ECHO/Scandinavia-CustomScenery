@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<groundnet>
+  <version>1</version>
+  <parkingList>
+        <Parking index="0" type="ga" name="Ramp_13" lat="N26 44.609633" lon="W81 25.991766" heading="47.52"  radius="10" airlineCodes="" />
+        <Parking index="1" type="ga" name="Ramp_12" lat="N26 44.615785" lon="W81 25.998055" heading="47.52"  radius="10" airlineCodes="" />
+        <Parking index="2" type="ga" name="Ramp_11" lat="N26 44.621401" lon="W81 26.005443" heading="47.52"  radius="10" airlineCodes="" />
+        <Parking index="3" type="ga" name="Ramp_10" lat="N26 44.628088" lon="W81 26.012930" heading="47.52"  radius="10" airlineCodes="" />
+        <Parking index="4" type="ga" name="Ramp_9" lat="N26 44.734217" lon="W81 25.932802" heading="47.52"  radius="10" airlineCodes="" />
+        <Parking index="5" type="ga" name="Ramp_8" lat="N26 44.725746" lon="W81 25.923798" heading="47.52"  radius="10" airlineCodes="" />
+        <Parking index="6" type="ga" name="Ramp_7" lat="N26 44.717275" lon="W81 25.914473" heading="47.52"  radius="10" airlineCodes="" />
+        <Parking index="7" type="ga" name="Ramp_6" lat="N26 44.709521" lon="W81 25.906112" heading="47.52"  radius="10" airlineCodes="" />
+        <Parking index="8" type="ga" name="Ramp_5" lat="N26 44.697891" lon="W81 25.910293" heading="225"  radius="10" airlineCodes="" />
+        <Parking index="9" type="ga" name="Ramp_4" lat="N26 44.705645" lon="W81 25.919618" heading="225"  radius="10" airlineCodes="" />
+        <Parking index="10" type="ga" name="Ramp_3" lat="N26 44.713829" lon="W81 25.928782" heading="225"  radius="10" airlineCodes="" />
+        <Parking index="11" type="ga" name="Ramp_2" lat="N26 44.722730" lon="W81 25.937303" heading="225"  radius="10" airlineCodes="" />
+        <Parking index="12" type="ga" name="Ramp_1" lat="N26 44.731202" lon="W81 25.946307" heading="225"  radius="10" airlineCodes="" />
+ </parkingList>
+</groundnet>

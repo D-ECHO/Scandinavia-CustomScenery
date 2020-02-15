@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<groundnet>
+  <version>1</version>
+  <parkingList>
+        <Parking index="0" type="ga" name="North_GA_Tie-Down" lat="N28 55.630456" lon="W81 39.157658" heading="99.16"  radius="10" airlineCodes="" />
+        <Parking index="1" type="ga" name="North_GA_Tie-Down" lat="N28 55.622935" lon="W81 39.158469" heading="92.94"  radius="10" airlineCodes="" />
+        <Parking index="2" type="ga" name="North_GA_Tie-Down" lat="N28 55.615132" lon="W81 39.158875" heading="92.94"  radius="10" airlineCodes="" />
+        <Parking index="3" type="ga" name="North_GA_Tie-Down" lat="N28 55.607399" lon="W81 39.159118" heading="89.79"  radius="10" airlineCodes="" />
+        <Parking index="4" type="ga" name="North_GA_Tie-Down" lat="N28 55.630456" lon="W81 39.140069" heading="-86.56"  radius="10" airlineCodes="" />
+        <Parking index="5" type="ga" name="North_GA_Tie-Down" lat="N28 55.622722" lon="W81 39.140555" heading="-86.56"  radius="10" airlineCodes="" />
+        <Parking index="6" type="ga" name="North_GA_Tie-Down" lat="N28 55.614989" lon="W81 39.141042" heading="-86.56"  radius="10" airlineCodes="" />
+        <Parking index="7" type="ga" name="North_GA_Tie-Down" lat="N28 55.607257" lon="W81 39.141529" heading="-86.56"  radius="10" airlineCodes="" />
+        <Parking index="8" type="ga" name="North_Hangars" lat="N28 55.552675" lon="W81 39.199606" heading="-174.11"  radius="10" airlineCodes="" />
+        <Parking index="9" type="ga" name="North_Hangars" lat="N28 55.556340" lon="W81 39.180153" heading="176.92"  radius="10" airlineCodes="" />
+        <Parking index="10" type="ga" name="South_Apron" lat="N28 55.516547" lon="W81 39.170334" heading="-176.12"  radius="10" airlineCodes="" />
+        <Parking index="11" type="ga" name="South_Apron" lat="N28 55.515661" lon="W81 39.156881" heading="-177.97"  radius="10" airlineCodes="" />
+        <Parking index="12" type="ga" name="South_Apron_Grass" lat="N28 55.515316" lon="W81 39.147650" heading="-175.73"  radius="10" airlineCodes="" />
+        <Parking index="13" type="ga" name="South_Hangars" lat="N28 55.242326" lon="W81 39.152889" heading="92.73"  radius="10" airlineCodes="" />
+        <Parking index="14" type="ga" name="Refuel" lat="N28 55.501521" lon="W81 39.152546" heading="90.67"  radius="10" airlineCodes="" />
+ </parkingList>
+</groundnet>

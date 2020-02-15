@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<groundnet>
+  <version>1</version>
+  <parkingList>
+        <Parking index="0" type="ga" name="Ramp_Club_area" lat="N56 40.983592" lon="E12 48.379306" heading="57.99"  radius="18" airlineCodes="" />
+        <Parking index="1" type="ga" name="Ramp_Club_area" lat="N56 40.978061" lon="E12 48.409243" heading="57.99"  radius="18" airlineCodes="" />
+        <Parking index="2" type="ga" name="Comapny_IV_ramp" lat="N56 41.440977" lon="E12 49.489787" heading="-11.01"  radius="10" airlineCodes="" />
+        <Parking index="3" type="gate" name="Ramp_comapny_III" lat="N56 41.242998" lon="E12 49.725140" heading="343.03"  radius="18" airlineCodes="" />
+        <Parking index="4" type="gate" name="Ramp_company_II" lat="N56 41.162351" lon="E12 49.747421" heading="285.14"  radius="18" airlineCodes="" />
+        <Parking index="5" type="gate" name="Ramp_main_concourse" lat="N56 40.892375" lon="E12 48.930445" heading="174.9"  radius="17" airlineCodes="" />
+        <Parking index="6" type="gate" name="Ramp_GA" lat="N56 40.991564" lon="E12 48.823392" heading="100"  radius="17" airlineCodes="" />
+ </parkingList>
+</groundnet>

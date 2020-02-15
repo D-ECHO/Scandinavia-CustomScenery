@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<groundnet>
+  <version>1</version>
+  <parkingList>
+        <Parking index="0" type="gate" name="Cargo" lat="N63 2.784562" lon="E21 45.556813" heading="253.63"  radius="36" pushBackRoute="8" airlineCodes="" />
+        <Parking index="1" type="gate" name="Gate_3" lat="N63 2.597136" lon="E21 45.712665" heading="282.88"  radius="32" pushBackRoute="61" airlineCodes="FIN,SAS" />
+        <Parking index="2" type="gate" name="Gate_5" lat="N63 2.662223" lon="E21 45.670235" heading="282.88"  radius="32" pushBackRoute="13" airlineCodes="FIN,SAS" />
+        <Parking index="3" type="gate" name="Gate_6" lat="N63 2.696544" lon="E21 45.649065" heading="282.88"  radius="32" pushBackRoute="12" airlineCodes="FIN,SAS" />
+        <Parking index="4" type="ga" name="GA_tie-down" lat="N63 2.557490" lon="E21 45.773546" heading="-70.09"  radius="10" pushBackRoute="60" airlineCodes="" />
+        <Parking index="5" type="ga" name="GA_tie-down" lat="N63 2.542200" lon="E21 45.751977" heading="342.96"  radius="10" pushBackRoute="61" airlineCodes="" />
+ </parkingList>
+ <TaxiNodes>
+        <node index="6" lat="N63 2.796545" lon="E21 45.607580" isOnRunway="0" holdPointType="none"  />
+        <node index="7" lat="N63 2.786873" lon="E21 45.606664" isOnRunway="0" holdPointType="none"  />
+        <node index="8" lat="N63 2.765653" lon="E21 45.585236" isOnRunway="0" holdPointType="PushBack"  />
+        <node index="9" lat="N63 2.708054" lon="E21 45.624450" isOnRunway="0" holdPointType="none"  />
+        <node index="10" lat="N63 2.703719" lon="E21 45.622641" isOnRunway="0" holdPointType="none"  />
+        <node index="11" lat="N63 2.698682" lon="E21 45.622124" isOnRunway="0" holdPointType="none"  />
+        <node index="12" lat="N63 2.678300" lon="E21 45.635303" isOnRunway="0" holdPointType="PushBack"  />
+        <node index="13" lat="N63 2.645033" lon="E21 45.657784" isOnRunway="0" holdPointType="PushBack"  />
+        <node index="14" lat="N63 2.609775" lon="E21 45.680522" isOnRunway="0" holdPointType="none"  />
+        <node index="15" lat="N63 2.601458" lon="E21 45.686724" isOnRunway="0" holdPointType="none"  />
+        <node index="16" lat="N63 2.589276" lon="E21 45.675871" isOnRunway="0" holdPointType="none"  />
+        <node index="17" lat="N63 2.574517" lon="E21 45.663469" isOnRunway="0" holdPointType="none"  />
+        <node index="18" lat="N63 2.565614" lon="E21 45.663985" isOnRunway="0" holdPointType="none"  />
+        <node index="19" lat="N63 2.561280" lon="E21 45.659335" isOnRunway="0" holdPointType="none"  />
+        <node index="20" lat="N63 2.539492" lon="E21 45.658043" isOnRunway="0" holdPointType="none"  />
+        <node index="21" lat="N63 2.529184" lon="E21 45.648224" isOnRunway="0" holdPointType="none"  />
+        <node index="22" lat="N63 2.499085" lon="E21 45.622411" isOnRunway="0" holdPointType="none"  />
+        <node index="23" lat="N63 2.477784" lon="E21 45.603406" isOnRunway="0" holdPointType="none"  />
+        <node index="24" lat="N63 2.469880" lon="E21 45.602125" isOnRunway="0" holdPointType="none"  />
+        <node index="25" lat="N63 2.461228" lon="E21 45.613567" isOnRunway="0" holdPointType="none"  />
+        <node index="26" lat="N63 3.734753" lon="E21 45.269289" isOnRunway="0" holdPointType="none"  />
+        <node index="27" lat="N63 3.745784" lon="E21 45.248819" isOnRunway="0" holdPointType="none"  />
+        <node index="28" lat="N63 3.733289" lon="E21 45.151427" isOnRunway="0" holdPointType="none"  />
+        <node index="29" lat="N63 3.725773" lon="E21 45.125572" isOnRunway="0" holdPointType="none"  />
+        <node index="30" lat="N63 3.711033" lon="E21 45.135483" isOnRunway="0" holdPointType="none"  />
+        <node index="31" lat="N63 3.703517" lon="E21 45.163063" isOnRunway="0" holdPointType="none"  />
+        <node index="32" lat="N63 2.436475" lon="E21 46.126871" isOnRunway="1" holdPointType="none"  />
+        <node index="33" lat="N63 2.603898" lon="E21 46.013706" isOnRunway="1" holdPointType="none"  />
+        <node index="34" lat="N63 2.658058" lon="E21 45.977906" isOnRunway="1" holdPointType="none"  />
+        <node index="35" lat="N63 2.915164" lon="E21 45.805327" isOnRunway="1" holdPointType="none"  />
+        <node index="36" lat="N63 2.966584" lon="E21 45.772055" isOnRunway="1" holdPointType="none"  />
+        <node index="37" lat="N63 3.720839" lon="E21 45.268775" isOnRunway="1" holdPointType="none"  />
+        <node index="38" lat="N63 3.687020" lon="E21 45.291480" isOnRunway="1" holdPointType="none"  />
+        <node index="39" lat="N63 2.926502" lon="E21 45.687985" isOnRunway="0" holdPointType="none"  />
+        <node index="40" lat="N63 2.918718" lon="E21 45.631264" isOnRunway="0" holdPointType="none"  />
+        <node index="41" lat="N63 2.909907" lon="E21 45.603994" isOnRunway="0" holdPointType="none"  />
+        <node index="42" lat="N63 2.931883" lon="E21 45.783119" isOnRunway="0" holdPointType="none"  />
+        <node index="43" lat="N63 2.945954" lon="E21 45.774209" isOnRunway="0" holdPointType="none"  />
+        <node index="44" lat="N63 2.931439" lon="E21 45.723935" isOnRunway="0" holdPointType="none"  />
+        <node index="45" lat="N63 2.608934" lon="E21 45.800821" isOnRunway="0" holdPointType="none"  />
+        <node index="46" lat="N63 2.617153" lon="E21 45.891463" isOnRunway="0" holdPointType="none"  />
+        <node index="47" lat="N63 2.608237" lon="E21 45.827579" isOnRunway="0" holdPointType="none"  />
+        <node index="48" lat="N63 2.637644" lon="E21 45.983570" isOnRunway="0" holdPointType="none"  />
+        <node index="49" lat="N63 2.621995" lon="E21 45.993522" isOnRunway="0" holdPointType="none"  />
+        <node index="50" lat="N63 2.622752" lon="E21 45.931296" isOnRunway="0" holdPointType="none"  />
+        <node index="51" lat="N63 2.800783" lon="E21 45.648623" isOnRunway="0" holdPointType="none"  />
+        <node index="52" lat="N63 2.793194" lon="E21 45.652169" isOnRunway="0" holdPointType="none"  />
+        <node index="53" lat="N63 2.792999" lon="E21 45.622628" isOnRunway="0" holdPointType="none"  />
+        <node index="54" lat="N63 2.894270" lon="E21 45.599458" isOnRunway="0" holdPointType="none"  />
+        <node index="55" lat="N63 2.815415" lon="E21 45.650992" isOnRunway="0" holdPointType="none"  />
+        <node index="56" lat="N63 2.782068" lon="E21 45.673470" isOnRunway="0" holdPointType="none"  />
+        <node index="57" lat="N63 2.688801" lon="E21 45.735647" isOnRunway="0" holdPointType="none"  />
+        <node index="58" lat="N63 2.654198" lon="E21 45.758614" isOnRunway="0" holdPointType="none"  />
+        <node index="59" lat="N63 2.620820" lon="E21 45.781767" isOnRunway="0" holdPointType="none"  />
+        <node index="60" lat="N63 2.596264" lon="E21 45.794420" isOnRunway="0" holdPointType="PushBack"  />
+        <node index="61" lat="N63 2.566554" lon="E21 45.747664" isOnRunway="0" holdPointType="PushBack"  />
+        <node index="62" lat="N63 2.550083" lon="E21 45.712494" isOnRunway="0" holdPointType="none"  />
+        <node index="63" lat="N63 2.455787" lon="E21 45.644018" isOnRunway="0" holdPointType="none"  />
+        <node index="64" lat="N63 2.792207" lon="E21 45.582838" isOnRunway="0" holdPointType="none"  />
+        <node index="65" lat="N63 2.591089" lon="E21 45.739107" isOnRunway="0" holdPointType="none"  />
+        <node index="66" lat="N63 2.656177" lon="E21 45.696677" isOnRunway="0" holdPointType="none"  />
+        <node index="67" lat="N63 2.690497" lon="E21 45.675508" isOnRunway="0" holdPointType="none"  />
+        <node index="68" lat="N63 2.548253" lon="E21 45.799050" isOnRunway="0" holdPointType="none"  />
+        <node index="69" lat="N63 2.516266" lon="E21 45.759926" isOnRunway="0" holdPointType="none"  />
+ </TaxiNodes>
+ <TaxiWaySegments>
+        <arc begin="26" end="37" isPushBackRoute="0" name=""  />
+        <arc begin="27" end="26" isPushBackRoute="0" name=""  />
+        <arc begin="28" end="27" isPushBackRoute="0" name=""  />
+        <arc begin="29" end="28" isPushBackRoute="0" name=""  />
+        <arc begin="30" end="29" isPushBackRoute="0" name=""  />
+        <arc begin="31" end="30" isPushBackRoute="0" name=""  />
+        <arc begin="38" end="31" isPushBackRoute="0" name=""  />
+        <arc begin="40" end="39" isPushBackRoute="0" name="A"  />
+        <arc begin="39" end="40" isPushBackRoute="0" name="A"  />
+        <arc begin="41" end="40" isPushBackRoute="0" name="A"  />
+        <arc begin="40" end="41" isPushBackRoute="0" name="A"  />
+        <arc begin="54" end="41" isPushBackRoute="0" name="A"  />
+        <arc begin="41" end="54" isPushBackRoute="0" name="A"  />
+        <arc begin="42" end="35" isPushBackRoute="0" name="A"  />
+        <arc begin="35" end="42" isPushBackRoute="0" name="A"  />
+        <arc begin="44" end="42" isPushBackRoute="0" name="A"  />
+        <arc begin="42" end="44" isPushBackRoute="0" name="A"  />
+        <arc begin="43" end="36" isPushBackRoute="0" name="A"  />
+        <arc begin="36" end="43" isPushBackRoute="0" name="A"  />
+        <arc begin="44" end="43" isPushBackRoute="0" name="A"  />
+        <arc begin="43" end="44" isPushBackRoute="0" name="A"  />
+        <arc begin="39" end="44" isPushBackRoute="0" name="A"  />
+        <arc begin="44" end="39" isPushBackRoute="0" name="A"  />
+        <arc begin="45" end="47" isPushBackRoute="0" name="B"  />
+        <arc begin="47" end="45" isPushBackRoute="0" name="B"  />
+        <arc begin="59" end="45" isPushBackRoute="0" name="B"  />
+        <arc begin="45" end="59" isPushBackRoute="0" name="B"  />
+        <arc begin="47" end="46" isPushBackRoute="0" name="B"  />
+        <arc begin="46" end="47" isPushBackRoute="0" name="B"  />
+        <arc begin="60" end="47" isPushBackRoute="0" name="B"  />
+        <arc begin="47" end="60" isPushBackRoute="0" name="B"  />
+        <arc begin="48" end="34" isPushBackRoute="0" name="B"  />
+        <arc begin="34" end="48" isPushBackRoute="0" name="B"  />
+        <arc begin="50" end="48" isPushBackRoute="0" name="B"  />
+        <arc begin="48" end="50" isPushBackRoute="0" name="B"  />
+        <arc begin="49" end="33" isPushBackRoute="0" name="B"  />
+        <arc begin="33" end="49" isPushBackRoute="0" name="B"  />
+        <arc begin="50" end="49" isPushBackRoute="0" name="B"  />
+        <arc begin="49" end="50" isPushBackRoute="0" name="B"  />
+        <arc begin="46" end="50" isPushBackRoute="0" name="B"  />
+        <arc begin="50" end="46" isPushBackRoute="0" name="B"  />
+        <arc begin="51" end="55" isPushBackRoute="0" name="C"  />
+        <arc begin="55" end="51" isPushBackRoute="0" name="C"  />
+        <arc begin="53" end="51" isPushBackRoute="0" name="C"  />
+        <arc begin="51" end="53" isPushBackRoute="0" name="C"  />
+        <arc begin="52" end="56" isPushBackRoute="0" name="C"  />
+        <arc begin="56" end="52" isPushBackRoute="0" name="C"  />
+        <arc begin="53" end="52" isPushBackRoute="0" name="C"  />
+        <arc begin="52" end="53" isPushBackRoute="0" name="C"  />
+        <arc begin="55" end="54" isPushBackRoute="0" name="T"  />
+        <arc begin="54" end="55" isPushBackRoute="0" name="T"  />
+        <arc begin="56" end="55" isPushBackRoute="0" name="T"  />
+        <arc begin="55" end="56" isPushBackRoute="0" name="T"  />
+        <arc begin="57" end="56" isPushBackRoute="0" name="T"  />
+        <arc begin="56" end="57" isPushBackRoute="0" name="T"  />
+        <arc begin="58" end="57" isPushBackRoute="0" name="T"  />
+        <arc begin="57" end="58" isPushBackRoute="0" name="T"  />
+        <arc begin="59" end="58" isPushBackRoute="0" name="T"  />
+        <arc begin="58" end="59" isPushBackRoute="0" name="T"  />
+        <arc begin="60" end="59" isPushBackRoute="0" name="T"  />
+        <arc begin="59" end="60" isPushBackRoute="0" name="T"  />
+        <arc begin="61" end="60" isPushBackRoute="0" name="T"  />
+        <arc begin="60" end="61" isPushBackRoute="0" name="T"  />
+        <arc begin="62" end="61" isPushBackRoute="0" name="T"  />
+        <arc begin="61" end="62" isPushBackRoute="0" name="T"  />
+        <arc begin="0" end="64" isPushBackRoute="1" name="Cargo"  />
+        <arc begin="64" end="0" isPushBackRoute="1" name="Cargo"  />
+        <arc begin="64" end="8" isPushBackRoute="1" name="Cargo"  />
+        <arc begin="8" end="64" isPushBackRoute="1" name="Cargo"  />
+        <arc begin="1" end="65" isPushBackRoute="1" name="Gate_3"  />
+        <arc begin="65" end="1" isPushBackRoute="1" name="Gate_3"  />
+        <arc begin="65" end="61" isPushBackRoute="1" name="Gate_3"  />
+        <arc begin="61" end="65" isPushBackRoute="1" name="Gate_3"  />
+        <arc begin="2" end="66" isPushBackRoute="1" name="Gate_5"  />
+        <arc begin="66" end="2" isPushBackRoute="1" name="Gate_5"  />
+        <arc begin="66" end="13" isPushBackRoute="1" name="Gate_5"  />
+        <arc begin="13" end="66" isPushBackRoute="1" name="Gate_5"  />
+        <arc begin="3" end="67" isPushBackRoute="1" name="Gate_6"  />
+        <arc begin="67" end="3" isPushBackRoute="1" name="Gate_6"  />
+        <arc begin="67" end="12" isPushBackRoute="1" name="Gate_6"  />
+        <arc begin="12" end="67" isPushBackRoute="1" name="Gate_6"  />
+        <arc begin="4" end="68" isPushBackRoute="1" name="GA_tie-down"  />
+        <arc begin="68" end="4" isPushBackRoute="1" name="GA_tie-down"  />
+        <arc begin="68" end="60" isPushBackRoute="1" name="GA_tie-down"  />
+        <arc begin="60" end="68" isPushBackRoute="1" name="GA_tie-down"  />
+        <arc begin="5" end="69" isPushBackRoute="1" name="GA_tie-down"  />
+        <arc begin="69" end="5" isPushBackRoute="1" name="GA_tie-down"  />
+        <arc begin="69" end="61" isPushBackRoute="1" name="GA_tie-down"  />
+        <arc begin="61" end="69" isPushBackRoute="1" name="GA_tie-down"  />
+ </TaxiWaySegments>
+</groundnet>

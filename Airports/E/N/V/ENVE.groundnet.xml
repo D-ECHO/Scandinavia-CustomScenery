@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<groundnet>
+  <version>1</version>
+  <parkingList>
+        <Parking index="0" type="ga" name="Clubhouse" lat="N59 1.748921" lon="E7 33.291226" heading="-76.29"  radius="10" airlineCodes="" />
+ </parkingList>
+</groundnet>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<groundnet>
+  <version>1</version>
+  <parkingList>
+        <Parking index="0" type="ga" name="Ramp_Start" lat="N26 59.260607" lon="W82 22.407428" heading="-9.17"  radius="18" airlineCodes="" />
+        <Parking index="1" type="ga" name="Ramp_Start" lat="N26 59.292747" lon="W82 22.505711" heading="34.64"  radius="18" airlineCodes="" />
+        <Parking index="2" type="ga" name="Ramp_Start" lat="N26 59.282236" lon="W82 22.486703" heading="28.01"  radius="18" airlineCodes="" />
+        <Parking index="3" type="ga" name="Ramp_Start" lat="N26 59.271454" lon="W82 22.463332" heading="27.4"  radius="18" airlineCodes="" />
+        <Parking index="4" type="ga" name="Ramp_Start" lat="N26 59.260798" lon="W82 22.434320" heading="5.7"  radius="18" airlineCodes="" />
+ </parkingList>
+</groundnet>

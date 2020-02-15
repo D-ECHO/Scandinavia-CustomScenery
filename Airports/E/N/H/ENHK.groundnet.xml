@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<groundnet>
+  <version>1</version>
+  <parkingList>
+        <Parking index="0" type="gate" name="Apron" lat="N70 29.161947" lon="E22 8.800638" heading="295.07"  radius="10" pushBackRoute="4" airlineCodes="" />
+ </parkingList>
+ <TaxiNodes>
+        <node index="1" lat="N70 29.165125" lon="E22 8.766940" isOnRunway="0" holdPointType="none"  />
+        <node index="2" lat="N70 29.166850" lon="E22 8.785020" isOnRunway="0" holdPointType="none"  />
+        <node index="3" lat="N70 29.162644" lon="E22 8.808911" isOnRunway="0" holdPointType="none"  />
+        <node index="4" lat="N70 29.157143" lon="E22 8.815369" isOnRunway="0" holdPointType="PushBack"  />
+        <node index="5" lat="N70 29.137979" lon="E22 8.723572" isOnRunway="1" holdPointType="none"  />
+        <node index="6" lat="N70 29.161511" lon="E22 8.760967" isOnRunway="0" holdPointType="none"  />
+        <node index="7" lat="N70 29.152835" lon="E22 8.810162" isOnRunway="0" holdPointType="none"  />
+        <node index="8" lat="N70 29.129069" lon="E22 8.771710" isOnRunway="1" holdPointType="none"  />
+        <node index="9" lat="N70 29.080030" lon="E22 9.036841" isOnRunway="1" holdPointType="none"  />
+        <node index="10" lat="N70 29.310616" lon="E22 7.785719" isOnRunway="1" holdPointType="none"  />
+        <node index="11" lat="N70 29.150454" lon="E22 8.825208" isOnRunway="0" holdPointType="none"  />
+ </TaxiNodes>
+ <TaxiWaySegments>
+        <arc begin="1" end="6" isPushBackRoute="0" name="09/27"  />
+        <arc begin="2" end="1" isPushBackRoute="0" name="09/27"  />
+        <arc begin="3" end="2" isPushBackRoute="0" name="09/27"  />
+        <arc begin="4" end="3" isPushBackRoute="0" name="09/27"  />
+        <arc begin="7" end="4" isPushBackRoute="0" name="09/27"  />
+        <arc begin="6" end="5" isPushBackRoute="0" name="09/27"  />
+        <arc begin="8" end="7" isPushBackRoute="0" name="09/27"  />
+        <arc begin="0" end="11" isPushBackRoute="1" name="Apron"  />
+        <arc begin="11" end="0" isPushBackRoute="1" name="Apron"  />
+        <arc begin="11" end="4" isPushBackRoute="1" name="Apron"  />
+        <arc begin="4" end="11" isPushBackRoute="1" name="Apron"  />
+ </TaxiWaySegments>
+</groundnet>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<groundnet>
+  <version>1</version>
+  <parkingList>
+        <Parking index="0" type="ga" name="Hangar_Row_Start" lat="N27 1.607814" lon="W80 26.062319" heading="90"  radius="10" airlineCodes="" />
+        <Parking index="1" type="ga" name="Hangar_Row_Start" lat="N27 1.624295" lon="W80 26.061220" heading="90"  radius="10" airlineCodes="" />
+        <Parking index="2" type="ga" name="Hangar_Row_Start" lat="N27 1.641590" lon="W80 26.062502" heading="90"  radius="10" airlineCodes="" />
+        <Parking index="3" type="ga" name="Hangar_Row_Start" lat="N27 1.658724" lon="W80 26.061403" heading="90"  radius="10" airlineCodes="" />
+        <Parking index="4" type="ga" name="Hangar_Row_Start" lat="N27 1.677080" lon="W80 26.061403" heading="90"  radius="10" airlineCodes="" />
+        <Parking index="5" type="ga" name="Hangar_Row_Start" lat="N27 1.692944" lon="W80 26.062039" heading="90"  radius="10" airlineCodes="" />
+        <Parking index="6" type="ga" name="Hangar_Row_Start" lat="N27 1.706995" lon="W80 26.061021" heading="90"  radius="10" airlineCodes="" />
+        <Parking index="7" type="ga" name="Hangar_Row_Start" lat="N27 1.720253" lon="W80 26.061275" heading="90"  radius="10" airlineCodes="" />
+        <Parking index="8" type="ga" name="Pad_1_Start" lat="N27 1.845550" lon="W80 26.062956" heading="310"  radius="10" airlineCodes="" />
+        <Parking index="9" type="ga" name="Pad_2_Start" lat="N27 1.841092" lon="W80 26.067889" heading="310"  radius="10" airlineCodes="" />
+        <Parking index="10" type="ga" name="Grass_TieDown_Start" lat="N27 1.901606" lon="W80 26.135562" heading="130"  radius="10" airlineCodes="" />
+        <Parking index="11" type="ga" name="Grass_TieDown_Start" lat="N27 1.910341" lon="W80 26.128334" heading="130"  radius="10" airlineCodes="" />
+ </parkingList>
+</groundnet>
