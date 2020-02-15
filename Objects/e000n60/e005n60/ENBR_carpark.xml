@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+<path>ENBR_carpark.ac</path>
+
+<animation>
+  <object-name>cars</object-name>
+  <object-name>cars_top_level</object-name>
+  <type>range</type>
+  <max-m>6100</max-m>
+</animation>
+
+<animation>
+  <object-name>cars</object-name>
+  <type>select</type>
+  <condition>
+    <not>
+    <greater-than>
+      <property>position/altitude-ft</property>
+      <value>10000</value>
+    </greater-than>
+    </not>
+  </condition>
+</animation>  
+
+<animation>
+  <type>material</type> 
+  <object-name>Carpark</object-name>
+  <object-name>markings</object-name>
+  <condition>
+    <property>scenery/ENBR/Night</property>
+    <value>1</value>
+  </condition>
+  <emission>	
+    <red>0.314</red>	
+    <green>0.314</green>	
+    <blue>0.314</blue>
+    <factor>0.1</factor>
+  </emission>
+</animation>
+
+</PropertyList>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+<path>Liatarnet_Radar.ac</path>
+
+<model>
+  <path>Models/Effects/RedLight10000.xml</path>
+  <offsets>
+    <x-m>-0.08256</x-m>
+    <y-m>0</y-m>
+    <z-m>30.42236</z-m>
+  </offsets>
+</model>
+
+
+<model>
+  <path>Models/Effects/RedLight10000.xml</path>
+  <offsets>
+    <x-m>-0.40639</x-m>
+    <y-m>0</y-m>
+    <z-m>30.42236</z-m>
+  </offsets>
+</model>
+
+
+</PropertyList>

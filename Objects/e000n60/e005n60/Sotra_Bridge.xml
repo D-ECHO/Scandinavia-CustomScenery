@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+<path>Sotra_Bridge.ac</path>
+
+
+<animation>
+  <name>StreetLights</name>
+  <object-name>YellowLight.001</object-name>
+  <object-name>YellowLight.002</object-name>
+  <object-name>YellowLight.003</object-name>
+  <object-name>YellowLight.004</object-name>
+  <object-name>YellowLight.005</object-name>
+  <object-name>YellowLight.006</object-name>
+  <object-name>YellowLight.007</object-name>
+  <object-name>YellowLight.008</object-name>
+  <object-name>YellowLight.009</object-name>
+  <object-name>YellowLight.010</object-name>
+  <object-name>YellowLight.011</object-name>
+  <object-name>YellowLight.012</object-name>
+  <object-name>YellowLight.013</object-name>
+  <object-name>YellowLight.014</object-name>
+  <object-name>YellowLight.015</object-name>
+  <object-name>YellowLight.016</object-name>
+  <object-name>YellowLight.017</object-name>
+  <object-name>YellowLight.018</object-name>
+  <object-name>YellowLight.019</object-name>
+  <object-name>YellowLight.020</object-name>
+  <object-name>YellowLight.021</object-name>
+  <object-name>YellowLight.022</object-name>
+  <object-name>YellowLight.023</object-name>
+  <object-name>YellowLight.024</object-name>
+  <object-name>YellowLight.025</object-name>
+  <object-name>YellowLight.026</object-name>
+  <object-name>YellowLight.027</object-name>
+  <object-name>YellowLight.028</object-name>
+  <object-name>YellowLight.029</object-name>
+  <object-name>YellowLight.030</object-name>
+  <object-name>YellowLight.031</object-name>
+  <object-name>YellowLight.032</object-name>
+  <object-name>YellowLight.033</object-name>
+  <object-name>YellowLight.034</object-name>
+  <object-name>YellowLight.035</object-name>
+  <object-name>YellowLight.036</object-name>
+  <object-name>YellowLight.037</object-name>
+  <object-name>YellowLight.038</object-name>
+  <object-name>YellowLight.039</object-name>
+  <object-name>YellowLight.040</object-name>
+  <object-name>YellowLight.041</object-name>
+  <object-name>YellowLight.042</object-name>
+  <object-name>YellowLight.043</object-name>
+  <object-name>YellowLight.044</object-name>
+  <object-name>YellowLight.045</object-name>
+  <object-name>YellowLight.046</object-name>
+  <object-name>YellowLight.047</object-name>
+  <object-name>YellowLight.048</object-name>
+  <object-name>YellowLight.049</object-name>
+  <object-name>YellowLight.050</object-name>
+  <object-name>YellowLight.051</object-name>
+  <object-name>YellowLight.052</object-name>
+  <object-name>YellowLight.053</object-name>
+  <object-name>YellowLight.054</object-name>
+  <object-name>YellowLight.055</object-name>
+  <object-name>YellowLight.056</object-name>
+</animation>
+
+
+<animation>
+  <type>noshadow</type>
+  <object-name>StreetLights</object-name>
+</animation>
+
+<animation>
+  <type>alpha-test</type>
+  <object-name>StreetLights</object-name>
+  <alpha-factor>0.01</alpha-factor>
+</animation>
+
+<animation>
+  <object-name>StreetLights</object-name>
+  <object-name>suspenders</object-name>
+  <type>range</type>
+  <max-m>12000</max-m>
+</animation>
+
+<animation>
+  <object-name>small_pylons</object-name>
+  <type>range</type>
+  <max-m>10000</max-m>
+</animation>
+
+<animation>
+  <object-name>truss_ld</object-name>
+  <type>range</type>
+  <min-m>8000</min-m>
+</animation>
+
+<animation>
+  <object-name>truss_l</object-name>
+  <object-name>truss_r</object-name>
+  <object-name>truss_m</object-name>
+  <type>range</type>
+  <max-m>8000</max-m>
+</animation>
+
+<animation>
+  <type>select</type>
+  <name>StreetNightLights</name>
+  <object-name>StreetLights</object-name>
+  <condition>
+   <greater-than>
+    <property>/sim/time/sun-angle-rad</property>
+    <value>1.57</value>
+   </greater-than>
+  </condition>
+ </animation>
+
+<model>
+  <path>Models/Effects/RedLight10000.xml</path>
+  <offsets>
+    <x-m>5.046</x-m>
+    <y-m>8.975</y-m>
+    <z-m>104.5</z-m>
+  </offsets>
+</model>
+
+<model>
+  <path>Models/Effects/RedLight10000.xml</path>
+  <offsets>
+    <x-m>-452.527</x-m>
+    <y-m>11.31</y-m>
+    <z-m>104.5</z-m>
+  </offsets>
+</model>
+
+
+
+
+<!--  YellowLight.001  -->
+
+<animation>
+  <type>translate</type>
+  <object-name>YellowLight.001</object-name>
+  <offset-m>727.282</offset-m>
+  <axis>
+    <x>-725.381</x>
+    <y>-11.272</y>
+    <z>51.335</z>
+  </axis>
+</animation>
+
+<animation>
+  <type>billboard</type>
+  <object-name>YellowLight.001</object-name>
+  <spherical type="bool">true</spherical>
+</animation>
+
+<animation>
+  <type>dist-scale</type>
+  <object-name>YellowLight.001</object-name>
+  <interpolation>
+    <entry>
+      <ind>0</ind>
+      <dep>0.07</dep>
+    </entry>
+    <entry>
+      <ind>500</ind>
+      <dep>0.15</dep>
+    </entry>
+    <entry>
+      <ind>10000</ind>
+      <dep>1.5</dep>
+    </entry>
+  </interpolation>
+</animation>
+
+
+
+
+<!--  YellowLight.002 - .056  -->
+
+<animation><type>translate</type><object-name>YellowLight.002</object-name><offset-m>766.765</offset-m><axis><x>-764.092</x><y>-41.859</y><z>48.375</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.002</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.002</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.003</object-name><offset-m>747.769</offset-m><axis><x>-745.679</x><y>-25.368</y><z>49.782</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.003</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.003</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.004</object-name><offset-m>705.425</offset-m><axis><x>-703.43</x><y>0.058</y><z>53.024</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.004</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.004</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.005</object-name><offset-m>682.508</offset-m><axis><x>-680.259</x><y>8.62</y><z>54.689</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.005</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.005</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.006</object-name><offset-m>658.688</offset-m><axis><x>-656.148</x><y>14.084</y><z>56.053</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.006</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.006</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.007</object-name><offset-m>634.351</offset-m><axis><x>-631.542</x><y>16.54</y><z>57.296</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.007</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.007</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.008</object-name><offset-m>609.851</offset-m><axis><x>-606.81</x><y>16.989</y><z>58.406</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.008</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.008</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.009</object-name><offset-m>585.334</offset-m><axis><x>-582.069</x><y>16.894</y><z>59.382</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.009</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.009</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.010</object-name><offset-m>560.837</offset-m><axis><x>-557.326</x><y>16.772</y><z>60.363</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.010</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.010</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.011</object-name><offset-m>536.366</offset-m><axis><x>-532.586</x><y>16.65</y><z>61.344</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.011</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.011</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.012</object-name><offset-m>511.921</offset-m><axis><x>-507.844</x><y>16.528</y><z>62.325</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.012</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.012</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.013</object-name><offset-m>487.51</offset-m><axis><x>-483.103</x><y>16.407</y><z>63.306</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.013</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.013</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.014</object-name><offset-m>463.135</offset-m><axis><x>-458.362</x><y>16.285</y><z>64.287</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.014</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.014</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.015</object-name><offset-m>438.715</offset-m><axis><x>-433.607</x><y>16.16</y><z>64.769</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.015</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.015</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.016</object-name><offset-m>414.309</offset-m><axis><x>-408.85</x><y>16.034</y><z>65.092</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.016</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.016</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.017</object-name><offset-m>389.946</offset-m><axis><x>-384.091</x><y>15.908</y><z>65.415</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.017</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.017</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.018</object-name><offset-m>365.639</offset-m><axis><x>-359.334</x><y>15.781</y><z>65.738</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.018</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.018</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.019</object-name><offset-m>341.396</offset-m><axis><x>-334.577</x><y>15.655</y><z>66.061</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.019</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.019</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.020</object-name><offset-m>317.23</offset-m><axis><x>-309.818</x><y>15.529</y><z>66.384</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.020</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.020</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.021</object-name><offset-m>293.166</offset-m><axis><x>-285.06</x><y>15.403</y><z>66.707</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.021</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.021</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.022</object-name><offset-m>269.229</offset-m><axis><x>-260.303</x><y>15.277</y><z>67.03</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.022</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.022</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.023</object-name><offset-m>245.454</offset-m><axis><x>-235.546</x><y>15.15</y><z>67.353</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.023</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.023</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.024</object-name><offset-m>221.794</offset-m><axis><x>-210.789</x><y>15.027</y><z>67.341</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.024</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.024</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.025</object-name><offset-m>198.298</offset-m><axis><x>-186.033</x><y>14.906</y><z>67.019</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.025</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.025</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.026</object-name><offset-m>175.148</offset-m><axis><x>-161.275</x><y>14.786</y><z>66.696</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.026</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.026</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.027</object-name><offset-m>152.504</offset-m><axis><x>-136.518</x><y>14.665</y><z>66.374</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.027</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.027</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.028</object-name><offset-m>130.633</offset-m><axis><x>-111.761</x><y>14.544</y><z>66.051</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.028</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.028</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.029</object-name><offset-m>109.989</offset-m><axis><x>-87.001</x><y>14.424</y><z>65.728</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.029</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.029</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.030</object-name><offset-m>91.414</offset-m><axis><x>-62.242</x><y>14.303</y><z>65.406</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.030</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.030</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.031</object-name><offset-m>76.435</offset-m><axis><x>-37.487</x><y>14.182</y><z>65.083</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.031</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.031</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.032</object-name><offset-m>67.481</offset-m><axis><x>-12.731</x><y>14.062</y><z>64.76</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.032</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.032</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.033</object-name><offset-m>66.83</offset-m><axis><x>12.024</x><y>13.939</y><z>64.244</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.033</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.033</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.034</object-name><offset-m>74.45</offset-m><axis><x>36.762</x><y>13.809</y><z>63.251</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.034</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.034</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.035</object-name><offset-m>88.574</offset-m><axis><x>61.5</x><y>13.679</y><z>62.257</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.035</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.035</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.036</object-name><offset-m>106.649</offset-m><axis><x>86.239</x><y>13.55</y><z>61.264</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.036</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.036</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.037</object-name><offset-m>127.001</offset-m><axis><x>110.98</x><y>13.42</y><z>60.27</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.037</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.037</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.038</object-name><offset-m>148.697</offset-m><axis><x>135.722</x><y>13.291</y><z>59.276</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.038</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.038</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.039</object-name><offset-m>171.264</offset-m><axis><x>160.465</x><y>13.078</y><z>58.405</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.039</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.039</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.040</object-name><offset-m>194.291</offset-m><axis><x>185.188</x><y>12.045</y><z>57.525</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.040</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.040</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.041</object-name><offset-m>217.528</offset-m><axis><x>209.869</x><y>10.494</y><z>56.244</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.041</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.041</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.042</object-name><offset-m>240.942</offset-m><axis><x>234.451</x><y>7.791</y><z>54.999</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.042</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.042</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.043</object-name><offset-m>264.481</offset-m><axis><x>258.921</x><y>4.202</y><z>53.782</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.043</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.043</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.044</object-name><offset-m>287.925</offset-m><axis><x>283.095</x><y>-1.001</y><z>52.508</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.044</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.044</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.045</object-name><offset-m>310.496</offset-m><axis><x>306.164</x><y>-6.557</y><z>51.267</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.045</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.045</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.046</object-name><offset-m>334.085</offset-m><axis><x>330.048</x><y>-12.986</y><z>50.123</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.046</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.046</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.047</object-name><offset-m>357.672</offset-m><axis><x>353.694</x><y>-20.271</y><z>49.182</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.047</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.047</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.048</object-name><offset-m>380.967</offset-m><axis><x>376.723</x><y>-29.336</y><z>48.528</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.048</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.048</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.049</object-name><offset-m>404.109</offset-m><axis><x>399.309</x><y>-39.461</y><z>47.95</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.049</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.049</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.050</object-name><offset-m>427.304</offset-m><axis><x>421.703</x><y>-50.02</y><z>47.474</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.050</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.050</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.051</object-name><offset-m>450.606</offset-m><axis><x>443.985</x><y>-60.8</y><z>47.186</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.051</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.051</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.052</object-name><offset-m>474.061</offset-m><axis><x>466.273</x><y>-71.581</y><z>46.897</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.052</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.052</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.053</object-name><offset-m>497.641</offset-m><axis><x>488.559</x><y>-82.363</y><z>46.609</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.053</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.053</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.054</object-name><offset-m>521.332</offset-m><axis><x>510.847</x><y>-93.145</y><z>46.321</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.054</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.054</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.055</object-name><offset-m>545.119</offset-m><axis><x>533.137</x><y>-103.928</y><z>46.032</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.055</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.055</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation><animation><type>translate</type><object-name>YellowLight.056</object-name><offset-m>568.989</offset-m><axis><x>555.426</x><y>-114.71</y><z>45.744</z></axis></animation><animation><type>billboard</type><object-name>YellowLight.056</object-name><spherical type="bool">true</spherical></animation><animation><type>dist-scale</type><object-name>YellowLight.056</object-name><interpolation><entry><ind>0</ind><dep>0.07</dep></entry><entry><ind>500</ind><dep>0.15</dep></entry><entry><ind>10000</ind><dep>1.5</dep></entry></interpolation></animation>
+
+
+
+
+</PropertyList>

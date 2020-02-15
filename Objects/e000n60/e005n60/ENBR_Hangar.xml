@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+<path>ENBR_Hangar.ac</path>
+
+<animation>
+ <type>material</type> 
+ 
+ <object-name>rest</object-name>
+ <object-name>Tor_l</object-name>
+ <object-name>Tor_r</object-name>
+ <object-name>Tor_r_m</object-name>
+ <object-name>Tor_l_m</object-name>
+ <object-name>Tor_o_u</object-name>
+ <object-name>Tor_o_m</object-name>
+ <object-name>Tor_o_o</object-name>
+<condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+ <emission>	
+  <red>0.314</red>	
+  <green>0.314</green>	
+  <blue>0.314</blue>
+ <factor>0.2</factor>
+ </emission>
+</animation>
+
+
+<animation>
+ <type>material</type> 
+ <object-name>windows</object-name>
+ <object-name>Tor_l_window</object-name>
+ <object-name>Tor_r_window</object-name>
+ <object-name>Tor_r_m_window</object-name>
+ <object-name>Tor_l_m_window</object-name>
+ <condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+ <emission>	
+  <red>1</red>	
+  <green>1</green>	
+  <blue>0.464</blue>
+ <factor>0.4</factor>
+ </emission>
+</animation>
+
+
+  <animation>
+    <type>textranslate</type> 
+    <object-name>windows</object-name>
+    <object-name>Tor_l_window</object-name>
+    <object-name>Tor_r_window</object-name>
+    <object-name>Tor_r_m_window</object-name>
+    <object-name>Tor_l_m_window</object-name> 
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.049761146</factor>
+    <axis> 
+      <x> 0.25 </x> 
+      <y> 1 </y> 
+    </axis> 
+  </animation>
+
+
+
+
+<!-- Animations gates -->
+
+<!-- Tor_l -->
+
+	<animation>
+		<type>pick</type>
+		<object-name>Tor_l</object-name>
+		<object-name>Tor_l_window</object-name>
+		<action>
+			<button>0</button>
+			<repeatable type="bool">false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<!-- Nasal pick code, based on jetway-movable.xml -->
+				<script><![CDATA[
+if (props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_l[0]/extended") == nil)  {
+    props.globals.initNode ("/scenery/airport/Hangar_animated/automgate_l[0]/extended", 0, "BOOL");
+    setprop ("/scenery/airport/Hangar_animated/automgate_l[0]/position-norm", 0);
+}
+
+#nasal interpolation function - returns a value based on a set interpolation table, like the <interpolate> feature of XML animations
+#takes an array with sub-arrays, like
+#[[<ind>, <dep>], [<ind>, <dep>]]
+var interpolateTable = func (table, value) {
+  var newValue = 0;
+
+  forindex (i; table) {
+    if (value >= table[i][0]) {
+	if (i + 1 < size (table)) {
+	    newValue = (value - table[i][0]) / (table[i + 1][0] - table[i][0]) * (table[i + 1][1] - table[i][1]) + table[i][1];
+	} else {
+	    newValue = table[i][1];
+	  }
+      }
+  }
+
+  return newValue;
+};
+
+var xtranslate = 18.35;
+var xtranslaterate = 1;
+var xtranslatetable =[[0.0, 0.0],
+		      [0.2, 0.2],
+		      [0.6, 0.6],
+		      [0.8, 0.8],
+		      [1.0, 1.0]];
+
+var length = math.abs (xtranslate / xtranslaterate);
+
+if (!props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_l[0]/extended").getBoolValue ()) {
+  props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_l[0]/extended").setBoolValue (1);
+  interpolate ("/scenery/airport/Hangar_animated/automgate_l[0]/position-norm", 1, -getprop ("/scenery/airport/Hangar_animated/automgate_l[0]/position-norm") + 1 * length);
+  gui.popupTip ("Opening gate.");
+
+  var loop = func {
+    var position = getprop ("/scenery/airport/Hangar_animated/automgate_l[0]/position-norm");
+    setprop ("/scenery/airport/Hangar_animated/automgate_l[0]/x-translation-m", interpolateTable (xtranslatetable, position) * xtranslate);
+
+    if (position < 1 and props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_l[0]/extended").getBoolValue ()) {
+      settimer (loop, 0);
+    }
+  };
+  loop ();
+} else {
+  props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_l[0]/extended").setBoolValue (0);
+  interpolate ("/scenery/airport/Hangar_animated/automgate_l[0]/position-norm", 0, getprop ("/scenery/airport/Hangar_animated/automgate_l[0]/position-norm") * length);
+  gui.popupTip ("Closing gate.");
+
+  var loop = func {
+    var position = getprop ("/scenery/airport/Hangar_animated/automgate_l[0]/position-norm");
+    setprop ("/scenery/airport/Hangar_animated/automgate_l[0]/x-translation-m", interpolateTable (xtranslatetable, position) * xtranslate);
+
+    if (position > 0 and ! props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_l[0]/extended").getBoolValue ()) {
+      settimer (loop, 0);
+    }
+  };
+  loop ();
+}
+				]]></script>
+			</binding>
+		</action>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>Tor_l</object-name>
+		<object-name>Tor_l_window</object-name>
+		<property>/scenery/airport/Hangar_animated/automgate_l[0]/x-translation-m</property>
+		<axis>
+			<x>-1</x>
+			<y>0</y>
+			<z>0</z>
+		</axis>
+	</animation>
+
+
+
+
+
+<!-- Tor_r -->
+
+	<animation>
+		<type>pick</type>
+		<object-name>Tor_r</object-name>
+		<object-name>Tor_r_window</object-name>
+		<action>
+			<button>0</button>
+			<repeatable type="bool">false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script><![CDATA[
+if (props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_r[0]/extended") == nil)  {
+    props.globals.initNode ("/scenery/airport/Hangar_animated/automgate_r[0]/extended", 0, "BOOL");
+    setprop ("/scenery/airport/Hangar_animated/automgate_r[0]/position-norm", 0);
+}
+
+var interpolateTable = func (table, value) {
+  var newValue = 0;
+
+  forindex (i; table) {
+    if (value >= table[i][0]) {
+	if (i + 1 < size (table)) {
+	    newValue = (value - table[i][0]) / (table[i + 1][0] - table[i][0]) * (table[i + 1][1] - table[i][1]) + table[i][1];
+	} else {
+	    newValue = table[i][1];
+	  }
+      }
+  }
+
+  return newValue;
+};
+
+var xtranslate = 18.35;
+var xtranslaterate = 1;
+var xtranslatetable =[[0.0, 0.0],
+		      [0.2, 0.2],
+		      [0.6, 0.6],
+		      [0.8, 0.8],
+		      [1.0, 1.0]];
+
+var length = math.abs (xtranslate / xtranslaterate);
+
+if (!props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_r[0]/extended").getBoolValue ()) {
+  props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_r[0]/extended").setBoolValue (1);
+  interpolate ("/scenery/airport/Hangar_animated/automgate_r[0]/position-norm", 1, -getprop ("/scenery/airport/Hangar_animated/automgate_r[0]/position-norm") + 1 * length);
+  gui.popupTip ("Opening gate.");
+
+  var loop = func {
+    var position = getprop ("/scenery/airport/Hangar_animated/automgate_r[0]/position-norm");
+    setprop ("/scenery/airport/Hangar_animated/automgate_r[0]/x-translation-m", interpolateTable (xtranslatetable, position) * xtranslate);
+
+    if (position < 1 and props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_r[0]/extended").getBoolValue ()) {
+      settimer (loop, 0);
+    }
+  };
+  loop ();
+} else {
+  props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_r[0]/extended").setBoolValue (0);
+  interpolate ("/scenery/airport/Hangar_animated/automgate_r[0]/position-norm", 0, getprop ("/scenery/airport/Hangar_animated/automgate_r[0]/position-norm") * length);
+  gui.popupTip ("Closing gate.");
+
+  var loop = func {
+    var position = getprop ("/scenery/airport/Hangar_animated/automgate_r[0]/position-norm");
+    setprop ("/scenery/airport/Hangar_animated/automgate_r[0]/x-translation-m", interpolateTable (xtranslatetable, position) * xtranslate);
+
+    if (position > 0 and ! props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_r[0]/extended").getBoolValue ()) {
+      settimer (loop, 0);
+    }
+  };
+  loop ();
+}
+				]]></script>
+			</binding>
+		</action>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>Tor_r</object-name>
+		<object-name>Tor_r_window</object-name>
+		<property>/scenery/airport/Hangar_animated/automgate_r[0]/x-translation-m</property>
+		<axis>
+			<x>1</x>
+			<y>0</y>
+			<z>0</z>
+		</axis>
+	</animation>
+
+
+
+
+
+<!-- Tor_r_m -->
+
+	<animation>
+		<type>pick</type>
+		<object-name>Tor_r_m</object-name>
+		<object-name>Tor_r_m_window</object-name>
+		<action>
+			<button>0</button>
+			<repeatable type="bool">false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script><![CDATA[
+if (props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_r_m[0]/extended") == nil)  {
+    props.globals.initNode ("/scenery/airport/Hangar_animated/automgate_r_m[0]/extended", 0, "BOOL");
+    setprop ("/scenery/airport/Hangar_animated/automgate_r_m[0]/position-norm", 0);
+}
+
+var interpolateTable = func (table, value) {
+  var newValue = 0;
+
+  forindex (i; table) {
+    if (value >= table[i][0]) {
+	if (i + 1 < size (table)) {
+	    newValue = (value - table[i][0]) / (table[i + 1][0] - table[i][0]) * (table[i + 1][1] - table[i][1]) + table[i][1];
+	} else {
+	    newValue = table[i][1];
+	  }
+      }
+  }
+
+  return newValue;
+};
+
+var xtranslate = 36.85;
+var xtranslaterate = 1;
+var xtranslatetable =[[0.0, 0.0],
+		      [0.2, 0.2],
+		      [0.6, 0.6],
+		      [0.8, 0.8],
+		      [1.0, 1.0]];
+
+var length = math.abs (xtranslate / xtranslaterate);
+
+if (!props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_r_m[0]/extended").getBoolValue ()) {
+  props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_r_m[0]/extended").setBoolValue (1);
+  interpolate ("/scenery/airport/Hangar_animated/automgate_r_m[0]/position-norm", 1, -getprop ("/scenery/airport/Hangar_animated/automgate_r_m[0]/position-norm") + 1 * length);
+  gui.popupTip ("Opening gate.");
+
+  var loop = func {
+    var position = getprop ("/scenery/airport/Hangar_animated/automgate_r_m[0]/position-norm");
+    setprop ("/scenery/airport/Hangar_animated/automgate_r_m[0]/x-translation-m", interpolateTable (xtranslatetable, position) * xtranslate);
+
+    if (position < 1 and props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_r_m[0]/extended").getBoolValue ()) {
+      settimer (loop, 0);
+    }
+  };
+  loop ();
+} else {
+  props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_r_m[0]/extended").setBoolValue (0);
+  interpolate ("/scenery/airport/Hangar_animated/automgate_r_m[0]/position-norm", 0, getprop ("/scenery/airport/Hangar_animated/automgate_r_m[0]/position-norm") * length);
+  gui.popupTip ("Closing gate.");
+
+  var loop = func {
+    var position = getprop ("/scenery/airport/Hangar_animated/automgate_r_m[0]/position-norm");
+    setprop ("/scenery/airport/Hangar_animated/automgate_r_m[0]/x-translation-m", interpolateTable (xtranslatetable, position) * xtranslate);
+
+    if (position > 0 and ! props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_r_m[0]/extended").getBoolValue ()) {
+      settimer (loop, 0);
+    }
+  };
+  loop ();
+}
+				]]></script>
+			</binding>
+		</action>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>Tor_r_m</object-name>
+		<object-name>Tor_r_m_window</object-name>
+		<property>/scenery/airport/Hangar_animated/automgate_r_m[0]/x-translation-m</property>
+		<axis>
+			<x>1</x>
+			<y>0</y>
+			<z>0</z>
+		</axis>
+	</animation>
+
+
+
+
+
+<!-- Tor_l_m -->
+
+	<animation>
+		<type>pick</type>
+		<object-name>Tor_l_m</object-name>
+		<object-name>Tor_l_m_window</object-name>
+		<action>
+			<button>0</button>
+			<repeatable type="bool">false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script><![CDATA[
+if (props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_l_m[0]/extended") == nil)  {
+    props.globals.initNode ("/scenery/airport/Hangar_animated/automgate_l_m[0]/extended", 0, "BOOL");
+    setprop ("/scenery/airport/Hangar_animated/automgate_l_m[0]/position-norm", 0);
+}
+
+var interpolateTable = func (table, value) {
+  var newValue = 0;
+
+  forindex (i; table) {
+    if (value >= table[i][0]) {
+	if (i + 1 < size (table)) {
+	    newValue = (value - table[i][0]) / (table[i + 1][0] - table[i][0]) * (table[i + 1][1] - table[i][1]) + table[i][1];
+	} else {
+	    newValue = table[i][1];
+	  }
+      }
+  }
+
+  return newValue;
+};
+
+var xtranslate = 36.85;
+var xtranslaterate = 1;
+var xtranslatetable =[[0.0, 0.0],
+		      [0.2, 0.2],
+		      [0.6, 0.6],
+		      [0.8, 0.8],
+		      [1.0, 1.0]];
+
+var length = math.abs (xtranslate / xtranslaterate);
+
+if (!props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_l_m[0]/extended").getBoolValue ()) {
+  props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_l_m[0]/extended").setBoolValue (1);
+  interpolate ("/scenery/airport/Hangar_animated/automgate_l_m[0]/position-norm", 1, -getprop ("/scenery/airport/Hangar_animated/automgate_l_m[0]/position-norm") + 1 * length);
+  gui.popupTip ("Opening gate.");
+
+  var loop = func {
+    var position = getprop ("/scenery/airport/Hangar_animated/automgate_l_m[0]/position-norm");
+    setprop ("/scenery/airport/Hangar_animated/automgate_l_m[0]/x-translation-m", interpolateTable (xtranslatetable, position) * xtranslate);
+
+    if (position < 1 and props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_l_m[0]/extended").getBoolValue ()) {
+      settimer (loop, 0);
+    }
+  };
+  loop ();
+} else {
+  props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_l_m[0]/extended").setBoolValue (0);
+  interpolate ("/scenery/airport/Hangar_animated/automgate_l_m[0]/position-norm", 0, getprop ("/scenery/airport/Hangar_animated/automgate_l_m[0]/position-norm") * length);
+  gui.popupTip ("Closing gate.");
+
+  var loop = func {
+    var position = getprop ("/scenery/airport/Hangar_animated/automgate_l_m[0]/position-norm");
+    setprop ("/scenery/airport/Hangar_animated/automgate_l_m[0]/x-translation-m", interpolateTable (xtranslatetable, position) * xtranslate);
+
+    if (position > 0 and ! props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_l_m[0]/extended").getBoolValue ()) {
+      settimer (loop, 0);
+    }
+  };
+  loop ();
+}
+				]]></script>
+			</binding>
+		</action>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>Tor_l_m</object-name>
+		<object-name>Tor_l_m_window</object-name>
+		<property>/scenery/airport/Hangar_animated/automgate_l_m[0]/x-translation-m</property>
+		<axis>
+			<x>-1</x>
+			<y>0</y>
+			<z>0</z>
+		</axis>
+	</animation>
+
+
+
+<!-- Tor_o -->
+
+	<animation>
+		<type>pick</type>
+		<object-name>Tor_o_u</object-name>
+		<object-name>Tor_o_m</object-name>
+                <object-name>Tor_o_o</object-name>
+		<action>
+			<button>0</button>
+			<repeatable type="bool">false</repeatable>
+			<binding>
+				<!-- Tor_o_m -->
+				<command>nasal</command>
+				<script><![CDATA[
+
+
+if (props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_o_m[0]/extended") == nil)  {
+    props.globals.initNode ("/scenery/airport/Hangar_animated/automgate_o_m[0]/extended", 0, "BOOL");
+    setprop ("/scenery/airport/Hangar_animated/automgate_o_m[0]/position-norm", 0);
+}
+
+if (props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_o_u[0]/extended") == nil)  {
+    props.globals.initNode ("/scenery/airport/Hangar_animated/automgate_o_u[0]/extended", 0, "BOOL");
+    setprop ("/scenery/airport/Hangar_animated/automgate_o_u[0]/position-norm", 0);
+}
+
+
+var interpolateTable = func (table, value) {
+  var newValue = 0;
+
+  forindex (i; table) {
+    if (value >= table[i][0]) {
+	if (i + 1 < size (table)) {
+	    newValue = (value - table[i][0]) / (table[i + 1][0] - table[i][0]) * (table[i + 1][1] - table[i][1]) + table[i][1];
+	} else {
+	    newValue = table[i][1];
+	  }
+      }
+  }
+
+  return newValue;
+};
+
+var interpolateTable_2 = func (table, value) {
+  var newValue_2 = 0;
+
+  forindex (j; table) {
+    if (value >= table[j][0]) {
+	if (j + 1 < size (table)) {
+	    newValue_2 = (value - table[j][0]) / (table[j + 1][0] - table[j][0]) * (table[j + 1][1] - table[j][1]) + table[j][1];
+	} else {
+	    newValue_2 = table[j][1];
+	  }
+      }
+  }
+
+  return newValue_2;
+};
+
+var xtranslate = 3.2375;
+var xtranslate_2 = 6.2375;
+var xtranslaterate = 1;
+var xtranslatetable =[[0.0, 0.0],
+		      [0.2, 0.2],
+		      [0.6, 0.6],
+		      [0.8, 0.8],
+		      [1.0, 1.0]];
+
+var length = math.abs (xtranslate / xtranslaterate);
+var length_2 = math.abs (xtranslate_2 / xtranslaterate);
+
+if (!props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_o_m[0]/extended").getBoolValue ()) {
+  props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_o_m[0]/extended").setBoolValue (1);
+  interpolate ("/scenery/airport/Hangar_animated/automgate_o_m[0]/position-norm", 1, -getprop ("/scenery/airport/Hangar_animated/automgate_o_m[0]/position-norm") + 1 * length);
+  gui.popupTip ("Opening gate.");
+
+  var loop = func {
+    var position = getprop ("/scenery/airport/Hangar_animated/automgate_o_m[0]/position-norm");
+    setprop ("/scenery/airport/Hangar_animated/automgate_o_m[0]/x-translation-m", interpolateTable (xtranslatetable, position) * xtranslate);
+
+    if (position < 1 and props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_o_m[0]/extended").getBoolValue ()) {
+      settimer (loop, 0);
+    }
+  };
+  loop ();
+
+
+  props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_o_m[0]/extended").setBoolValue (1);
+  interpolate ("/scenery/airport/Hangar_animated/automgate_o_u[0]/position-norm", 1, -getprop ("/scenery/airport/Hangar_animated/automgate_o_u[0]/position-norm") + 1 * length_2);
+  
+
+  var loop_2 = func {
+    var position_2 = getprop ("/scenery/airport/Hangar_animated/automgate_o_u[0]/position-norm");
+    setprop ("/scenery/airport/Hangar_animated/automgate_o_u[0]/x-translation-m", interpolateTable_2 (xtranslatetable, position_2) * xtranslate_2);
+
+    if (position_2 < 1 and props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_o_m[0]/extended").getBoolValue ()) {
+      settimer (loop_2, 0);
+    }
+  };
+  loop_2 ();
+
+} 
+
+
+else {
+  props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_o_m[0]/extended").setBoolValue (0);
+  interpolate ("/scenery/airport/Hangar_animated/automgate_o_m[0]/position-norm", 0, getprop ("/scenery/airport/Hangar_animated/automgate_o_m[0]/position-norm") * length);
+  gui.popupTip ("Closing gate.");
+
+  var loop = func {
+    var position = getprop ("/scenery/airport/Hangar_animated/automgate_o_m[0]/position-norm");
+    setprop ("/scenery/airport/Hangar_animated/automgate_o_m[0]/x-translation-m", interpolateTable (xtranslatetable, position) * xtranslate);
+
+    if (position > 0 and ! props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_o_m[0]/extended").getBoolValue ()) {
+      settimer (loop, 0);
+    }
+  };
+  loop ();
+
+  props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_o_m[0]/extended").setBoolValue (0);
+  interpolate ("/scenery/airport/Hangar_animated/automgate_o_u[0]/position-norm", 0, getprop ("/scenery/airport/Hangar_animated/automgate_o_u[0]/position-norm") * length_2);
+ 
+  var loop_2 = func {
+    var position_2 = getprop ("/scenery/airport/Hangar_animated/automgate_o_u[0]/position-norm");
+    setprop ("/scenery/airport/Hangar_animated/automgate_o_u[0]/x-translation-m", interpolateTable_2 (xtranslatetable, position_2) * xtranslate_2);
+
+    if (position_2 > 0 and ! props.globals.getNode ("/scenery/airport/Hangar_animated/automgate_o_m[0]/extended").getBoolValue ()) {
+      settimer (loop_2, 0);
+    }
+  };
+  loop_2 ();
+}
+
+
+
+				]]></script>
+
+
+
+			</binding>
+		</action>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>Tor_o_m</object-name>
+		<property>/scenery/airport/Hangar_animated/automgate_o_m[0]/x-translation-m</property>
+		<axis>
+			<x>0</x>
+			<y>0</y>
+			<z>1</z>
+		</axis>
+	</animation>
+
+
+	<animation>
+		<type>translate</type>
+		<object-name>Tor_o_u</object-name>
+		<property>/scenery/airport/Hangar_animated/automgate_o_u[0]/x-translation-m</property>
+		<axis>
+			<x>0</x>
+			<y>0</y>
+			<z>1</z>
+		</axis>
+	</animation>
+
+
+
+
+
+	
+</PropertyList>

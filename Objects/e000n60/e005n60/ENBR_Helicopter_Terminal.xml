@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+<path>ENBR_Helicopter_Terminal.ac</path>
+
+
+<!-- trigger for night lightning -->
+
+<nasal>
+<load>
+if (getprop ("/scenery/ENBR/Night") == nil)  {
+    setprop ("/scenery/ENBR/Night", 0);
+    }
+var loop_id = 0;
+var loop = func(id) {
+	id == loop_id or return;
+	var limwsun = getprop("/sim/time/sun-angle-rad");
+	if (limwsun > 1.57) {
+	setprop("/scenery/ENBR/Night", 1);
+	}  else {setprop("/scenery/ENBR/Night", 0);
+    	}
+	settimer(func { loop(id) }, 1);
+	}
+	loop(loop_id += 1);
+</load>
+<unload>loop_id += 1</unload>
+</nasal>
+
+
+<model>
+  <path>Models/Effects/RedLight10000.xml</path>
+  <offsets>
+    <x-m>37.70389</x-m>
+    <y-m>15.47272</y-m>
+    <z-m>16.07732</z-m>
+  </offsets>
+</model>
+
+
+<effect>
+  <inherits-from>Effects/model-combined-deferred</inherits-from>
+	<parameters>
+		<lightmap-enabled type="int">1</lightmap-enabled>
+		<texture n="3">
+			<image>ENBR_Helicopter_Terminal_4.png</image>
+			<wrap-s>repeat</wrap-s>
+		</texture>
+		<lightmap-factor type="float" n="0">
+			<use>/scenery/ENBR/Night</use>
+		</lightmap-factor>
+	</parameters>
+		<object-name>window</object-name>
+</effect>
+
+<effect>
+  <inherits-from>Effects/model-combined-deferred</inherits-from>
+	<parameters>
+		<lightmap-enabled type="int">1</lightmap-enabled>
+		<texture n="3">
+			<image>ENBR_Helicopter_Terminal_3.png</image>
+			<wrap-s>repeat</wrap-s>
+		</texture>
+		<lightmap-factor type="float" n="0">
+			<use>/scenery/ENBR/Night</use>
+		</lightmap-factor>
+	</parameters>
+		<object-name>main</object-name>
+</effect>
+
+<animation>
+ <type>material</type> 
+ <object-name>window</object-name>
+ <object-name>main</object-name>
+<condition>
+  <and>
+    <not>	
+      <property>sim/rendering/rembrandt/enabled</property>
+    </not>	
+    <property>scenery/ENBR/Night</property>
+    <value>1</value>
+  </and>
+</condition>
+ <emission>	
+  <red>0.314</red>	
+  <green>0.314</green>	
+  <blue>0.314</blue>
+ <factor>0.1</factor>
+ </emission>
+</animation>
+
+
+<animation>
+ <type>material</type> 
+ <object-name>sign</object-name>
+<condition>
+  <and>
+    <not>	
+      <property>sim/rendering/rembrandt/enabled</property>
+    </not>	
+    <property>scenery/ENBR/Night</property>
+    <value>1</value>
+  </and>
+</condition>
+ <emission>	
+  <red>1</red>	
+  <green>1</green>	
+  <blue>1</blue>
+ <factor>1</factor>
+ </emission>
+</animation>
+
+<animation>
+ <type>material</type> 
+ <object-name>light</object-name>
+ <emission>	
+  <red>1</red>	
+  <green>0</green>	
+  <blue>0</blue>
+ <factor>1</factor>
+ </emission>
+</animation>
+
+</PropertyList>
