@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+<path>enlk.ac</path>
+ <nasal>
+  <load>
+   if (!contains(globals, "scenery")) globals["scenery"] = {};
+   if (!contains(scenery, "ENLK")) scenery["ENLK"] = {};
+   if (!contains(scenery.ENLK, "fence")) scenery.ENLK["fence"] = {};
+   if (contains(scenery, "sharedDoor")) {
+     scenery.ENLK.fence[0] =
+       { door :
+         [scenery.sharedDoor.new("/scenery/ENLK/fence[0]/door[0]", 10),
+         ]
+       };
+   } else {
+     scenery.ENLK.fence[0] =
+       { door :
+         [aircraft.door.new("/scenery/ENLK/fence[0]/door[0]", 10),
+         ]
+       };
+   }
+  </load>
+  <unload>
+   if (contains(scenery, "sharedDoor")) {
+     scenery.ENLK.fence0].door[0].destroy();
+   }
+  </unload>
+ </nasal>
+<animation>
+ <type>material</type> 
+ <object-name>windows</object-name>
+ <object-name>building2windows</object-name>
+ <object-name>towerwindows</object-name>
+ <condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+ <emission>	
+  <red>1</red>	
+  <green>1</green>	
+  <blue>1</blue>
+ </emission>
+ <texture>enlk_2.png</texture>
+</animation>
+
+<animation>
+ <type>material</type> 
+ <object-name>windows</object-name>
+ <object-name>building2windows</object-name>
+ <object-name>towerwindows</object-name>
+ <condition>		
+  <less-than-equals>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </less-than-equals>
+ </condition>
+ <emission>	
+  <red>1</red>	
+  <green>1</green>	
+  <blue>1</blue>
+ </emission>
+ <texture>enlk.png</texture>
+</animation>
+<animation>
+ <type>pick</type>
+ <object-name>fence</object-name>
+ <object-name>fencetrans</object-name>
+ <visible>true</visible>
+ <action>
+  <name>click</name>
+  <button>0</button>
+  <repeatable>false</repeatable>
+  <binding>
+   <command>nasal</command>
+   <script>scenery.ENLK.fence[0].door[0].toggle();</script>
+  </binding>
+ </action>
+</animation>
+<animation>
+ <type>translate</type>
+ <object-name>fence</object-name>
+ <object-name>fencetrans</object-name>
+ <property>/scenery/ENLK/fence[0]/door[0]/position-norm</property>
+ <factor>10</factor>
+ <axis>
+  <x>0</x>
+  <y>-1</y>
+  <z>0</z>
+ </axis>
+</animation>
+</PropertyList>
+

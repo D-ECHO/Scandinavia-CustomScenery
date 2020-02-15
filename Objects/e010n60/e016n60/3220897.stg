@@ -1,0 +1,7 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml 16.288611111 60.508611111 158.72 180
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 16.4751541 60.5570663 93.22 77.79
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 16.4845954 60.5784921 91.99 77.14
+OBJECT_SHARED Models/Power/windturbine_V112_onshore.xml 16.307777778 60.590555556 354.14 180
+OBJECT_SHARED Models/Power/windturbine_V112_onshore.xml 16.315555556 60.596388889 350.52 180
+OBJECT_SHARED Models/Power/windturbine_V112_onshore.xml 16.321944444 60.586666667 356.2 180
+OBJECT_SHARED Models/Power/windturbine_V112_onshore.xml 16.322222222 60.590555556 336.91 180

@@ -1,0 +1,4 @@
+OBJECT_SHARED Models/Airport/ils.xml 16.158475 69.283603 4.4 329.79
+OBJECT_SHARED Models/Airport/tacan.xml 16.144417 69.286278 7.79 180
+OBJECT_SHARED Models/Communications/vordme_1.xml 16.141381 69.287828 7.96 180
+OBJECT_SHARED Models/Airport/marker.ac 16.101711 69.318317 0 180

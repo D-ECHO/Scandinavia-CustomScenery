@@ -1,0 +1,12 @@
+OBJECT_SHARED Models/Airport/ndb.ac 10.680139 63.439778 0.84 180
+OBJECT_SHARED Models/Airport/ils.xml 10.901011 63.457086 0.05 269.71
+OBJECT_SHARED Models/Airport/ils.xml 10.934078 63.458519 9.44 89.75
+OBJECT_SHARED Models/Airport/tacan.xml 10.900419 63.455197 0.2 180
+OBJECT_SHARED Models/Communications/vordme_1.xml 10.90055 63.456781 0.07 180
+OBJECT_SHARED Models/Communications/vordme_1.xml 10.933667 63.45865 9.37 180
+OBJECT_SHARED Models/Airport/marker.ac 10.975403 63.456983 17.63 180
+OBJECT_SHARED Models/Airport/localizer.xml 10.887294 63.457658 0.43 0.2
+OBJECT_SHARED Models/Airport/localizer.xml 10.947803 63.45755 14.64 180.26
+OBJECT_SHARED Models/Commercial/Petrolstation1.ac 10.9157 63.4505 1.12 90
+OBJECT_STATIC enva-hangar-1.xml 10.9217 63.4525 1.91 270
+OBJECT_STATIC enva-terminals.xml 10.9168 63.4537 1.63 90
