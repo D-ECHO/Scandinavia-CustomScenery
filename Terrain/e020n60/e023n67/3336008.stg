@@ -1,0 +1,5 @@
+OBJECT_BASE 3336008.btg
+OBJECT ESUP.btg
+OBJECT_SHARED Models/Airport/windsock_lit.xml 23.047352 67.249727 162.4 0.00
+OBJECT_SHARED Models/Airport/windsock_lit.xml 23.080387 67.242689 163.7 0.00
+OBJECT_SHARED Models/Airport/beacon.xml 23.063186 67.246824 164.3 0.00
