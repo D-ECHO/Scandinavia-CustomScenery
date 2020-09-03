@@ -1,0 +1,15 @@
+OBJECT_SHARED Models/Power/windturbine.xml 24.5479 65.0394 -0.47 180
+OBJECT_SHARED Models/Power/windturbine.xml 24.551 65.0396 -0.27 180
+OBJECT_SHARED Models/Power/windturbine.xml 24.555 65.0398 -0.01 180
+OBJECT_SHARED Models/Misc/generic_lighthouse.ac 24.5614 65.04 0.87 180
+OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml 24.7777797 65.1223198 -9.78 207.27
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 24.5426899 65.0405002 -0.86 118.82
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 24.5478752 65.0402264 -0.51 150.64
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-North.ac 24.5230586 65.0895244 -1.85 315.61
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-North.ac 24.5563488 65.0409159 -0.05 111.46
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-North.ac 24.6016782 65.0993252 -1.51 222.41
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-North.ac 24.9650314 65.0803302 -0.89 276.61
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-South.ac 24.5648966 65.0993275 -1.35 283.19
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-East.ac 24.5097847 65.0661348 -3.28 71.63
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-West.ac 24.5083457 65.0752412 -3.21 201.47
+OBJECT_STATIC Keskiniemi_Light.xml 24.65293422 65.0805824 1 90

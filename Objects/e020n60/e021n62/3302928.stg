@@ -1,0 +1,12 @@
+OBJECT_SHARED Models/Power/windturbine.xml 21.3089 62.2573 -0.59 180
+OBJECT_SHARED Models/Power/windturbine.xml 21.3097 62.2552 -0.61 180
+OBJECT_SHARED Models/Power/windturbine.xml 21.3098 62.2597 -0.44 180
+OBJECT_SHARED Models/Misc/generic_lighthouse.ac 21.1903 62.334 0 180
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 21.3427896 62.2560429 2.79 78.61
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 21.3472528 62.2663498 6.54 82.06
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 21.349656 62.2805659 2.89 69.56
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 21.3693971 62.2930195 8.66 21.03
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 21.3996095 62.2901461 12.77 345.27
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 21.4341134 62.2849572 9.05 350.45
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 21.4669008 62.2846379 23.47 3.77
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 21.4881868 62.2861547 30 21.26

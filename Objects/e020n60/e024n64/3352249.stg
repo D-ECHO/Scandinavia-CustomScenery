@@ -1,0 +1,17 @@
+OBJECT_SHARED Models/Power/windturbine.xml 24.8083 64.889 0 180
+OBJECT_SHARED Models/Power/windturbine.xml 24.8118 64.8881 0 180
+OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml 24.8595597 64.9251425 -1.5 94.4
+OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml 24.8758166 64.9358408 -1.44 241.15
+OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml 24.9372986 64.9885089 -0.85 243.08
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 24.7310942 64.9690888 -0.02 251.67
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 24.7322645 64.9673189 -0.03 82.05
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 24.7324846 64.9679122 -0.02 87.02
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 24.7909581 64.8942896 -0.6 288.4
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 24.8589404 64.9253724 -1.5 66.31
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 24.8673064 64.9293547 -1.42 115.7
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 24.8750583 64.9360117 -1.44 280.69
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 24.9076647 64.9649182 -1.06 330.8
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 24.9909306 64.9605734 -2.04 179.21
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-North.ac 24.698594 64.8904249 -2.22 233.93
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-South.ac 24.7609995 64.8948177 -0.76 251.89
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-West.ac 24.9185969 64.9730866 -1.07 317.15

@@ -1,0 +1,5599 @@
+AC3Db
+MATERIAL "8A9D98863D55E9AA4819DEB8730E3431" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0 0 0  shi 10  trans 0
+MATERIAL "9842890A2B73749FF8A7DE17C187E235" rgb 0.270588 0.52549 0.454902  amb 0.270588 0.52549 0.454902  emis 0 0 0  spec 0 0 0  shi 10  trans 0
+MATERIAL "F27310216161A736AD073BF94FE95DF9" rgb 0.627451 0.752941 0.878431  amb 0.627451 0.752941 0.878431  emis 0 0 0  spec 0 0 0  shi 10  trans 0
+MATERIAL "EC5A257902C1BCFFFEDDFE792F7D7C62" rgb 0.533333 0.533333 0.533333  amb 0.533333 0.533333 0.533333  emis 0 0 0  spec 0 0 0  shi 10  trans 0
+MATERIAL "7A87620FA54346E40902E2BE15A0D16D" rgb 0.8 0.8 0.8  amb 0.8 0.8 0.8  emis 0 0 0  spec 0 0 0  shi 10  trans 0
+MATERIAL "ECF8B6C7C287AFC71EC223FB2B3103EF" rgb 1 0 0.169  amb 1 0 0.169  emis 1 0 0.149  spec 0 0 0  shi 10  trans 0
+MATERIAL "D02232BCCE4E26135A09EE807AAFF0BF" rgb 0.141 0.137 0.188  amb 0.141 0.137 0.188  emis 0.62 0.62 0.537  spec 0 0 0  shi 10  trans 0
+MATERIAL "F374FBD770D8563D3299C5CDDFA709E7" rgb 0.447 0.447 0.549  amb 0.447 0.447 0.549  emis 0.208 0.208 0.102  spec 0.62 0.62 0.537  shi 10  trans 0
+OBJECT world
+kids 34
+OBJECT group
+name "kaapelit"
+loc -118.75 80 0
+kids 8
+OBJECT poly
+name "line"
+crease 45.000000
+numvert 2
+17.75 -53 6.5
+-4.75 -14 1.5
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 0
+0 1 0
+kids 0
+OBJECT poly
+name "line"
+crease 45.000000
+numvert 2
+-4.75 -12 1.5
+30.75 -53 6.5
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+0 0 0
+1 1 0
+kids 0
+OBJECT poly
+name "line"
+crease 45.000000
+numvert 2
+43.75 -53 6.5
+-4.75 -10 1.5
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 0
+0 1 0
+kids 0
+OBJECT poly
+name "line"
+crease 45.000000
+numvert 2
+-4.75 -8 1.5
+56.75 -52.5 6.5
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+0 0 0
+1 1 0
+kids 0
+OBJECT poly
+name "line"
+crease 45.000000
+numvert 2
+69.75 -52.5 6.5
+-4.75 -6 1.5
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 0
+0 1 0
+kids 0
+OBJECT poly
+name "line"
+crease 45.000000
+numvert 2
+-4.75 -4 1.5
+82.75 -52.5 6.5
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+0 0 0
+1 1 0
+kids 0
+OBJECT poly
+name "line"
+crease 45.000000
+numvert 2
+95.75 -52.5 6.5
+-4.75 -2 1.5
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 0
+0 1 0
+kids 0
+OBJECT poly
+name "line"
+crease 45.000000
+numvert 2
+-4.75 0 1.5
+108.75 -52.5 6.5
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+0 0 0
+1 1 0
+kids 0
+OBJECT group
+name "kaapelit"
+loc 118.75 80 5.72205e-06
+kids 8
+OBJECT poly
+name "line"
+crease 45.000000
+numvert 2
+4.75 -14 -1.50001
+-17.75 -53.5 -6.50001
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+0 0 0
+1 1 0
+kids 0
+OBJECT poly
+name "line"
+crease 45.000000
+numvert 2
+-30.75 -53 -6.50001
+4.75 -12 -1.50001
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 0
+0 1 0
+kids 0
+OBJECT poly
+name "line"
+crease 45.000000
+numvert 2
+4.75 -10 -1.50001
+-43.75 -52.5 -6.50001
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+0 0 0
+1 1 0
+kids 0
+OBJECT poly
+name "line"
+crease 45.000000
+numvert 2
+-56.75 -52.5 -6.50001
+4.75 -8 -1.50001
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 0
+0 1 0
+kids 0
+OBJECT poly
+name "line"
+crease 45.000000
+numvert 2
+4.75 -6 -1.50001
+-69.75 -52.5 -6.50001
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+0 0 0
+1 1 0
+kids 0
+OBJECT poly
+name "line"
+crease 45.000000
+numvert 2
+-82.75 -52.5 -6.50001
+4.75 -4 -1.50001
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 0
+0 1 0
+kids 0
+OBJECT poly
+name "line"
+crease 45.000000
+numvert 2
+4.75 -2 -1.50001
+-95.75 -52.5 -6.50001
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+0 0 0
+1 1 0
+kids 0
+OBJECT poly
+name "line"
+crease 45.000000
+numvert 2
+-108.75 -52.5 -6.50001
+4.75 0 -1.50001
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 0
+0 1 0
+kids 0
+OBJECT group
+name "kaapelit"
+loc 124.75 80 -11.5
+kids 8
+OBJECT poly
+name "line"
+loc -253 0 11.5
+crease 45.000000
+numvert 2
+4.75 -14 -1.50001
+27.25 -53 -6.50001
+numsurf 2
+SURF 0x22
+mat 0
+refs 1
+0 0 0
+SURF 0x22
+mat 0
+refs 2
+1 1 0
+0 0 0
+kids 0
+OBJECT poly
+name "line"
+loc -253 0 11.5
+crease 45.000000
+numvert 2
+4.75 -12 -1.50001
+40.25 -53 -6.50001
+numsurf 2
+SURF 0x22
+mat 0
+refs 1
+0 0 0
+SURF 0x22
+mat 0
+refs 2
+1 1 0
+0 0 0
+kids 0
+OBJECT poly
+name "line"
+loc -253 0 11.5
+crease 45.000000
+numvert 2
+4.75 -10 -1.50001
+53.25 -53 -6.50001
+numsurf 2
+SURF 0x22
+mat 0
+refs 1
+0 0 0
+SURF 0x22
+mat 0
+refs 2
+1 1 0
+0 0 0
+kids 0
+OBJECT poly
+name "line"
+loc -253 0 11.5
+crease 45.000000
+numvert 2
+4.75 -8 -1.50001
+66.25 -52.5 -6.50001
+numsurf 2
+SURF 0x22
+mat 0
+refs 1
+0 0 0
+SURF 0x22
+mat 0
+refs 2
+1 1 0
+0 0 0
+kids 0
+OBJECT poly
+name "line"
+loc -253 0 11.5
+crease 45.000000
+numvert 2
+4.75 -6 -1.50001
+79.25 -52.5 -6.50001
+numsurf 2
+SURF 0x22
+mat 0
+refs 1
+0 0 0
+SURF 0x22
+mat 0
+refs 2
+1 1 0
+0 0 0
+kids 0
+OBJECT poly
+name "line"
+loc -253 0 11.5
+crease 45.000000
+numvert 2
+4.75 -4 -1.50001
+92.25 -52.5 -6.50001
+numsurf 2
+SURF 0x22
+mat 0
+refs 1
+0 0 0
+SURF 0x22
+mat 0
+refs 2
+1 1 0
+0 0 0
+kids 0
+OBJECT poly
+name "line"
+loc -253 0 11.5
+crease 45.000000
+numvert 2
+4.75 -2 -1.50001
+105.25 -52.5 -6.50001
+numsurf 2
+SURF 0x22
+mat 0
+refs 1
+0 0 0
+SURF 0x22
+mat 0
+refs 2
+1 1 0
+0 0 0
+kids 0
+OBJECT poly
+name "line"
+loc -253 0 11.5
+crease 45.000000
+numvert 2
+4.75 0 -1.50001
+118.25 -52.5 -6.50001
+numsurf 2
+SURF 0x22
+mat 0
+refs 1
+0 0 0
+SURF 0x22
+mat 0
+refs 2
+1 1 0
+0 0 0
+kids 0
+OBJECT group
+name "kaapelit"
+loc 124.75 80 -11.5
+kids 8
+OBJECT poly
+name "line"
+loc 3.5 0 11.5
+crease 45.000000
+numvert 2
+-27.25 -53.5 6.5
+-4.75 -14 1.5
+numsurf 2
+SURF 0x22
+mat 0
+refs 2
+0 1 0
+1 0 0
+SURF 0x22
+mat 0
+refs 1
+1 0 0
+kids 0
+OBJECT poly
+name "line"
+loc 3.5 0 11.5
+crease 45.000000
+numvert 2
+-40.25 -53 6.5
+-4.75 -12 1.5
+numsurf 2
+SURF 0x22
+mat 0
+refs 2
+0 1 0
+1 0 0
+SURF 0x22
+mat 0
+refs 1
+1 0 0
+kids 0
+OBJECT poly
+name "line"
+loc 3.5 0 11.5
+crease 45.000000
+numvert 2
+-53.25 -52.5 6.5
+-4.75 -10 1.5
+numsurf 2
+SURF 0x22
+mat 0
+refs 2
+0 1 0
+1 0 0
+SURF 0x22
+mat 0
+refs 1
+1 0 0
+kids 0
+OBJECT poly
+name "line"
+loc 3.5 0 11.5
+crease 45.000000
+numvert 2
+-66.25 -52.5 6.5
+-4.75 -8 1.5
+numsurf 2
+SURF 0x22
+mat 0
+refs 2
+0 1 0
+1 0 0
+SURF 0x22
+mat 0
+refs 1
+1 0 0
+kids 0
+OBJECT poly
+name "line"
+loc 3.5 0 11.5
+crease 45.000000
+numvert 2
+-79.25 -52.5 6.5
+-4.75 -6 1.5
+numsurf 2
+SURF 0x22
+mat 0
+refs 2
+0 1 0
+1 0 0
+SURF 0x22
+mat 0
+refs 1
+1 0 0
+kids 0
+OBJECT poly
+name "line"
+loc 3.5 0 11.5
+crease 45.000000
+numvert 2
+-92.25 -52.5 6.5
+-4.75 -4 1.5
+numsurf 2
+SURF 0x22
+mat 0
+refs 2
+0 1 0
+1 0 0
+SURF 0x22
+mat 0
+refs 1
+1 0 0
+kids 0
+OBJECT poly
+name "line"
+loc 3.5 0 11.5
+crease 45.000000
+numvert 2
+-105.25 -52.5 6.5
+-4.75 -2 1.5
+numsurf 2
+SURF 0x22
+mat 0
+refs 2
+0 1 0
+1 0 0
+SURF 0x22
+mat 0
+refs 1
+1 0 0
+kids 0
+OBJECT poly
+name "line"
+loc 3.5 0 11.5
+crease 45.000000
+numvert 2
+-118.25 -52.5 6.5
+-4.75 0 1.5
+numsurf 2
+SURF 0x22
+mat 0
+refs 2
+0 1 0
+1 0 0
+SURF 0x22
+mat 0
+refs 1
+1 0 0
+kids 0
+OBJECT group
+name "kaapelit"
+loc 124.75 80 -11.5
+kids 8
+OBJECT poly
+name "line"
+loc -246.5 0 11.5
+crease 45.000000
+numvert 2
+-4.75 -14 1.5
+-26.25 -54 6.5
+numsurf 2
+SURF 0x22
+mat 0
+refs 1
+0 0 0
+SURF 0x22
+mat 0
+refs 2
+1 1 0
+0 0 0
+kids 0
+OBJECT poly
+name "line"
+loc -246.5 0 11.5
+crease 45.000000
+numvert 2
+-4.75 -12 1.5
+-37.25 -55 6.5
+numsurf 2
+SURF 0x22
+mat 0
+refs 1
+0 0 0
+SURF 0x22
+mat 0
+refs 2
+1 1 0
+0 0 0
+kids 0
+OBJECT poly
+name "line"
+loc -246.5 0 11.5
+crease 45.000000
+numvert 2
+-4.75 -10 1.5
+-48.25 -55 6.5
+numsurf 2
+SURF 0x22
+mat 0
+refs 1
+0 0 0
+SURF 0x22
+mat 0
+refs 2
+1 1 0
+0 0 0
+kids 0
+OBJECT poly
+name "line"
+loc -246.5 0 11.5
+crease 45.000000
+numvert 2
+-4.75 -8 1.5
+-59.25 -55.5 6.5
+numsurf 2
+SURF 0x22
+mat 0
+refs 1
+0 0 0
+SURF 0x22
+mat 0
+refs 2
+1 1 0
+0 0 0
+kids 0
+OBJECT poly
+name "line"
+loc -246.5 0 11.5
+crease 45.000000
+numvert 2
+-4.75 -6 1.5
+-70.25 -56.5 6.5
+numsurf 2
+SURF 0x22
+mat 0
+refs 1
+0 0 0
+SURF 0x22
+mat 0
+refs 2
+1 1 0
+0 0 0
+kids 0
+OBJECT poly
+name "line"
+loc -246.5 0 11.5
+crease 45.000000
+numvert 2
+-4.75 -4 1.5
+-81.25 -57 6.5
+numsurf 2
+SURF 0x22
+mat 0
+refs 1
+0 0 0
+SURF 0x22
+mat 0
+refs 2
+1 1 0
+0 0 0
+kids 0
+OBJECT poly
+name "line"
+loc -246.5 0 11.5
+crease 45.000000
+numvert 2
+-4.75 -2 1.5
+-92.25 -57.5 6.5
+numsurf 2
+SURF 0x22
+mat 0
+refs 1
+0 0 0
+SURF 0x22
+mat 0
+refs 2
+1 1 0
+0 0 0
+kids 0
+OBJECT poly
+name "line"
+loc -246.5 0 11.5
+crease 45.000000
+numvert 2
+-4.75 0 1.5
+-103.25 -57.5 6.5
+numsurf 2
+SURF 0x22
+mat 0
+refs 1
+0 0 0
+SURF 0x22
+mat 0
+refs 2
+1 1 0
+0 0 0
+kids 0
+OBJECT group
+name "kaapelit"
+loc 118.75 80 5.72205e-06
+kids 8
+OBJECT poly
+name "line"
+loc -250 0 0
+crease 45.000000
+numvert 2
+-16.75 -54 -6.50001
+4.75 -14 -1.50001
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 0
+0 1 0
+kids 0
+OBJECT poly
+name "line"
+loc -250 0 0
+crease 45.000000
+numvert 2
+4.75 -12 -1.50001
+-27.75 -55 -6.50001
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+0 0 0
+1 1 0
+kids 0
+OBJECT poly
+name "line"
+loc -250 0 0
+crease 45.000000
+numvert 2
+-38.75 -55 -6.50001
+4.75 -10 -1.50001
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 0
+0 1 0
+kids 0
+OBJECT poly
+name "line"
+loc -250 0 0
+crease 45.000000
+numvert 2
+4.75 -8 -1.50001
+-49.75 -55.5 -6.50001
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+0 0 0
+1 1 0
+kids 0
+OBJECT poly
+name "line"
+loc -250 0 0
+crease 45.000000
+numvert 2
+-60.75 -56.5 -6.50001
+4.75 -6 -1.50001
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 0
+0 1 0
+kids 0
+OBJECT poly
+name "line"
+loc -250 0 0
+crease 45.000000
+numvert 2
+4.75 -4 -1.50001
+-71.75 -57 -6.50001
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+0 0 0
+1 1 0
+kids 0
+OBJECT poly
+name "line"
+loc -250 0 0
+crease 45.000000
+numvert 2
+-82.75 -57.5 -6.50001
+4.75 -2 -1.50001
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 0
+0 1 0
+kids 0
+OBJECT poly
+name "line"
+loc -250 0 0
+crease 45.000000
+numvert 2
+4.75 0 -1.50001
+-93.75 -57.5 -6.50001
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+0 0 0
+1 1 0
+kids 0
+OBJECT group
+name "kaapelit"
+loc 118.75 80 5.72205e-06
+kids 8
+OBJECT poly
+name "line"
+loc 12.5 0 -2.2926e-05
+crease 45.000000
+numvert 2
+-4.75 -14 1.50002
+16.75 -55 6.50002
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+0 0 0
+1 1 0
+kids 0
+OBJECT poly
+name "line"
+loc 12.5 0 -2.2926e-05
+crease 45.000000
+numvert 2
+27.75 -55.5 6.50002
+-4.75 -12 1.50002
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 0
+0 1 0
+kids 0
+OBJECT poly
+name "line"
+loc 12.5 0 -2.2926e-05
+crease 45.000000
+numvert 2
+-4.75 -10 1.50002
+38.75 -56 6.50002
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+0 0 0
+1 1 0
+kids 0
+OBJECT poly
+name "line"
+loc 12.5 0 -2.2926e-05
+crease 45.000000
+numvert 2
+49.75 -56 6.50002
+-4.75 -8 1.50002
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 0
+0 1 0
+kids 0
+OBJECT poly
+name "line"
+loc 12.5 0 -2.2926e-05
+crease 45.000000
+numvert 2
+-4.75 -6 1.50002
+60.75 -57 6.50002
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+0 0 0
+1 1 0
+kids 0
+OBJECT poly
+name "line"
+loc 12.5 0 -2.2926e-05
+crease 45.000000
+numvert 2
+71.75 -57.5 6.50002
+-4.75 -4 1.50002
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 0
+0 1 0
+kids 0
+OBJECT poly
+name "line"
+loc 12.5 0 -2.2926e-05
+crease 45.000000
+numvert 2
+-4.75 -2 1.50002
+82.75 -58 6.50002
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+0 0 0
+1 1 0
+kids 0
+OBJECT poly
+name "line"
+loc 12.5 0 -2.2926e-05
+crease 45.000000
+numvert 2
+93.75 -58 6.50002
+-4.75 0 1.50002
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 0
+0 1 0
+kids 0
+OBJECT group
+name "kaapelit"
+loc 124.75 80 -11.5
+kids 8
+OBJECT poly
+name "line"
+loc -3 0 11.5
+crease 45.000000
+numvert 2
+26.25 -55 -6.5
+4.75 -14 -1.5
+numsurf 2
+SURF 0x22
+mat 0
+refs 2
+0 1 0
+1 0 0
+SURF 0x22
+mat 0
+refs 1
+1 0 0
+kids 0
+OBJECT poly
+name "line"
+loc -3 0 11.5
+crease 45.000000
+numvert 2
+37.25 -55.5 -6.5
+4.75 -12 -1.5
+numsurf 2
+SURF 0x22
+mat 0
+refs 2
+0 1 0
+1 0 0
+SURF 0x22
+mat 0
+refs 1
+1 0 0
+kids 0
+OBJECT poly
+name "line"
+loc -3 0 11.5
+crease 45.000000
+numvert 2
+48.25 -56 -6.5
+4.75 -10 -1.5
+numsurf 2
+SURF 0x22
+mat 0
+refs 2
+0 1 0
+1 0 0
+SURF 0x22
+mat 0
+refs 1
+1 0 0
+kids 0
+OBJECT poly
+name "line"
+loc -3 0 11.5
+crease 45.000000
+numvert 2
+59.25 -56 -6.5
+4.75 -8 -1.5
+numsurf 2
+SURF 0x22
+mat 0
+refs 2
+0 1 0
+1 0 0
+SURF 0x22
+mat 0
+refs 1
+1 0 0
+kids 0
+OBJECT poly
+name "line"
+loc -3 0 11.5
+crease 45.000000
+numvert 2
+70.25 -57 -6.5
+4.75 -6 -1.5
+numsurf 2
+SURF 0x22
+mat 0
+refs 2
+0 1 0
+1 0 0
+SURF 0x22
+mat 0
+refs 1
+1 0 0
+kids 0
+OBJECT poly
+name "line"
+loc -3 0 11.5
+crease 45.000000
+numvert 2
+81.25 -57.5 -6.5
+4.75 -4 -1.5
+numsurf 2
+SURF 0x22
+mat 0
+refs 2
+0 1 0
+1 0 0
+SURF 0x22
+mat 0
+refs 1
+1 0 0
+kids 0
+OBJECT poly
+name "line"
+loc -3 0 11.5
+crease 45.000000
+numvert 2
+92.25 -58 -6.5
+4.75 -2 -1.5
+numsurf 2
+SURF 0x22
+mat 0
+refs 2
+0 1 0
+1 0 0
+SURF 0x22
+mat 0
+refs 1
+1 0 0
+kids 0
+OBJECT poly
+name "line"
+loc -3 0 11.5
+crease 45.000000
+numvert 2
+103.25 -58 -6.5
+4.75 0 -1.5
+numsurf 2
+SURF 0x22
+mat 0
+refs 2
+0 1 0
+1 0 0
+SURF 0x22
+mat 0
+refs 1
+1 0 0
+kids 0
+OBJECT poly
+name "box"
+crease 45.000000
+numvert 8
+-125.5 83 -0.5
+-124.5 83 -0.5
+-124.5 83 0.5
+-125.5 83 0.5
+-125.5 82 0.5
+-124.5 82 0.5
+-124.5 82 -0.5
+-125.5 82 -0.5
+numsurf 5
+SURF 0x0
+mat 5
+refs 4
+0 0 0
+3 1 0
+2 1 1
+1 0 1
+SURF 0x0
+mat 5
+refs 4
+3 0 0
+4 1 0
+5 1 1
+2 0 1
+SURF 0x0
+mat 5
+refs 4
+1 0 0
+6 1 0
+7 1 1
+0 0 1
+SURF 0x0
+mat 5
+refs 4
+0 0 0
+7 1 0
+4 1 1
+3 0 1
+SURF 0x0
+mat 5
+refs 4
+2 0 0
+5 1 0
+6 1 1
+1 0 1
+kids 0
+OBJECT poly
+name "box"
+loc 250 0 0
+crease 45.000000
+numvert 8
+-125.5 82 -0.5
+-124.5 82 -0.5
+-124.5 82 0.5
+-125.5 82 0.5
+-125.5 83 0.5
+-124.5 83 0.5
+-124.5 83 -0.5
+-125.5 83 -0.5
+numsurf 5
+SURF 0x0
+mat 5
+refs 4
+5 0 0
+2 1 0
+1 1 1
+6 0 1
+SURF 0x0
+mat 5
+refs 4
+7 0 0
+0 1 0
+3 1 1
+4 0 1
+SURF 0x0
+mat 5
+refs 4
+6 0 0
+1 1 0
+0 1 1
+7 0 1
+SURF 0x0
+mat 5
+refs 4
+4 0 0
+3 1 0
+2 1 1
+5 0 1
+SURF 0x0
+mat 5
+refs 4
+7 0 0
+4 1 0
+5 1 1
+6 0 1
+kids 0
+OBJECT group
+name "reuna-aita"
+loc 73.125 28 6
+kids 16
+OBJECT poly
+name "line"
+loc 527.375 0 0
+crease 45.000000
+numvert 2
+-2.5 -18.5 0
+-2.5 -17.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+0 0 0
+1 0 1
+kids 0
+OBJECT poly
+name "line"
+loc 447.375 0 0
+crease 45.000000
+numvert 3
+-2.5 -18.5 0
+-2.5 -17.5 0
+77.5 -17.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+0 0 0
+1 0 1
+2 1 1
+kids 0
+OBJECT poly
+name "line"
+loc 374.375 0 0
+crease 45.000000
+numvert 3
+37.5 -15.5 0
+-22.5 -12.5 0
+-22.5 -13.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+2 0 0
+1 0 1
+0 1 1
+kids 0
+OBJECT poly
+name "line"
+loc 294.375 0 0
+crease 45.000000
+numvert 3
+-7.5 -10.5 0
+-7.5 -9.5 0
+57.5 -12.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+0 0 0
+1 0 1
+2 1 1
+kids 0
+OBJECT poly
+name "line"
+loc 214.375 0 0
+crease 45.000000
+numvert 3
+72.5 -9.5 0
+2.5 -7.5 0
+2.5 -8.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+2 0 0
+1 0 1
+0 1 1
+kids 0
+OBJECT poly
+name "line"
+loc 134.375 0 0
+crease 45.000000
+numvert 3
+7.5 -5.5 0
+7.5 -4.5 0
+82.5 -7.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+0 0 0
+1 0 1
+2 1 1
+kids 0
+OBJECT poly
+name "line"
+loc 54.375 0 0
+crease 45.000000
+numvert 3
+87.5 -4.5 0
+-2.5 -1.5 0
+-2.5 -2.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+2 0 0
+1 0 1
+0 1 1
+kids 0
+OBJECT poly
+name "line"
+loc 4.375 0 0
+crease 45.000000
+numvert 3
+-2.5 -1 0
+-2.5 0 0
+47.5 -1.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+0 0 0
+1 0 1
+2 1 1
+kids 0
+OBJECT poly
+name "line"
+loc -45.625 0 0
+crease 45.000000
+numvert 3
+47.5 0 0
+-2.5 0.5 0
+-2.5 -0.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+2 0 0
+1 0 1
+0 1 1
+kids 0
+OBJECT poly
+name "line"
+loc -95.625 0 0
+crease 45.000000
+numvert 3
+-2.5 -0.5 0
+-2.5 0.5 0
+47.5 0.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+0 0 0
+1 0 1
+2 1 1
+kids 0
+OBJECT poly
+name "line"
+loc -145.625 0 0
+crease 45.000000
+numvert 3
+47.5 0.5 0
+-2.5 0 0
+-2.5 -1 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+2 0 0
+1 0 1
+0 1 1
+kids 0
+OBJECT poly
+name "line"
+loc -195.625 0 0
+crease 45.000000
+numvert 3
+-2.5 -2.5 0
+-2.5 -1.5 0
+47.5 0 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+0 0 0
+1 0 1
+2 1 1
+kids 0
+OBJECT poly
+name "line"
+loc -275.625 0 0
+crease 45.000000
+numvert 3
+77.25 -1.5 0
+-12.5 -4.5 0
+-12.5 -5.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+2 0 0
+1 0 1
+0 1 1
+kids 0
+OBJECT poly
+name "line"
+loc -355.625 0 0
+crease 45.000000
+numvert 3
+-7.5 -8.5 0
+-7.5 -7.5 0
+67.5 -4.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+0 0 0
+1 0 1
+2 1 1
+kids 0
+OBJECT poly
+name "line"
+loc -435.625 0 0
+crease 45.000000
+numvert 3
+72.5 -7.5 0
+2.5 -9.5 0
+2.5 -10.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+2 0 0
+1 0 1
+0 1 1
+kids 0
+OBJECT poly
+name "line"
+loc -515.625 0 0
+crease 45.000000
+numvert 3
+17.5 -13.5 0
+17.5 -12.5 0
+82.5 -9.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+0 0 0
+1 0 1
+2 1 1
+kids 0
+OBJECT group
+name "reuna-aita"
+loc 73.125 28 -6
+kids 16
+OBJECT poly
+name "line"
+loc 527.375 0 0
+crease 45.000000
+numvert 2
+-2.5 -17.5 0
+-2.5 -18.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 0
+0 0 1
+kids 0
+OBJECT poly
+name "line"
+loc 447.375 0 0
+crease 45.000000
+numvert 3
+77.5 -17.5 0
+-2.5 -17.5 0
+-2.5 -18.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+2 0 0
+1 0 1
+0 1 1
+kids 0
+OBJECT poly
+name "line"
+loc 374.375 0 0
+crease 45.000000
+numvert 3
+-22.5 -13.5 0
+-22.5 -12.5 0
+37.5 -15.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+0 0 0
+1 0 1
+2 1 1
+kids 0
+OBJECT poly
+name "line"
+loc 294.375 0 0
+crease 45.000000
+numvert 3
+57.5 -12.5 0
+-7.5 -9.5 0
+-7.5 -10.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+2 0 0
+1 0 1
+0 1 1
+kids 0
+OBJECT poly
+name "line"
+loc 214.375 0 0
+crease 45.000000
+numvert 3
+2.5 -8.5 0
+2.5 -7.5 0
+72.5 -9.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+0 0 0
+1 0 1
+2 1 1
+kids 0
+OBJECT poly
+name "line"
+loc 134.375 0 0
+crease 45.000000
+numvert 3
+82.5 -7.5 0
+7.5 -4.5 0
+7.5 -5.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+2 0 0
+1 0 1
+0 1 1
+kids 0
+OBJECT poly
+name "line"
+loc 54.375 0 0
+crease 45.000000
+numvert 3
+-2.5 -2.5 0
+-2.5 -1.5 0
+87.5 -4.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+0 0 0
+1 0 1
+2 1 1
+kids 0
+OBJECT poly
+name "line"
+loc 4.375 0 0
+crease 45.000000
+numvert 3
+47.5 -1.5 0
+-2.5 0 0
+-2.5 -1 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+2 0 0
+1 0 1
+0 1 1
+kids 0
+OBJECT poly
+name "line"
+loc -45.625 0 0
+crease 45.000000
+numvert 3
+-2.5 -0.5 0
+-2.5 0.5 0
+47.5 0 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+0 0 0
+1 0 1
+2 1 1
+kids 0
+OBJECT poly
+name "line"
+loc -95.625 0 0
+crease 45.000000
+numvert 3
+47.5 0.5 0
+-2.5 0.5 0
+-2.5 -0.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+2 0 0
+1 0 1
+0 1 1
+kids 0
+OBJECT poly
+name "line"
+loc -145.625 0 0
+crease 45.000000
+numvert 3
+-2.5 -1 0
+-2.5 0 0
+47.5 0.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+0 0 0
+1 0 1
+2 1 1
+kids 0
+OBJECT poly
+name "line"
+loc -195.625 0 0
+crease 45.000000
+numvert 3
+47.5 0 0
+-2.5 -1.5 0
+-2.5 -2.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+2 0 0
+1 0 1
+0 1 1
+kids 0
+OBJECT poly
+name "line"
+loc -275.625 0 0
+crease 45.000000
+numvert 3
+-12.5 -5.5 0
+-12.5 -4.5 0
+77.25 -1.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+0 0 0
+1 0 1
+2 1 1
+kids 0
+OBJECT poly
+name "line"
+loc -355.625 0 0
+crease 45.000000
+numvert 3
+67.5 -4.5 0
+-7.5 -7.5 0
+-7.5 -8.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+2 0 0
+1 0 1
+0 1 1
+kids 0
+OBJECT poly
+name "line"
+loc -435.625 0 0
+crease 45.000000
+numvert 3
+2.5 -10.5 0
+2.5 -9.5 0
+72.5 -7.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+0 0 0
+1 0 1
+2 1 1
+kids 0
+OBJECT poly
+name "line"
+loc -515.625 0 0
+crease 45.000000
+numvert 3
+82.5 -9.5 0
+17.5 -12.5 0
+17.5 -13.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+2 0 0
+1 0 1
+0 1 1
+kids 0
+OBJECT group
+name "keskiVIIVA"
+loc 73.125 27.5 0
+kids 16
+OBJECT poly
+name "line"
+loc 527.375 0 0
+crease 45.000000
+numvert 1
+-2.5 -17.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 1
+0 0 1
+kids 0
+OBJECT poly
+name "line"
+loc 447.375 0 0
+crease 45.000000
+numvert 2
+-2.5 -17.5 0
+77.5 -17.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+0 0 1
+1 1 1
+kids 0
+OBJECT poly
+name "line"
+loc 374.375 0 0
+crease 45.000000
+numvert 2
+37.5 -15.5 0
+-22.5 -12.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 1
+0 1 1
+kids 0
+OBJECT poly
+name "line"
+loc 294.375 0 0
+crease 45.000000
+numvert 2
+-7.5 -9.5 0
+57.5 -12.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+0 0 1
+1 1 1
+kids 0
+OBJECT poly
+name "line"
+loc 214.375 0 0
+crease 45.000000
+numvert 2
+72.5 -9.5 0
+2.5 -7.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 1
+0 1 1
+kids 0
+OBJECT poly
+name "line"
+loc 134.375 0 0
+crease 45.000000
+numvert 2
+7.5 -4.5 0
+82.5 -7.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+0 0 1
+1 1 1
+kids 0
+OBJECT poly
+name "line"
+loc 54.375 0 0
+crease 45.000000
+numvert 2
+87.5 -4.5 0
+-2.5 -1.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 1
+0 1 1
+kids 0
+OBJECT poly
+name "line"
+loc 4.375 0 0
+crease 45.000000
+numvert 2
+-2.5 0 0
+47.5 -1.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+0 0 1
+1 1 1
+kids 0
+OBJECT poly
+name "line"
+loc -45.625 0 0
+crease 45.000000
+numvert 2
+47.5 0 0
+-2.5 0.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 1
+0 1 1
+kids 0
+OBJECT poly
+name "line"
+loc -95.625 0 0
+crease 45.000000
+numvert 2
+-2.5 0.5 0
+47.5 0.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+0 0 1
+1 1 1
+kids 0
+OBJECT poly
+name "line"
+loc -145.625 0 0
+crease 45.000000
+numvert 2
+47.5 0.5 0
+-2.5 0 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 1
+0 1 1
+kids 0
+OBJECT poly
+name "line"
+loc -195.625 0 0
+crease 45.000000
+numvert 2
+-2.5 -1.5 0
+47.5 0 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+0 0 1
+1 1 1
+kids 0
+OBJECT poly
+name "line"
+loc -275.625 0 0
+crease 45.000000
+numvert 2
+77.25 -1.5 0
+-12.5 -4.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 1
+0 1 1
+kids 0
+OBJECT poly
+name "line"
+loc -355.625 0 0
+crease 45.000000
+numvert 2
+-7.5 -7.5 0
+67.5 -4.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+0 0 1
+1 1 1
+kids 0
+OBJECT poly
+name "line"
+loc -435.625 0 0
+crease 45.000000
+numvert 2
+72.5 -7.5 0
+2.5 -9.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 1
+0 1 1
+kids 0
+OBJECT poly
+name "line"
+loc -515.625 0 0
+crease 45.000000
+numvert 2
+17.5 -12.5 0
+82.5 -9.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+0 0 1
+1 1 1
+kids 0
+OBJECT group
+name "kansi"
+loc 98.125 -0.781269 -1.87755e-05
+kids 14
+OBJECT poly
+name "poly"
+loc 396.875 27.0313 1.87755e-05
+crease 45.000000
+numvert 16
+-9.99988 -15.7499 -5.9999
+-9.99988 -15.7499 -4.4999
+-9.99988 -18.2499 -4.4999
+-9.99988 -18.2499 4.5001
+-9.99988 -15.7499 4.5001
+-9.99988 -15.7499 6.0001
+-9.99988 -14.7499 6.0001
+-9.99988 -14.7499 -5.9999
+-70 -11.75 -6
+-70 -11.75 6
+-70 -12.75 6
+-70 -12.75 4.5
+-70 -15.25 4.5
+-70 -15.25 -4.5
+-70 -12.75 -4.5
+-70 -12.75 -6
+numsurf 8
+SURF 0x0
+mat 4
+refs 4
+8 0 0
+7 0 0
+0 0 0
+15 0 0
+SURF 0x0
+mat 4
+refs 4
+15 0 0
+0 0 0
+1 0 0
+14 0 0
+SURF 0x0
+mat 7
+refs 4
+14 0 0
+1 0 0
+2 0 0
+13 0 0
+SURF 0x0
+mat 4
+refs 4
+13 0 0
+2 0 0
+3 0 0
+12 0 0
+SURF 0x0
+mat 7
+refs 4
+12 0 0
+3 0 0
+4 0 0
+11 0 0
+SURF 0x0
+mat 4
+refs 4
+11 0 0
+4 0 0
+5 0 0
+10 0 0
+SURF 0x0
+mat 4
+refs 4
+10 0 0
+5 0 0
+6 0 0
+9 0 0
+SURF 0x0
+mat 2
+refs 4
+9 0 0
+6 0 0
+7 0 0
+8 0 0
+kids 0
+OBJECT poly
+name "poly"
+loc 316.875 27.0313 1.87755e-05
+crease 45.000000
+numvert 16
+-55 -9.75 -6
+-55 -9.75 -4.5
+-55 -12.25 -4.5
+-55 -12.25 4.5
+-55 -9.75 4.5
+-55 -9.75 6
+-55 -8.75 6
+-55 -8.75 -6
+10.0001 -11.7499 -5.9999
+10.0001 -11.7499 6.0001
+10.0001 -12.7499 6.0001
+10.0001 -12.7499 4.5001
+10.0001 -15.2499 4.5001
+10.0001 -15.2499 -4.4999
+10.0001 -12.7499 -4.4999
+10.0001 -12.7499 -5.9999
+numsurf 8
+SURF 0x0
+mat 2
+refs 4
+6 0 0
+9 0 0
+8 0 0
+7 0 0
+SURF 0x0
+mat 4
+refs 4
+5 0 0
+10 0 0
+9 0 0
+6 0 0
+SURF 0x0
+mat 4
+refs 4
+4 0 0
+11 0 0
+10 0 0
+5 0 0
+SURF 0x0
+mat 7
+refs 4
+3 0 0
+12 0 0
+11 0 0
+4 0 0
+SURF 0x0
+mat 4
+refs 4
+2 0 0
+13 0 0
+12 0 0
+3 0 0
+SURF 0x0
+mat 7
+refs 4
+1 0 0
+14 0 0
+13 0 0
+2 0 0
+SURF 0x0
+mat 4
+refs 4
+0 0 0
+15 0 0
+14 0 0
+1 0 0
+SURF 0x0
+mat 4
+refs 4
+7 0 0
+8 0 0
+15 0 0
+0 0 0
+kids 0
+OBJECT poly
+name "poly"
+loc 236.875 27.0313 1.87755e-05
+crease 45.000000
+numvert 16
+25.0001 -9.7499 -5.9999
+25.0001 -9.7499 -4.4999
+25.0001 -12.2499 -4.4999
+25.0001 -12.2499 4.5001
+25.0001 -9.7499 4.5001
+25.0001 -9.7499 6.0001
+25.0001 -8.7499 6.0001
+25.0001 -8.7499 -5.9999
+-45 -6.75 -6
+-45 -6.75 6
+-45 -7.75 6
+-45 -7.75 4.5
+-45 -10.25 4.5
+-45 -10.25 -4.5
+-45 -7.75 -4.5
+-45 -7.75 -6
+numsurf 8
+SURF 0x0
+mat 4
+refs 4
+8 0 0
+7 0 0
+0 0 0
+15 0 0
+SURF 0x0
+mat 4
+refs 4
+15 0 0
+0 0 0
+1 0 0
+14 0 0
+SURF 0x0
+mat 7
+refs 4
+14 0 0
+1 0 0
+2 0 0
+13 0 0
+SURF 0x0
+mat 4
+refs 4
+13 0 0
+2 0 0
+3 0 0
+12 0 0
+SURF 0x0
+mat 7
+refs 4
+12 0 0
+3 0 0
+4 0 0
+11 0 0
+SURF 0x0
+mat 4
+refs 4
+11 0 0
+4 0 0
+5 0 0
+10 0 0
+SURF 0x0
+mat 4
+refs 4
+10 0 0
+5 0 0
+6 0 0
+9 0 0
+SURF 0x0
+mat 2
+refs 4
+9 0 0
+6 0 0
+7 0 0
+8 0 0
+kids 0
+OBJECT poly
+name "poly"
+loc 156.875 27.0313 1.87755e-05
+crease 45.000000
+numvert 16
+-40 -4.75 -6
+-40 -4.75 -4.5
+-40 -7.25 -4.5
+-40 -7.25 4.5
+-40 -4.75 4.5
+-40 -4.75 6
+-40 -3.75 6
+-40 -3.75 -6
+35.0001 -6.7499 -5.9999
+35.0001 -6.7499 6.0001
+35.0001 -7.7499 6.0001
+35.0001 -7.7499 4.5001
+35.0001 -10.2499 4.5001
+35.0001 -10.2499 -4.4999
+35.0001 -7.7499 -4.4999
+35.0001 -7.7499 -5.9999
+numsurf 8
+SURF 0x0
+mat 2
+refs 4
+6 0 0
+9 0 0
+8 0 0
+7 0 0
+SURF 0x0
+mat 4
+refs 4
+5 0 0
+10 0 0
+9 0 0
+6 0 0
+SURF 0x0
+mat 4
+refs 4
+4 0 0
+11 0 0
+10 0 0
+5 0 0
+SURF 0x0
+mat 7
+refs 4
+3 0 0
+12 0 0
+11 0 0
+4 0 0
+SURF 0x0
+mat 4
+refs 4
+2 0 0
+13 0 0
+12 0 0
+3 0 0
+SURF 0x0
+mat 7
+refs 4
+1 0 0
+14 0 0
+13 0 0
+2 0 0
+SURF 0x0
+mat 4
+refs 4
+0 0 0
+15 0 0
+14 0 0
+1 0 0
+SURF 0x0
+mat 4
+refs 4
+7 0 0
+8 0 0
+15 0 0
+0 0 0
+kids 0
+OBJECT poly
+name "poly"
+loc 76.875 27.0313 1.87755e-05
+crease 45.000000
+numvert 16
+40.0001 -4.7499 -5.9999
+40.0001 -4.7499 -4.4999
+40.0001 -7.2499 -4.4999
+40.0001 -7.2499 4.5001
+40.0001 -4.7499 4.5001
+40.0001 -4.7499 6.0001
+40.0001 -3.7499 6.0001
+40.0001 -3.7499 -5.9999
+-50 -0.75 -6
+-50 -0.75 6
+-50 -1.75 6
+-50 -1.75 4.5
+-50 -4.25 4.5
+-50 -4.25 -4.5
+-50 -1.75 -4.5
+-50 -1.75 -6
+numsurf 8
+SURF 0x0
+mat 4
+refs 4
+8 0 0
+7 0 0
+0 0 0
+15 0 0
+SURF 0x0
+mat 4
+refs 4
+15 0 0
+0 0 0
+1 0 0
+14 0 0
+SURF 0x0
+mat 7
+refs 4
+14 0 0
+1 0 0
+2 0 0
+13 0 0
+SURF 0x0
+mat 4
+refs 4
+13 0 0
+2 0 0
+3 0 0
+12 0 0
+SURF 0x0
+mat 7
+refs 4
+12 0 0
+3 0 0
+4 0 0
+11 0 0
+SURF 0x0
+mat 4
+refs 4
+11 0 0
+4 0 0
+5 0 0
+10 0 0
+SURF 0x0
+mat 4
+refs 4
+10 0 0
+5 0 0
+6 0 0
+9 0 0
+SURF 0x0
+mat 2
+refs 4
+9 0 0
+6 0 0
+7 0 0
+8 0 0
+kids 0
+OBJECT poly
+name "poly"
+loc -253.125 27.0313 1.87755e-05
+crease 45.000000
+numvert 16
+-60 -4.75 -6
+-60 -4.75 -4.5
+-60 -7.25 -4.5
+-60 -7.25 4.5
+-60 -4.75 4.5
+-60 -4.75 6
+-60 -3.75 6
+-60 -3.75 -6
+30.0001 -0.749901 -5.9999
+30.0001 -0.749901 6.0001
+30.0001 -1.7499 6.0001
+30.0001 -1.7499 4.5001
+30.0001 -4.2499 4.5001
+30.0001 -4.2499 -4.4999
+30.0001 -1.7499 -4.4999
+30.0001 -1.7499 -5.9999
+numsurf 8
+SURF 0x0
+mat 2
+refs 4
+6 0 0
+9 0 0
+8 0 0
+7 0 0
+SURF 0x0
+mat 4
+refs 4
+5 0 0
+10 0 0
+9 0 0
+6 0 0
+SURF 0x0
+mat 4
+refs 4
+4 0 0
+11 0 0
+10 0 0
+5 0 0
+SURF 0x0
+mat 7
+refs 4
+3 0 0
+12 0 0
+11 0 0
+4 0 0
+SURF 0x0
+mat 4
+refs 4
+2 0 0
+13 0 0
+12 0 0
+3 0 0
+SURF 0x0
+mat 7
+refs 4
+1 0 0
+14 0 0
+13 0 0
+2 0 0
+SURF 0x0
+mat 4
+refs 4
+0 0 0
+15 0 0
+14 0 0
+1 0 0
+SURF 0x0
+mat 4
+refs 4
+7 0 0
+8 0 0
+15 0 0
+0 0 0
+kids 0
+OBJECT poly
+name "poly"
+loc -333.125 27.0313 1.87755e-05
+crease 45.000000
+numvert 16
+20.0001 -4.7499 -5.9999
+20.0001 -4.7499 -4.4999
+20.0001 -7.2499 -4.4999
+20.0001 -7.2499 4.5001
+20.0001 -4.7499 4.5001
+20.0001 -4.7499 6.0001
+20.0001 -3.7499 6.0001
+20.0001 -3.7499 -5.9999
+-55 -6.75 -6
+-55 -6.75 6
+-55 -7.75 6
+-55 -7.75 4.5
+-55 -10.25 4.5
+-55 -10.25 -4.5
+-55 -7.75 -4.5
+-55 -7.75 -6
+numsurf 8
+SURF 0x0
+mat 4
+refs 4
+8 0 0
+7 0 0
+0 0 0
+15 0 0
+SURF 0x0
+mat 4
+refs 4
+15 0 0
+0 0 0
+1 0 0
+14 0 0
+SURF 0x0
+mat 7
+refs 4
+14 0 0
+1 0 0
+2 0 0
+13 0 0
+SURF 0x0
+mat 4
+refs 4
+13 0 0
+2 0 0
+3 0 0
+12 0 0
+SURF 0x0
+mat 7
+refs 4
+12 0 0
+3 0 0
+4 0 0
+11 0 0
+SURF 0x0
+mat 4
+refs 4
+11 0 0
+4 0 0
+5 0 0
+10 0 0
+SURF 0x0
+mat 4
+refs 4
+10 0 0
+5 0 0
+6 0 0
+9 0 0
+SURF 0x0
+mat 2
+refs 4
+9 0 0
+6 0 0
+7 0 0
+8 0 0
+kids 0
+OBJECT poly
+name "poly"
+loc -413.125 27.0313 1.87755e-05
+crease 45.000000
+numvert 16
+-45 -9.75 -6
+-45 -9.75 -4.5
+-45 -12.25 -4.5
+-45 -12.25 4.5
+-45 -9.75 4.5
+-45 -9.75 6
+-45 -8.75 6
+-45 -8.75 -6
+25.0001 -6.7499 -5.9999
+25.0001 -6.7499 6.0001
+25.0001 -7.7499 6.0001
+25.0001 -7.7499 4.5001
+25.0001 -10.2499 4.5001
+25.0001 -10.2499 -4.4999
+25.0001 -7.7499 -4.4999
+25.0001 -7.7499 -5.9999
+numsurf 8
+SURF 0x0
+mat 2
+refs 4
+6 0 0
+9 0 0
+8 0 0
+7 0 0
+SURF 0x0
+mat 4
+refs 4
+5 0 0
+10 0 0
+9 0 0
+6 0 0
+SURF 0x0
+mat 4
+refs 4
+4 0 0
+11 0 0
+10 0 0
+5 0 0
+SURF 0x0
+mat 7
+refs 4
+3 0 0
+12 0 0
+11 0 0
+4 0 0
+SURF 0x0
+mat 4
+refs 4
+2 0 0
+13 0 0
+12 0 0
+3 0 0
+SURF 0x0
+mat 7
+refs 4
+1 0 0
+14 0 0
+13 0 0
+2 0 0
+SURF 0x0
+mat 4
+refs 4
+0 0 0
+15 0 0
+14 0 0
+1 0 0
+SURF 0x0
+mat 4
+refs 4
+7 0 0
+8 0 0
+15 0 0
+0 0 0
+kids 0
+OBJECT poly
+name "poly"
+loc -3.12505 27.0312 -3.12924e-05
+crease 45.000000
+numvert 16
+-20 -0.24995 -5.99995
+-20 -0.24995 -4.49995
+-20 -2.74995 -4.49995
+-20 -2.74995 4.50005
+-20 -0.24995 4.50005
+-20 -0.24995 6.00005
+-20 0.75005 6.00005
+-20 0.75005 -5.99995
+30 -0.74995 -5.99995
+30 -0.74995 6.00005
+30 -1.74995 6.00005
+30 -1.74995 4.50005
+30 -4.24995 4.50005
+30 -4.24995 -4.49995
+30 -1.74995 -4.49995
+30 -1.74995 -5.99995
+numsurf 8
+SURF 0x0
+mat 2
+refs 4
+6 0 0
+9 0 0
+8 0 0
+7 0 0
+SURF 0x0
+mat 4
+refs 4
+5 0 0
+10 0 0
+9 0 0
+6 0 0
+SURF 0x0
+mat 4
+refs 4
+4 0 0
+11 0 0
+10 0 0
+5 0 0
+SURF 0x0
+mat 7
+refs 4
+3 0 0
+12 0 0
+11 0 0
+4 0 0
+SURF 0x0
+mat 4
+refs 4
+2 0 0
+13 0 0
+12 0 0
+3 0 0
+SURF 0x0
+mat 7
+refs 4
+1 0 0
+14 0 0
+13 0 0
+2 0 0
+SURF 0x0
+mat 4
+refs 4
+0 0 0
+15 0 0
+14 0 0
+1 0 0
+SURF 0x0
+mat 4
+refs 4
+7 0 0
+8 0 0
+15 0 0
+0 0 0
+kids 0
+OBJECT poly
+name "poly"
+loc -53.125 27.0312 -3.12924e-05
+crease 45.000000
+numvert 16
+30 -0.24995 -5.99995
+30 -0.24995 -4.49995
+30 -2.74995 -4.49995
+30 -2.74995 4.50005
+30 -0.24995 4.50005
+30 -0.24995 6.00005
+30 0.75005 6.00005
+30 0.75005 -5.99995
+-20 1.25005 -5.99995
+-20 1.25005 6.00005
+-20 0.25005 6.00005
+-20 0.25005 4.50005
+-20 -2.24995 4.50005
+-20 -2.24995 -4.49995
+-20 0.25005 -4.49995
+-20 0.25005 -5.99995
+numsurf 8
+SURF 0x0
+mat 4
+refs 4
+8 0 0
+7 0 0
+0 0 0
+15 0 0
+SURF 0x0
+mat 4
+refs 4
+15 0 0
+0 0 0
+1 0 0
+14 0 0
+SURF 0x0
+mat 7
+refs 4
+14 0 0
+1 0 0
+2 0 0
+13 0 0
+SURF 0x0
+mat 4
+refs 4
+13 0 0
+2 0 0
+3 0 0
+12 0 0
+SURF 0x0
+mat 7
+refs 4
+12 0 0
+3 0 0
+4 0 0
+11 0 0
+SURF 0x0
+mat 4
+refs 4
+11 0 0
+4 0 0
+5 0 0
+10 0 0
+SURF 0x0
+mat 4
+refs 4
+10 0 0
+5 0 0
+6 0 0
+9 0 0
+SURF 0x0
+mat 2
+refs 4
+9 0 0
+6 0 0
+7 0 0
+8 0 0
+kids 0
+OBJECT poly
+name "poly"
+loc -103.125 27.0312 -3.12924e-05
+crease 45.000000
+numvert 16
+-20 0.25005 -5.99995
+-20 0.25005 -4.49995
+-20 -2.24995 -4.49995
+-20 -2.24995 4.50005
+-20 0.25005 4.50005
+-20 0.25005 6.00005
+-20 1.25005 6.00005
+-20 1.25005 -5.99995
+30 1.25005 -5.99995
+30 1.25005 6.00005
+30 0.25005 6.00005
+30 0.25005 4.50005
+30 -2.24995 4.50005
+30 -2.24995 -4.49995
+30 0.25005 -4.49995
+30 0.25005 -5.99995
+numsurf 8
+SURF 0x0
+mat 2
+refs 4
+6 0 0
+9 0 0
+8 0 0
+7 0 0
+SURF 0x0
+mat 4
+refs 4
+5 0 0
+10 0 0
+9 0 0
+6 0 0
+SURF 0x0
+mat 4
+refs 4
+4 0 0
+11 0 0
+10 0 0
+5 0 0
+SURF 0x0
+mat 7
+refs 4
+3 0 0
+12 0 0
+11 0 0
+4 0 0
+SURF 0x0
+mat 4
+refs 4
+2 0 0
+13 0 0
+12 0 0
+3 0 0
+SURF 0x0
+mat 7
+refs 4
+1 0 0
+14 0 0
+13 0 0
+2 0 0
+SURF 0x0
+mat 4
+refs 4
+0 0 0
+15 0 0
+14 0 0
+1 0 0
+SURF 0x0
+mat 4
+refs 4
+7 0 0
+8 0 0
+15 0 0
+0 0 0
+kids 0
+OBJECT poly
+name "poly"
+loc -153.125 27.0312 -3.12924e-05
+crease 45.000000
+numvert 16
+30 0.25005 -5.99995
+30 0.25005 -4.49995
+30 -2.24995 -4.49995
+30 -2.24995 4.50005
+30 0.25005 4.50005
+30 0.25005 6.00005
+30 1.25005 6.00005
+30 1.25005 -5.99995
+-20 0.75005 -5.99995
+-20 0.75005 6.00005
+-20 -0.24995 6.00005
+-20 -0.24995 4.50005
+-20 -2.74995 4.50005
+-20 -2.74995 -4.49995
+-20 -0.24995 -4.49995
+-20 -0.24995 -5.99995
+numsurf 8
+SURF 0x0
+mat 4
+refs 4
+8 0 0
+7 0 0
+0 0 0
+15 0 0
+SURF 0x0
+mat 4
+refs 4
+15 0 0
+0 0 0
+1 0 0
+14 0 0
+SURF 0x0
+mat 7
+refs 4
+14 0 0
+1 0 0
+2 0 0
+13 0 0
+SURF 0x0
+mat 4
+refs 4
+13 0 0
+2 0 0
+3 0 0
+12 0 0
+SURF 0x0
+mat 7
+refs 4
+12 0 0
+3 0 0
+4 0 0
+11 0 0
+SURF 0x0
+mat 4
+refs 4
+11 0 0
+4 0 0
+5 0 0
+10 0 0
+SURF 0x0
+mat 4
+refs 4
+10 0 0
+5 0 0
+6 0 0
+9 0 0
+SURF 0x0
+mat 2
+refs 4
+9 0 0
+6 0 0
+7 0 0
+8 0 0
+kids 0
+OBJECT poly
+name "poly"
+loc -493.125 27.0313 1.87755e-05
+crease 45.000000
+numvert 16
+35.0001 -9.7499 -5.9999
+35.0001 -9.7499 -4.4999
+35.0001 -12.2499 -4.4999
+35.0001 -12.2499 4.5001
+35.0001 -9.7499 4.5001
+35.0001 -9.7499 6.0001
+35.0001 -8.7499 6.0001
+35.0001 -8.7499 -5.9999
+-30 -11.75 -6
+-30 -11.75 6
+-30 -12.75 6
+-30 -12.75 4.5
+-30 -15.25 4.5
+-30 -15.25 -4.5
+-30 -12.75 -4.5
+-30 -12.75 -6
+numsurf 8
+SURF 0x0
+mat 4
+refs 4
+8 0 0
+7 0 0
+0 0 0
+15 0 0
+SURF 0x0
+mat 4
+refs 4
+15 0 0
+0 0 0
+1 0 0
+14 0 0
+SURF 0x0
+mat 7
+refs 4
+14 0 0
+1 0 0
+2 0 0
+13 0 0
+SURF 0x0
+mat 4
+refs 4
+13 0 0
+2 0 0
+3 0 0
+12 0 0
+SURF 0x0
+mat 7
+refs 4
+12 0 0
+3 0 0
+4 0 0
+11 0 0
+SURF 0x0
+mat 4
+refs 4
+11 0 0
+4 0 0
+5 0 0
+10 0 0
+SURF 0x0
+mat 4
+refs 4
+10 0 0
+5 0 0
+6 0 0
+9 0 0
+SURF 0x0
+mat 2
+refs 4
+9 0 0
+6 0 0
+7 0 0
+8 0 0
+kids 0
+OBJECT poly
+name "poly"
+loc -203.125 27.0312 -3.12924e-05
+crease 45.000000
+numvert 16
+-20 -1.74995 -5.99995
+-20 -1.74995 -4.49995
+-20 -4.24995 -4.49995
+-20 -4.24995 4.50005
+-20 -1.74995 4.50005
+-20 -1.74995 6.00005
+-20 -0.74995 6.00005
+-20 -0.74995 -5.99995
+30 0.75005 -5.99995
+30 0.75005 6.00005
+30 -0.24995 6.00005
+30 -0.24995 4.50005
+30 -2.74995 4.50005
+30 -2.74995 -4.49995
+30 -0.24995 -4.49995
+30 -0.24995 -5.99995
+numsurf 8
+SURF 0x0
+mat 2
+refs 4
+6 0 0
+9 0 0
+8 0 0
+7 0 0
+SURF 0x0
+mat 4
+refs 4
+5 0 0
+10 0 0
+9 0 0
+6 0 0
+SURF 0x0
+mat 4
+refs 4
+4 0 0
+11 0 0
+10 0 0
+5 0 0
+SURF 0x0
+mat 7
+refs 4
+3 0 0
+12 0 0
+11 0 0
+4 0 0
+SURF 0x0
+mat 4
+refs 4
+2 0 0
+13 0 0
+12 0 0
+3 0 0
+SURF 0x0
+mat 7
+refs 4
+1 0 0
+14 0 0
+13 0 0
+2 0 0
+SURF 0x0
+mat 4
+refs 4
+0 0 0
+15 0 0
+14 0 0
+1 0 0
+SURF 0x0
+mat 4
+refs 4
+7 0 0
+8 0 0
+15 0 0
+0 0 0
+kids 0
+OBJECT group
+name "pikkutuet"
+loc 113.3 19.75 -16.5
+kids 1
+OBJECT poly
+name "poly"
+loc -562.8 0 0
+crease 45.000000
+numvert 20
+23 -8.75 13.5
+23 -9.75 11.5
+23 -14.75 14
+23 -19.75 14
+23 -19.75 19
+23 -14.75 19
+23 -9.75 21.5
+23 -8.75 19.5
+23 -11.75 18
+23 -11.75 15
+26.0001 -11.7499 15.0001
+26.0001 -11.7499 18.0001
+26.0001 -8.7499 19.5001
+26.0001 -9.7499 21.5001
+26.0001 -14.7499 19.0001
+26 -19.75 19
+26 -19.75 14
+26.0001 -14.7499 14.0001
+26.0001 -9.7499 11.5001
+26.0001 -8.7499 13.5001
+numsurf 11
+SURF 0x0
+mat 7
+refs 10
+0 0.2 1
+1 0 0.882353
+2 0.25 0.352941
+3 0.25 0
+4 0.75 0
+5 0.75 0.352941
+6 1 0.882353
+7 0.8 1
+8 0.65 0.705882
+9 0.35 0.705882
+SURF 0x0
+mat 4
+refs 4
+8 0 0
+11 0 0
+10 0 0
+9 0 0
+SURF 0x0
+mat 4
+refs 4
+7 0 0
+12 0 0
+11 0 0
+8 0 0
+SURF 0x0
+mat 7
+refs 4
+6 0 0
+13 0 0
+12 0 0
+7 0 0
+SURF 0x0
+mat 7
+refs 4
+5 0 0
+14 0 0
+13 0 0
+6 0 0
+SURF 0x0
+mat 7
+refs 4
+4 0 0
+15 0 0
+14 0 0
+5 0 0
+SURF 0x0
+mat 4
+refs 4
+2 0 0
+17 0 0
+16 0 0
+3 0 0
+SURF 0x0
+mat 4
+refs 4
+1 0 0
+18 0 0
+17 0 0
+2 0 0
+SURF 0x0
+mat 4
+refs 4
+0 0 0
+19 0 0
+18 0 0
+1 0 0
+SURF 0x0
+mat 7
+refs 4
+9 0 0
+10 0 0
+19 0 0
+0 0 0
+SURF 0x0
+mat 7
+refs 10
+10 0.35 0.705882
+11 0.65 0.705882
+12 0.8 1
+13 1 0.882353
+14 0.75 0.352941
+15 0.75 0
+16 0.25 0
+17 0.25 0.352941
+18 0 0.882353
+19 0.2 1
+kids 0
+OBJECT group
+name "kansi"
+loc 98.125 -0.781269 -1.87755e-05
+kids 1
+OBJECT poly
+name "poly"
+loc -578.125 27.0313 1.87755e-05
+crease 45.000000
+numvert 16
+-5 -15.75 -6
+-5 -15.75 -4.5
+-5 -18.25 -4.5
+-5 -18.25 4.5
+-5 -15.75 4.5
+-5 -15.75 6
+-5 -14.75 6
+-5 -14.75 -6
+55 -11.75 -6
+55 -11.75 6
+55 -12.75 6
+55 -12.75 4.5
+55 -15.25 4.5
+55 -15.25 -4.5
+55 -12.75 -4.5
+55 -12.75 -6
+numsurf 8
+SURF 0x0
+mat 2
+refs 4
+6 0 0
+9 0 0
+8 0 0
+7 0 0
+SURF 0x0
+mat 4
+refs 4
+5 0 0
+10 0 0
+9 0 0
+6 0 0
+SURF 0x0
+mat 4
+refs 4
+4 0 0
+11 0 0
+10 0 0
+5 0 0
+SURF 0x0
+mat 7
+refs 4
+3 0 0
+12 0 0
+11 0 0
+4 0 0
+SURF 0x0
+mat 4
+refs 4
+2 0 0
+13 0 0
+12 0 0
+3 0 0
+SURF 0x0
+mat 7
+refs 4
+1 0 0
+14 0 0
+13 0 0
+2 0 0
+SURF 0x0
+mat 4
+refs 4
+0 0 0
+15 0 0
+14 0 0
+1 0 0
+SURF 0x0
+mat 4
+refs 4
+7 0 0
+8 0 0
+15 0 0
+0 0 0
+kids 0
+OBJECT group
+name "keskiVIIVA"
+loc 73.125 27.5 0
+kids 1
+OBJECT poly
+name "line"
+loc -600.625 0 0
+crease 45.000000
+numvert 2
+102.5 -12.5 0
+42.5 -15.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 1
+0 1 1
+kids 0
+OBJECT group
+name "reuna-aita"
+loc 73.125 28 -6
+kids 1
+OBJECT poly
+name "line"
+loc -600.625 0 0
+crease 45.000000
+numvert 3
+42.5 -16.5 0
+42.5 -15.5 0
+102.5 -12.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+0 0 0
+1 0 1
+2 1 1
+kids 0
+OBJECT group
+name "reuna-aita"
+loc 73.125 28 6
+kids 1
+OBJECT poly
+name "line"
+loc -600.625 0 0
+crease 45.000000
+numvert 3
+102.5 -12.5 0
+42.5 -15.5 0
+42.5 -16.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+2 0 0
+1 0 1
+0 1 1
+kids 0
+OBJECT group
+name "pikkutuet"
+loc 113.3 19.75 -16.5
+kids 7
+OBJECT poly
+name "poly"
+loc -477.8 0 0
+crease 45.000000
+numvert 20
+3 -5.75 13.5
+3 -6.75 11.5
+3 -11.75 14
+3 -19.75 14
+3 -19.75 19
+3 -11.75 19
+3 -6.75 21.5
+3 -5.75 19.5
+3 -8.75 18
+3 -8.75 15
+6.00012 -8.7499 15.0001
+6.00012 -8.7499 18.0001
+6.00012 -5.7499 19.5001
+6.00012 -6.7499 21.5001
+6.00012 -11.7499 19.0001
+6 -19.75 19
+6 -19.75 14
+6.00012 -11.7499 14.0001
+6.00012 -6.7499 11.5001
+6.00012 -5.7499 13.5001
+numsurf 11
+SURF 0x0
+mat 7
+refs 10
+0 0.2 1
+1 0 0.882353
+2 0.25 0.352941
+3 0.25 0
+4 0.75 0
+5 0.75 0.352941
+6 1 0.882353
+7 0.8 1
+8 0.65 0.705882
+9 0.35 0.705882
+SURF 0x0
+mat 4
+refs 4
+8 0 0
+11 0 0
+10 0 0
+9 0 0
+SURF 0x0
+mat 4
+refs 4
+7 0 0
+12 0 0
+11 0 0
+8 0 0
+SURF 0x0
+mat 7
+refs 4
+6 0 0
+13 0 0
+12 0 0
+7 0 0
+SURF 0x0
+mat 7
+refs 4
+5 0 0
+14 0 0
+13 0 0
+6 0 0
+SURF 0x0
+mat 7
+refs 4
+4 0 0
+15 0 0
+14 0 0
+5 0 0
+SURF 0x0
+mat 4
+refs 4
+2 0 0
+17 0 0
+16 0 0
+3 0 0
+SURF 0x0
+mat 4
+refs 4
+1 0 0
+18 0 0
+17 0 0
+2 0 0
+SURF 0x0
+mat 4
+refs 4
+0 0 0
+19 0 0
+18 0 0
+1 0 0
+SURF 0x0
+mat 4
+refs 4
+9 0 0
+10 0 0
+19 0 0
+0 0 0
+SURF 0x0
+mat 7
+refs 10
+10 0.35 0.705882
+11 0.65 0.705882
+12 0.8 1
+13 1 0.882353
+14 0.75 0.352941
+15 0.75 0
+16 0.25 0
+17 0.25 0.352941
+18 0 0.882353
+19 0.2 1
+kids 0
+OBJECT poly
+name "poly"
+loc -397.8 0 0
+crease 45.000000
+numvert 20
+-3.99988 -3.7499 13.5001
+-3.99988 -4.7499 11.5001
+-3.99988 -9.7499 14.0001
+-4 -19.75 14
+-4 -19.75 19
+-3.99988 -9.7499 19.0001
+-3.99988 -4.7499 21.5001
+-3.99988 -3.7499 19.5001
+-3.99988 -6.7499 18.0001
+-3.99988 -6.7499 15.0001
+-7 -6.75 15
+-7 -6.75 18
+-7 -3.75 19.5
+-7 -4.75 21.5
+-7 -9.75 19
+-7 -19.75 19
+-7 -19.75 14
+-7 -9.75 14
+-7 -4.75 11.5
+-7 -3.75 13.5
+numsurf 11
+SURF 0x0
+mat 7
+refs 10
+9 0.35 0.705882
+8 0.65 0.705882
+7 0.8 1
+6 1 0.882353
+5 0.75 0.352941
+4 0.75 0
+3 0.25 0
+2 0.25 0.352941
+1 0 0.882353
+0 0.2 1
+SURF 0x0
+mat 7
+refs 4
+10 0 0
+9 0 0
+0 0 0
+19 0 0
+SURF 0x0
+mat 4
+refs 4
+19 0 0
+0 0 0
+1 0 0
+18 0 0
+SURF 0x0
+mat 4
+refs 4
+18 0 0
+1 0 0
+2 0 0
+17 0 0
+SURF 0x0
+mat 4
+refs 4
+17 0 0
+2 0 0
+3 0 0
+16 0 0
+SURF 0x0
+mat 7
+refs 4
+15 0 0
+4 0 0
+5 0 0
+14 0 0
+SURF 0x0
+mat 7
+refs 4
+14 0 0
+5 0 0
+6 0 0
+13 0 0
+SURF 0x0
+mat 7
+refs 4
+13 0 0
+6 0 0
+7 0 0
+12 0 0
+SURF 0x0
+mat 4
+refs 4
+12 0 0
+7 0 0
+8 0 0
+11 0 0
+SURF 0x0
+mat 4
+refs 4
+11 0 0
+8 0 0
+9 0 0
+10 0 0
+SURF 0x0
+mat 7
+refs 10
+19 0.2 1
+18 0 0.882353
+17 0.25 0.352941
+16 0.25 0
+15 0.75 0
+14 0.75 0.352941
+13 1 0.882353
+12 0.8 1
+11 0.65 0.705882
+10 0.35 0.705882
+kids 0
+OBJECT poly
+name "poly"
+loc -317.8 0 0
+crease 45.000000
+numvert 20
+-12 -0.75 13.5
+-12 -1.75 11.5
+-12 -6.75 14
+-12 -21.75 14
+-12 -21.75 19
+-12 -6.75 19
+-12 -1.75 21.5
+-12 -0.75 19.5
+-12 -3.75 18
+-12 -3.75 15
+-8.99989 -3.7499 15.0001
+-8.99989 -3.7499 18.0001
+-8.99989 -0.749901 19.5001
+-8.99989 -1.7499 21.5001
+-8.99989 -6.7499 19.0001
+-9.00002 -21.75 19
+-9.00002 -21.75 14
+-8.99989 -6.7499 14.0001
+-8.99989 -1.7499 11.5001
+-8.99989 -0.749901 13.5001
+numsurf 11
+SURF 0x0
+mat 7
+refs 10
+0 0.2 1
+1 0 0.882353
+2 0.25 0.352941
+3 0.25 0
+4 0.75 0
+5 0.75 0.352941
+6 1 0.882353
+7 0.8 1
+8 0.65 0.705882
+9 0.35 0.705882
+SURF 0x0
+mat 4
+refs 4
+8 0 0
+11 0 0
+10 0 0
+9 0 0
+SURF 0x0
+mat 4
+refs 4
+7 0 0
+12 0 0
+11 0 0
+8 0 0
+SURF 0x0
+mat 4
+refs 4
+6 0 0
+13 0 0
+12 0 0
+7 0 0
+SURF 0x0
+mat 4
+refs 4
+5 0 0
+14 0 0
+13 0 0
+6 0 0
+SURF 0x0
+mat 4
+refs 4
+4 0 0
+15 0 0
+14 0 0
+5 0 0
+SURF 0x0
+mat 4
+refs 4
+2 0 0
+17 0 0
+16 0 0
+3 0 0
+SURF 0x0
+mat 4
+refs 4
+1 0 0
+18 0 0
+17 0 0
+2 0 0
+SURF 0x0
+mat 4
+refs 4
+0 0 0
+19 0 0
+18 0 0
+1 0 0
+SURF 0x0
+mat 4
+refs 4
+9 0 0
+10 0 0
+19 0 0
+0 0 0
+SURF 0x0
+mat 7
+refs 10
+10 0.35 0.705882
+11 0.65 0.705882
+12 0.8 1
+13 1 0.882353
+14 0.75 0.352941
+15 0.75 0
+16 0.25 0
+17 0.25 0.352941
+18 0 0.882353
+19 0.2 1
+kids 0
+OBJECT poly
+name "poly"
+loc 332.2 0 0
+crease 45.000000
+numvert 20
+-22 -8.75 13.5
+-22 -9.75 11.5
+-22 -14.75 14
+-22 -19.75 14
+-22 -19.75 19
+-22 -14.75 19
+-22 -9.75 21.5
+-22 -8.75 19.5
+-22 -11.75 18
+-22 -11.75 15
+-18.9999 -11.7499 15.0001
+-18.9999 -11.7499 18.0001
+-18.9999 -8.7499 19.5001
+-18.9999 -9.7499 21.5001
+-18.9999 -14.7499 19.0001
+-19 -19.75 19
+-19 -19.75 14
+-18.9999 -14.7499 14.0001
+-18.9999 -9.7499 11.5001
+-18.9999 -8.7499 13.5001
+numsurf 11
+SURF 0x0
+mat 4
+refs 10
+0 0.2 1
+1 0 0.882353
+2 0.25 0.352941
+3 0.25 0
+4 0.75 0
+5 0.75 0.352941
+6 1 0.882353
+7 0.8 1
+8 0.65 0.705882
+9 0.35 0.705882
+SURF 0x0
+mat 4
+refs 4
+8 0 0
+11 0 0
+10 0 0
+9 0 0
+SURF 0x0
+mat 4
+refs 4
+7 0 0
+12 0 0
+11 0 0
+8 0 0
+SURF 0x0
+mat 4
+refs 4
+6 0 0
+13 0 0
+12 0 0
+7 0 0
+SURF 0x0
+mat 4
+refs 4
+5 0 0
+14 0 0
+13 0 0
+6 0 0
+SURF 0x0
+mat 4
+refs 4
+4 0 0
+15 0 0
+14 0 0
+5 0 0
+SURF 0x0
+mat 4
+refs 4
+2 0 0
+17 0 0
+16 0 0
+3 0 0
+SURF 0x0
+mat 4
+refs 4
+1 0 0
+18 0 0
+17 0 0
+2 0 0
+SURF 0x0
+mat 4
+refs 4
+0 0 0
+19 0 0
+18 0 0
+1 0 0
+SURF 0x0
+mat 4
+refs 4
+9 0 0
+10 0 0
+19 0 0
+0 0 0
+SURF 0x0
+mat 7
+refs 10
+10 0.35 0.705882
+11 0.65 0.705882
+12 0.8 1
+13 1 0.882353
+14 0.75 0.352941
+15 0.75 0
+16 0.25 0
+17 0.25 0.352941
+18 0 0.882353
+19 0.2 1
+kids 0
+OBJECT poly
+name "poly"
+loc 252.2 0 0
+crease 45.000000
+numvert 20
+-3.99988 -5.7499 13.5001
+-3.99988 -6.7499 11.5001
+-3.99988 -11.7499 14.0001
+-4 -19.75 14
+-4 -19.75 19
+-3.99988 -11.7499 19.0001
+-3.99988 -6.7499 21.5001
+-3.99988 -5.7499 19.5001
+-3.99988 -8.7499 18.0001
+-3.99988 -8.7499 15.0001
+-7 -8.75 15
+-7 -8.75 18
+-7 -5.75 19.5
+-7 -6.75 21.5
+-7 -11.75 19
+-7 -19.75 19
+-7 -19.75 14
+-7 -11.75 14
+-7 -6.75 11.5
+-7 -5.75 13.5
+numsurf 11
+SURF 0x0
+mat 7
+refs 10
+9 0.35 0.705882
+8 0.65 0.705882
+7 0.8 1
+6 1 0.882353
+5 0.75 0.352941
+4 0.75 0
+3 0.25 0
+2 0.25 0.352941
+1 0 0.882353
+0 0.2 1
+SURF 0x0
+mat 4
+refs 4
+10 0 0
+9 0 0
+0 0 0
+19 0 0
+SURF 0x0
+mat 4
+refs 4
+19 0 0
+0 0 0
+1 0 0
+18 0 0
+SURF 0x0
+mat 4
+refs 4
+18 0 0
+1 0 0
+2 0 0
+17 0 0
+SURF 0x0
+mat 4
+refs 4
+17 0 0
+2 0 0
+3 0 0
+16 0 0
+SURF 0x0
+mat 4
+refs 4
+15 0 0
+4 0 0
+5 0 0
+14 0 0
+SURF 0x0
+mat 4
+refs 4
+14 0 0
+5 0 0
+6 0 0
+13 0 0
+SURF 0x0
+mat 4
+refs 4
+13 0 0
+6 0 0
+7 0 0
+12 0 0
+SURF 0x0
+mat 4
+refs 4
+12 0 0
+7 0 0
+8 0 0
+11 0 0
+SURF 0x0
+mat 4
+refs 4
+11 0 0
+8 0 0
+9 0 0
+10 0 0
+SURF 0x0
+mat 4
+refs 10
+19 0.2 1
+18 0 0.882353
+17 0.25 0.352941
+16 0.25 0
+15 0.75 0
+14 0.75 0.352941
+13 1 0.882353
+12 0.8 1
+11 0.65 0.705882
+10 0.35 0.705882
+kids 0
+OBJECT poly
+name "poly"
+loc 172.2 0 0
+crease 45.000000
+numvert 20
+3 -3.75 13.5
+3 -4.75 11.5
+3 -9.75 14
+3 -19.75 14
+3 -19.75 19
+3 -9.75 19
+3 -4.75 21.5
+3 -3.75 19.5
+3 -6.75 18
+3 -6.75 15
+6.00012 -6.7499 15.0001
+6.00012 -6.7499 18.0001
+6.00012 -3.7499 19.5001
+6.00012 -4.7499 21.5001
+6.00012 -9.7499 19.0001
+6 -19.75 19
+6 -19.75 14
+6.00012 -9.7499 14.0001
+6.00012 -4.7499 11.5001
+6.00012 -3.7499 13.5001
+numsurf 11
+SURF 0x0
+mat 4
+refs 10
+0 0.2 1
+1 0 0.882353
+2 0.25 0.352941
+3 0.25 0
+4 0.75 0
+5 0.75 0.352941
+6 1 0.882353
+7 0.8 1
+8 0.65 0.705882
+9 0.35 0.705882
+SURF 0x0
+mat 4
+refs 4
+8 0 0
+11 0 0
+10 0 0
+9 0 0
+SURF 0x0
+mat 4
+refs 4
+7 0 0
+12 0 0
+11 0 0
+8 0 0
+SURF 0x0
+mat 4
+refs 4
+6 0 0
+13 0 0
+12 0 0
+7 0 0
+SURF 0x0
+mat 4
+refs 4
+5 0 0
+14 0 0
+13 0 0
+6 0 0
+SURF 0x0
+mat 4
+refs 4
+4 0 0
+15 0 0
+14 0 0
+5 0 0
+SURF 0x0
+mat 4
+refs 4
+2 0 0
+17 0 0
+16 0 0
+3 0 0
+SURF 0x0
+mat 4
+refs 4
+1 0 0
+18 0 0
+17 0 0
+2 0 0
+SURF 0x0
+mat 4
+refs 4
+0 0 0
+19 0 0
+18 0 0
+1 0 0
+SURF 0x0
+mat 4
+refs 4
+9 0 0
+10 0 0
+19 0 0
+0 0 0
+SURF 0x0
+mat 7
+refs 10
+10 0.35 0.705882
+11 0.65 0.705882
+12 0.8 1
+13 1 0.882353
+14 0.75 0.352941
+15 0.75 0
+16 0.25 0
+17 0.25 0.352941
+18 0 0.882353
+19 0.2 1
+kids 0
+OBJECT poly
+name "poly"
+loc 92.2 0 0
+crease 45.000000
+numvert 20
+11.0001 -0.749901 13.5001
+11.0001 -1.7499 11.5001
+11.0001 -6.7499 14.0001
+11 -19.75 14
+11 -19.75 19
+11.0001 -6.7499 19.0001
+11.0001 -1.7499 21.5001
+11.0001 -0.749901 19.5001
+11.0001 -3.7499 18.0001
+11.0001 -3.7499 15.0001
+8 -3.75 15
+8 -3.75 18
+8 -0.75 19.5
+8 -1.75 21.5
+8 -6.75 19
+8 -19.75 19
+8 -19.75 14
+8 -6.75 14
+8 -1.75 11.5
+8 -0.75 13.5
+numsurf 11
+SURF 0x0
+mat 7
+refs 10
+9 0.35 0.705882
+8 0.65 0.705882
+7 0.8 1
+6 1 0.882353
+5 0.75 0.352941
+4 0.75 0
+3 0.25 0
+2 0.25 0.352941
+1 0 0.882353
+0 0.2 1
+SURF 0x0
+mat 4
+refs 4
+10 0 0
+9 0 0
+0 0 0
+19 0 0
+SURF 0x0
+mat 4
+refs 4
+19 0 0
+0 0 0
+1 0 0
+18 0 0
+SURF 0x0
+mat 3
+refs 4
+18 0 0
+1 0 0
+2 0 0
+17 0 0
+SURF 0x0
+mat 3
+refs 4
+17 0 0
+2 0 0
+3 0 0
+16 0 0
+SURF 0x0
+mat 4
+refs 4
+15 0 0
+4 0 0
+5 0 0
+14 0 0
+SURF 0x0
+mat 4
+refs 4
+14 0 0
+5 0 0
+6 0 0
+13 0 0
+SURF 0x0
+mat 4
+refs 4
+13 0 0
+6 0 0
+7 0 0
+12 0 0
+SURF 0x0
+mat 4
+refs 4
+12 0 0
+7 0 0
+8 0 0
+11 0 0
+SURF 0x0
+mat 4
+refs 4
+11 0 0
+8 0 0
+9 0 0
+10 0 0
+SURF 0x0
+mat 4
+refs 10
+19 0.2 1
+18 0 0.882353
+17 0.25 0.352941
+16 0.25 0
+15 0.75 0
+14 0.75 0.352941
+13 1 0.882353
+12 0.8 1
+11 0.65 0.705882
+10 0.35 0.705882
+kids 0
+OBJECT poly
+name "box"
+loc 231.875 11.25 18
+crease 45.000000
+numvert 8
+252.125 -11.25 -22.5
+254.125 -11.25 -22.5
+254.125 -11.25 -20.5
+252.125 -11.25 -20.5
+252.125 -3.25 -20.5
+254.125 -3.25 -20.5
+254.125 -3.25 -22.5
+252.125 -3.25 -22.5
+numsurf 4
+SURF 0x0
+mat 4
+refs 4
+4 0 0
+3 1 0
+2 1 1
+5 0 1
+SURF 0x0
+mat 4
+refs 4
+6 0 0
+1 1 0
+0 1 1
+7 0 1
+SURF 0x0
+mat 4
+refs 4
+7 0 0
+0 1 0
+3 1 1
+4 0 1
+SURF 0x0
+mat 4
+refs 4
+5 0 0
+2 1 0
+1 1 1
+6 0 1
+kids 0
+OBJECT poly
+name "box"
+loc 231.875 11.25 25
+crease 45.000000
+numvert 8
+252.125 -3.25 -22.5
+254.125 -3.25 -22.5
+254.125 -3.25 -20.5
+252.125 -3.25 -20.5
+252.125 -11.25 -20.5
+254.125 -11.25 -20.5
+254.125 -11.25 -22.5
+252.125 -11.25 -22.5
+numsurf 4
+SURF 0x0
+mat 4
+refs 4
+2 0 0
+5 1 0
+6 1 1
+1 0 1
+SURF 0x0
+mat 4
+refs 4
+0 0 0
+7 1 0
+4 1 1
+3 0 1
+SURF 0x0
+mat 4
+refs 4
+1 0 0
+6 1 0
+7 1 1
+0 0 1
+SURF 0x0
+mat 4
+refs 4
+3 0 0
+4 1 0
+5 1 1
+2 0 1
+kids 0
+OBJECT group
+name "kansi"
+loc 98.125 -0.781269 -1.87755e-05
+kids 1
+OBJECT poly
+name "poly"
+loc 456.875 27.0313 1.87755e-05
+crease 45.000000
+numvert 16
+-70 -15.75 -6
+-70 -15.75 -4.5
+-70 -18.25 -4.5
+-70 -18.25 4.5
+-70 -15.75 4.5
+-70 -15.75 6
+-70 -14.75 6
+-70 -14.75 -6
+-36.9999 -16.7499 -5.9999
+-36.9999 -16.7499 6.0001
+-36.9999 -17.7499 6.0001
+-36.9999 -17.7499 4.5001
+-36.9999 -20.2499 4.5001
+-36.9999 -20.2499 -4.4999
+-36.9999 -17.7499 -4.4999
+-36.9999 -17.7499 -5.9999
+numsurf 8
+SURF 0x0
+mat 2
+refs 4
+6 0 0
+9 0 0
+8 0 0
+7 0 0
+SURF 0x0
+mat 4
+refs 4
+5 0 0
+10 0 0
+9 0 0
+6 0 0
+SURF 0x0
+mat 4
+refs 4
+4 0 0
+11 0 0
+10 0 0
+5 0 0
+SURF 0x0
+mat 7
+refs 4
+3 0 0
+12 0 0
+11 0 0
+4 0 0
+SURF 0x0
+mat 4
+refs 4
+2 0 0
+13 0 0
+12 0 0
+3 0 0
+SURF 0x0
+mat 7
+refs 4
+1 0 0
+14 0 0
+13 0 0
+2 0 0
+SURF 0x0
+mat 4
+refs 4
+0 0 0
+15 0 0
+14 0 0
+1 0 0
+SURF 0x0
+mat 4
+refs 4
+7 0 0
+8 0 0
+15 0 0
+0 0 0
+kids 0
+OBJECT group
+name "keskiVIIVA"
+loc 73.125 27.5 0
+kids 2
+OBJECT poly
+name "line"
+loc 494.375 0 0
+crease 45.000000
+numvert 1
+-49.5 -17.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 1
+0 0 1
+kids 0
+OBJECT poly
+name "line"
+loc 414.375 0 0
+crease 45.000000
+numvert 2
+30.5 -17.5 0
+-2.5 -15.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 1
+0 1 1
+kids 0
+OBJECT group
+name "reuna-aita"
+loc 73.125 28 -6
+kids 2
+OBJECT poly
+name "line"
+loc 494.375 0 0
+crease 45.000000
+numvert 1
+-49.5 -17.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 1
+0 0 1
+kids 0
+OBJECT poly
+name "line"
+loc 414.375 0 0
+crease 45.000000
+numvert 3
+30.5 -17.5 0
+-2.5 -15.5 0
+-2.5 -16.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+2 0 0
+1 0 1
+0 1 1
+kids 0
+OBJECT group
+name "reuna-aita"
+loc 73.125 28 6
+kids 2
+OBJECT poly
+name "line"
+loc 494.375 0 0
+crease 45.000000
+numvert 1
+-49.5 -17.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 1
+0 0 1
+kids 0
+OBJECT poly
+name "line"
+loc 414.375 0 0
+crease 45.000000
+numvert 3
+-2.5 -16.5 0
+-2.5 -15.5 0
+30.5 -17.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+0 0 0
+1 0 1
+2 1 1
+kids 0
+OBJECT poly
+name "box"
+loc -231.875 11.25 -25
+crease 45.000000
+numvert 8
+-252.125 -11.25 22.5
+-254.125 -11.25 22.5
+-254.125 -11.25 20.5
+-252.125 -11.25 20.5
+-252.125 -3.25 20.5
+-254.125 -3.25 20.5
+-254.125 -3.25 22.5
+-252.125 -3.25 22.5
+numsurf 4
+SURF 0x0
+mat 4
+refs 4
+4 0 0
+3 1 0
+2 1 1
+5 0 1
+SURF 0x0
+mat 4
+refs 4
+6 0 0
+1 1 0
+0 1 1
+7 0 1
+SURF 0x0
+mat 4
+refs 4
+7 0 0
+0 1 0
+3 1 1
+4 0 1
+SURF 0x0
+mat 4
+refs 4
+5 0 0
+2 1 0
+1 1 1
+6 0 1
+kids 0
+OBJECT poly
+name "box"
+loc -231.875 11.25 -18
+crease 45.000000
+numvert 8
+-252.125 -3.25 22.5
+-254.125 -3.25 22.5
+-254.125 -3.25 20.5
+-252.125 -3.25 20.5
+-252.125 -11.25 20.5
+-254.125 -11.25 20.5
+-254.125 -11.25 22.5
+-252.125 -11.25 22.5
+numsurf 4
+SURF 0x0
+mat 4
+refs 4
+2 0 0
+5 1 0
+6 1 1
+1 0 1
+SURF 0x0
+mat 4
+refs 4
+0 0 0
+7 1 0
+4 1 1
+3 0 1
+SURF 0x0
+mat 4
+refs 4
+1 0 0
+6 1 0
+7 1 1
+0 0 1
+SURF 0x0
+mat 4
+refs 4
+3 0 0
+4 1 0
+5 1 1
+2 0 1
+kids 0
+OBJECT group
+name "reuna-aita"
+loc 73.125 28 6
+kids 2
+OBJECT poly
+name "line"
+loc -673.625 0 -12
+crease 45.000000
+numvert 2
+2.5 -18.5 6.67572e-06
+2.5 -17.5 6.67572e-06
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+0 0 0
+1 0 1
+kids 0
+OBJECT poly
+name "line"
+loc -593.625 0 -12
+crease 45.000000
+numvert 3
+2.5 -18.5 0
+2.5 -17.5 0
+-77.5 -17.5 0
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+0 0 0
+1 0 1
+2 1 1
+kids 0
+OBJECT group
+name "reuna-aita"
+loc 73.125 28 -6
+kids 2
+OBJECT poly
+name "line"
+loc -673.625 0 12
+crease 45.000000
+numvert 2
+2.5 -17.5 6.67572e-06
+2.5 -18.5 6.67572e-06
+numsurf 1
+SURF 0x22
+mat 0
+refs 2
+1 0 0
+0 0 1
+kids 0
+OBJECT poly
+name "line"
+loc -593.625 0 12
+crease 45.000000
+numvert 3
+-77.5 -17.5 -4.76837e-07
+2.5 -17.5 -4.76837e-07
+2.5 -18.5 -4.76837e-07
+numsurf 1
+SURF 0x22
+mat 0
+refs 3
+2 0 0
+1 0 1
+0 1 1
+kids 0
+OBJECT poly
+name "object"
+loc 567 13.75 0
+crease 45.000000
+numvert 31
+31 -4.25 10
+31 -13.75 47.5
+-3 -9.25 10
+-73 -13.75 -8
+-65 -9.25 -8
+-49 -9.25 -10
+-73 -13.75 8
+-65 -9.25 8
+-65 -13.75 16
+-49 -13.75 31.5
+-17.5 -13.75 40.5
+-49 -9.25 10
+163 -4.25 30.5
+163 -13.75 47.5
+-49 -13.75 -10
+-3 -9.25 -10
+-49 -4.25 10
+31 -4.25 -10
+-49 -4.25 -10
+31 -4.25 6
+31 -4.25 -6
+-65 -13.75 -16
+-49 -13.75 -31.5
+-17.5 -13.75 -40.5
+31 -13.75 -47.5
+163 -4.25 -30.5
+163 -13.75 -47.5
+-49 -4.25 6
+-49 -4.25 -6
+163 -4.25 -6
+163 -4.25 6
+numsurf 20
+SURF 0x10
+mat 1
+refs 4
+15 0 1
+17 1 1
+24 0.769231 0
+23 0 1
+SURF 0x10
+mat 1
+refs 4
+24 0.769231 0
+17 1 1
+25 1 1
+26 0 0
+SURF 0x0
+mat 4
+refs 4
+18 0 0
+14 1 0
+11 1 1
+16 0 1
+SURF 0x0
+mat 4
+refs 4
+17 0 0
+15 1 0
+14 1 1
+18 0 1
+SURF 0x0
+mat 4
+refs 4
+16 0 0
+11 1 0
+2 1 1
+0 0 1
+SURF 0x0
+mat 1
+refs 4
+27 0 0
+16 1 0
+0 1 1
+19 0 1
+SURF 0x0
+mat 1
+refs 4
+18 0 0
+28 1 0
+20 1 1
+17 0 1
+SURF 0x10
+mat 1
+refs 4
+9 0 0
+10 1 0
+2 1 1
+11 0 1
+SURF 0x10
+mat 1
+refs 4
+7 0.5 0.333333
+4 0.5 0.666667
+3 0 0.666667
+6 0 0.333333
+SURF 0x10
+mat 1
+refs 4
+11 1 0.333333
+5 1 0.666667
+4 0.5 0.666667
+7 0.5 0.333333
+SURF 0x10
+mat 1
+refs 3
+8 0.5 0
+7 0.5 0.333333
+6 0 0.333333
+SURF 0x10
+mat 1
+refs 4
+9 1 0
+11 1 0.333333
+7 0.5 0.333333
+8 0.5 0
+SURF 0x10
+mat 1
+refs 4
+19 0 0
+0 1 0
+12 1 1
+30 0 1
+SURF 0x10
+mat 1
+refs 4
+5 0 1
+15 1 1
+23 1 0
+22 0 0
+SURF 0x10
+mat 1
+refs 3
+3 0 0.333333
+4 0.5 0.333333
+21 0.5 0
+SURF 0x10
+mat 1
+refs 4
+21 0.5 0
+4 0.5 0.333333
+5 1 0.333333
+22 1 0
+SURF 0x10
+mat 1
+refs 4
+29 0 1
+25 1 1
+17 1 0
+20 0 0
+SURF 0x0
+mat 2
+refs 4
+27 0 0
+30 0 0
+29 0 0
+28 0 0
+SURF 0x10
+mat 1
+refs 4
+1 0 0
+13 0 0
+12 0 0
+0 0 0
+SURF 0x10
+mat 1
+refs 4
+10 1 0
+1 0.769231 0
+0 0 1
+2 1 1
+kids 0
+OBJECT poly
+name "object"
+loc -600.5 6.25 -19
+crease 45.000000
+numvert 70
+-55.5 -6.25 67
+-54.5 3.25 35
+-115.5 3.25 25
+-91.5 3.25 25
+-115.5 3.25 35
+-115.5 -6.25 67
+-79.5 3.25 25
+-115.5 3.25 3
+-115.5 3.25 13
+-73.5 -6.25 -49
+-115.5 -6.25 -14.625
+-27.5 -4.25 -11
+14.5 -4.25 -5
+14.5 -4.25 -45
+-27.5 -4.25 -23
+-57.5 -2.25 -11
+-63 -2.25 -23
+98.5 -4.25 -5
+113 -6.25 -5
+113 -6.25 -45
+98.5 -4.25 -45
+92.5 -6.25 -67
+14.5 -6.25 -67
+-82.5 -0.250003 -12
+-74 -0.250003 -3
+-91.5 3.25 3
+-79.5 3.25 6
+-91.5 3.25 13
+-79.5 3.25 13
+36.5 -4.25 9
+110.5 -6.25 31
+98.5 -4.25 31
+82.5 -4.25 29
+82.5 -4.25 9
+2.5 3.25 9
+82.5 -4.25 29
+36.5 -4.25 29
+82.5 3.25 9
+2.5 3.25 29
+82.5 3.25 29
+2.5 3.25 13
+-11.5 3.25 25
+98.5 -6.25 43.5
+82.5 -6.25 51
+38.5 -6.25 63
+2.5 -6.25 67
+-27.5 -6.25 -53
+2.5 3.75 19
+82.5 2.25 25
+82.5 2.25 23.5
+82.5 -0.250002 23.5
+82.5 -0.250002 14.5
+82.5 2.25 14.5
+82.5 2.25 13
+82.5 3.25 13
+82.5 3.25 25
+115.5 4.25 13
+115.5 4.25 14.5
+115.5 1.75 14.5
+115.5 1.75 23.5
+115.5 4.25 23.5
+115.5 4.25 25
+115.5 5.75 19
+82.5 3.75 19
+115.5 5.25 25
+115.5 6.25 25
+82.5 4.25 25
+115.5 6.25 13
+115.5 5.25 13
+82.5 4.25 13
+numsurf 48
+SURF 0x10
+mat 1
+refs 4
+1 0 0.5
+0 0 0
+45 0.769231 0
+38 0 1
+SURF 0x10
+mat 1
+refs 4
+0 0 0
+1 0 0
+4 0 0
+5 0 0
+SURF 0x10
+mat 1
+refs 4
+23 0 0
+10 1 1
+7 0 1
+25 0 0
+SURF 0x10
+mat 1
+refs 5
+2 0 0
+4 0 0
+1 0 0.5
+38 0 1
+41 1 1
+SURF 0x0
+mat 2
+refs 4
+27 0 0
+8 0 0
+2 0 0
+3 0 0
+SURF 0x0
+mat 2
+refs 4
+28 0 0
+27 0 0
+3 0 0
+6 0 0
+SURF 0x0
+mat 2
+refs 4
+54 0 0
+28 0 0
+6 0 0
+55 0 0
+SURF 0x10
+mat 1
+refs 4
+8 0 0
+27 1 0
+25 1 1
+7 0 1
+SURF 0x0
+mat 2
+refs 4
+11 0 0
+12 1 0
+13 1 1
+14 0 1
+SURF 0x0
+mat 2
+refs 4
+14 0 0
+16 0 0
+15 0 0
+11 0 0
+SURF 0x10
+mat 1
+refs 4
+17 0 0
+18 1 0
+19 1 1
+20 0 1
+SURF 0x10
+mat 1
+refs 3
+20 0 0
+19 1 0
+21 0 1
+SURF 0x10
+mat 1
+refs 4
+13 0 0
+20 1 0
+21 1 1
+22 0 1
+SURF 0x0
+mat 2
+refs 4
+16 0 0
+23 0 0
+24 0 0
+15 0 0
+SURF 0x0
+mat 2
+refs 4
+23 0 0
+25 0 0
+26 0 0
+24 0 0
+SURF 0x0
+mat 2
+refs 4
+25 0 0
+27 0 0
+28 0 0
+26 0 0
+SURF 0x10
+mat 1
+refs 4
+17 0 0
+33 1 0
+32 1 0.333333
+31 0.5 0.333333
+SURF 0x10
+mat 1
+refs 4
+33 0 0
+17 0 0
+12 0 0
+29 0 0
+SURF 0x10
+mat 1
+refs 3
+29 1 1
+12 0 0
+34 0 0
+SURF 0x10
+mat 1
+refs 4
+36 0 1
+38 1 1
+45 0.769231 0
+44 0 1
+SURF 0x0
+mat 4
+refs 4
+39 0 0
+35 1 0
+33 1 1
+37 0 1
+SURF 0x0
+mat 4
+refs 4
+38 0 0
+36 1 0
+35 1 1
+39 0 1
+SURF 0x0
+mat 4
+refs 4
+37 0 0
+33 1 0
+29 1 1
+34 0 1
+SURF 0x0
+mat 1
+refs 4
+54 0 0
+37 1 0
+34 1 1
+40 0 1
+SURF 0x0
+mat 1
+refs 4
+39 0 0
+55 1 0
+41 1 1
+38 0 1
+SURF 0x10
+mat 1
+refs 4
+17 0.5 0.333333
+31 0.5 0.666667
+30 0 0.666667
+18 0 0.333333
+SURF 0x10
+mat 1
+refs 4
+32 0 1
+36 1 1
+44 1 0
+43 0 0
+SURF 0x10
+mat 1
+refs 4
+42 0.5 0
+31 0.5 0.333333
+32 1 0.333333
+43 1 0
+SURF 0x10
+mat 1
+refs 3
+12 0 0
+11 0 0
+34 0 0
+SURF 0x0
+mat 2
+refs 4
+20 0 0
+13 0 0
+12 0 0
+17 0 0
+SURF 0x10
+mat 1
+refs 3
+31 0.5 0.333333
+42 0.5 0
+30 0 0.666667
+SURF 0x0
+mat 1
+refs 4
+26 0 0
+28 0 0
+40 0 1
+34 0 0
+SURF 0x0
+mat 1
+refs 4
+14 0 0
+13 1 0
+22 1 1
+46 0 1
+SURF 0x10
+mat 1
+refs 4
+16 0 0
+14 1 0
+46 1 1
+9 0 1
+SURF 0x10
+mat 1
+refs 5
+34 0 0
+11 0 0
+15 0 0
+24 0 0
+26 0 0
+SURF 0x22
+mat 0
+refs 2
+63 0 1
+47 1 1
+SURF 0x0
+mat 4
+refs 4
+64 0 0
+55 0 0
+48 0 0
+61 0 0
+SURF 0x0
+mat 4
+refs 4
+61 0 0
+48 0 0
+49 0 0
+60 0 0
+SURF 0x0
+mat 7
+refs 4
+60 0 0
+49 0 0
+50 0 0
+59 0 0
+SURF 0x0
+mat 4
+refs 4
+59 0 0
+50 0 0
+51 0 0
+58 0 0
+SURF 0x0
+mat 7
+refs 4
+58 0 0
+51 0 0
+52 0 0
+57 0 0
+SURF 0x0
+mat 4
+refs 4
+57 0 0
+52 0 0
+53 0 0
+56 0 0
+SURF 0x0
+mat 4
+refs 4
+56 0 0
+53 0 0
+54 0 0
+68 0 0
+SURF 0x0
+mat 2
+refs 4
+68 0 0
+54 0 0
+55 0 0
+64 0 0
+SURF 0x22
+mat 0
+refs 2
+62 0 1
+63 1 1
+SURF 0x22
+mat 0
+refs 3
+64 0 0
+65 0 1
+66 1 1
+SURF 0x22
+mat 0
+refs 3
+68 0 0
+67 0 1
+69 1 1
+SURF 0x10
+mat 1
+refs 4
+10 1 1
+23 0 0
+16 0 0
+9 0 1
+kids 0
+OBJECT poly
+name "poly"
+loc -125 41.25 -9.53674e-07
+crease 45.000000
+numvert 30
+-1.49997 23.25 3
+-1.49997 41.25 2.5
+-1.49997 41.25 -2.5
+-1.49997 23.25 -3
+-1.49997 22.75 9.53674e-07
+1.50003 22.75 9.53674e-07
+1.50003 23.25 -3
+1.50003 41.25 -2.5
+1.50003 41.25 2.5
+1.50003 23.25 3
+1.50003 -16.75 -6.5
+1.50003 -16.75 -9
+1.50003 -32.75 -3
+1.50003 -41.25 -2.5
+1.50003 -41.25 2.5
+1.50003 -32.75 3
+1.50003 -16.75 9
+1.50003 -16.75 6.5
+1.50003 -32.25 9.53674e-07
+-1.49997 -32.25 9.53674e-07
+-1.49997 -16.75 6.5
+-1.49997 -16.75 9
+-1.49997 -32.75 3
+-1.49997 -41.25 2.5
+-1.49997 -41.25 -2.5
+-1.49997 -32.75 -3
+-1.49997 -16.75 -9
+-1.49997 -16.75 -6.5
+-1.49997 40.25 9.53674e-07
+1.50003 40.25 9.53674e-07
+numsurf 34
+SURF 0x0
+mat 4
+refs 4
+27 0 0
+10 0 0
+5 0 0
+4 0 0
+SURF 0x0
+mat 7
+refs 4
+3 0 0
+6 0 0
+11 0 0
+26 0 0
+SURF 0x0
+mat 7
+refs 4
+2 0 0
+7 0 0
+6 0 0
+3 0 0
+SURF 0x0
+mat 7
+refs 4
+0 0 0
+9 0 0
+8 0 0
+1 0 0
+SURF 0x0
+mat 7
+refs 4
+21 0 0
+16 0 0
+9 0 0
+0 0 0
+SURF 0x0
+mat 4
+refs 4
+4 0 0
+5 0 0
+17 0 0
+20 0 0
+SURF 0x0
+mat 4
+refs 4
+19 0 0
+18 0 0
+10 0 0
+27 0 0
+SURF 0x0
+mat 3
+refs 4
+26 0 0
+11 0 0
+12 0 0
+25 0 0
+SURF 0x0
+mat 3
+refs 4
+25 0 0
+12 0 0
+13 0 0
+24 0 0
+SURF 0x0
+mat 4
+refs 4
+23 0 0
+14 0 0
+15 0 0
+22 0 0
+SURF 0x0
+mat 4
+refs 4
+22 0 0
+15 0 0
+16 0 0
+21 0 0
+SURF 0x0
+mat 3
+refs 4
+20 0 0
+17 0 0
+18 0 0
+19 0 0
+SURF 0x0
+mat 4
+refs 4
+7 0 0
+2 0.75 0
+28 0.5 0
+29 0.5 0
+SURF 0x0
+mat 4
+refs 4
+28 0.5 0
+1 0.25 0
+8 0 0
+29 0.5 0
+SURF 0x0
+mat 7
+refs 4
+19 0.35 0.705882
+22 0.25 0.352941
+21 0 0.882353
+20 0.2 1
+SURF 0x0
+mat 7
+refs 4
+19 0.35 0.705882
+27 0.8 1
+26 1 0.882353
+25 0.75 0.352941
+SURF 0x0
+mat 7
+refs 5
+19 0.35 0.705882
+25 0.75 0.352941
+24 0.75 0
+23 0.25 0
+22 0.25 0.352941
+SURF 0x0
+mat 6
+refs 6
+4 0.35 0.705882
+28 0.5 0
+2 0.25 0
+3 0.25 0.352941
+26 0 0.882353
+27 0.2 1
+SURF 0x0
+mat 6
+refs 6
+4 0.35 0.705882
+20 0.8 1
+21 1 0.882353
+0 0.75 0.352941
+1 0.75 0
+28 0.5 0
+SURF 0x0
+mat 6
+refs 6
+4 0.35 0.705882
+20 0.8 1
+21 1 0.882353
+0 0.75 0.352941
+1 0.75 0
+28 0.5 0
+SURF 0x0
+mat 6
+refs 6
+4 0.35 0.705882
+28 0.5 0
+2 0.25 0
+3 0.25 0.352941
+26 0 0.882353
+27 0.2 1
+SURF 0x0
+mat 7
+refs 5
+19 0.35 0.705882
+25 0.75 0.352941
+24 0.75 0
+23 0.25 0
+22 0.25 0.352941
+SURF 0x0
+mat 7
+refs 4
+19 0.35 0.705882
+27 0.8 1
+26 1 0.882353
+25 0.75 0.352941
+SURF 0x0
+mat 7
+refs 4
+19 0.35 0.705882
+22 0.25 0.352941
+21 0 0.882353
+20 0.2 1
+SURF 0x0
+mat 7
+refs 4
+18 0.35 0.705882
+12 0.25 0.352941
+11 0 0.882353
+10 0.2 1
+SURF 0x0
+mat 7
+refs 4
+18 0.35 0.705882
+17 0.8 1
+16 1 0.882353
+15 0.75 0.352941
+SURF 0x0
+mat 7
+refs 5
+18 0.35 0.705882
+15 0.75 0.352941
+14 0.75 0
+13 0.25 0
+12 0.25 0.352941
+SURF 0x0
+mat 6
+refs 6
+5 0.35 0.705882
+29 0.5 0
+8 0.25 0
+9 0.25 0.352941
+16 0 0.882353
+17 0.2 1
+SURF 0x0
+mat 6
+refs 6
+5 0.35 0.705882
+10 0.8 1
+11 1 0.882353
+6 0.75 0.352941
+7 0.75 0
+29 0.5 0
+SURF 0x0
+mat 6
+refs 6
+5 0.35 0.705882
+10 0.8 1
+11 1 0.882353
+6 0.75 0.352941
+7 0.75 0
+29 0.5 0
+SURF 0x0
+mat 6
+refs 6
+5 0.35 0.705882
+29 0.5 0
+8 0.25 0
+9 0.25 0.352941
+16 0 0.882353
+17 0.2 1
+SURF 0x0
+mat 7
+refs 5
+18 0.35 0.705882
+15 0.75 0.352941
+14 0.75 0
+13 0.25 0
+12 0.25 0.352941
+SURF 0x0
+mat 7
+refs 4
+18 0.35 0.705882
+17 0.8 1
+16 1 0.882353
+15 0.75 0.352941
+SURF 0x0
+mat 7
+refs 4
+18 0.35 0.705882
+12 0.25 0.352941
+11 0 0.882353
+10 0.2 1
+kids 0
+OBJECT poly
+name "poly"
+loc 125 41.25 0
+crease 45.000000
+numvert 30
+1.50003 40.25 0
+-1.49997 40.25 0
+-1.49997 -16.75 -6.5
+-1.49997 -16.75 -9
+-1.49997 -32.75 -3
+-1.49997 -41.25 -2.5
+-1.49997 -41.25 2.5
+-1.49997 -32.75 3
+-1.49997 -16.75 9
+-1.49997 -16.75 6.5
+-1.49997 -32.25 0
+1.50003 -32.25 0
+1.50003 -16.75 6.5
+1.50003 -16.75 9
+1.50003 -32.75 3
+1.50003 -41.25 2.5
+1.50003 -41.25 -2.5
+1.50003 -32.75 -3
+1.50003 -16.75 -9
+1.50003 -16.75 -6.5
+1.50003 23.25 3
+1.50003 41.25 2.5
+1.50003 41.25 -2.5
+1.50003 23.25 -3
+1.50003 22.75 0
+-1.49997 22.75 0
+-1.49997 23.25 -3
+-1.49997 41.25 -2.5
+-1.49997 41.25 2.5
+-1.49997 23.25 3
+numsurf 25
+SURF 0x0
+mat 4
+refs 4
+1 0.5 0
+28 0.25 0
+21 0 0
+0 0.5 0
+SURF 0x0
+mat 4
+refs 4
+22 0 0
+27 0.75 0
+1 0.5 0
+0 0.5 0
+SURF 0x0
+mat 3
+refs 4
+9 0 0
+12 0 0
+11 0 0
+10 0 0
+SURF 0x0
+mat 3
+refs 4
+7 0 0
+14 0 0
+13 0 0
+8 0 0
+SURF 0x0
+mat 3
+refs 4
+6 0 0
+15 0 0
+14 0 0
+7 0 0
+SURF 0x0
+mat 3
+refs 4
+4 0 0
+17 0 0
+16 0 0
+5 0 0
+SURF 0x0
+mat 3
+refs 4
+3 0 0
+18 0 0
+17 0 0
+4 0 0
+SURF 0x0
+mat 4
+refs 4
+10 0 0
+11 0 0
+19 0 0
+2 0 0
+SURF 0x0
+mat 7
+refs 9
+11 0.35 0.705882
+12 0.8 1
+13 1 0.882353
+14 0.75 0.352941
+15 0.75 0
+16 0.25 0
+17 0.25 0.352941
+18 0 0.882353
+19 0.2 1
+SURF 0x0
+mat 4
+refs 4
+25 0 0
+24 0 0
+12 0 0
+9 0 0
+SURF 0x0
+mat 7
+refs 4
+8 0 0
+13 0 0
+20 0 0
+29 0 0
+SURF 0x0
+mat 7
+refs 4
+29 0 0
+20 0 0
+21 0 0
+28 0 0
+SURF 0x0
+mat 7
+refs 4
+27 0 0
+22 0 0
+23 0 0
+26 0 0
+SURF 0x0
+mat 7
+refs 4
+26 0 0
+23 0 0
+18 0 0
+3 0 0
+SURF 0x0
+mat 4
+refs 4
+2 0 0
+19 0 0
+24 0 0
+25 0 0
+SURF 0x0
+mat 6
+refs 6
+25 0.35 0.705882
+1 0.5 0
+27 0.25 0
+26 0.25 0.352941
+3 0 0.882353
+2 0.2 1
+SURF 0x0
+mat 6
+refs 6
+25 0.35 0.705882
+9 0.8 1
+8 1 0.882353
+29 0.75 0.352941
+28 0.75 0
+1 0.5 0
+SURF 0x0
+mat 7
+refs 5
+4 0.25 0.352941
+5 0.25 0
+6 0.75 0
+7 0.75 0.352941
+10 0.65 0.705882
+SURF 0x0
+mat 7
+refs 4
+2 0.2 1
+3 0 0.882353
+4 0.25 0.352941
+10 0.65 0.705882
+SURF 0x0
+mat 7
+refs 4
+7 0.75 0.352941
+8 1 0.882353
+9 0.8 1
+10 0.65 0.705882
+SURF 0x0
+mat 7
+refs 4
+17 0.75 0.352941
+18 1 0.882353
+19 0.8 1
+11 0.65 0.705882
+SURF 0x0
+mat 7
+refs 4
+12 0.2 1
+13 0 0.882353
+14 0.25 0.352941
+11 0.65 0.705882
+SURF 0x0
+mat 7
+refs 5
+14 0.25 0.352941
+15 0.25 0
+16 0.75 0
+17 0.75 0.352941
+11 0.65 0.705882
+SURF 0x0
+mat 6
+refs 6
+24 0.35 0.705882
+19 0.8 1
+18 1 0.882353
+23 0.75 0.352941
+22 0.75 0
+0 0.5 0
+SURF 0x0
+mat 6
+refs 6
+24 0.35 0.705882
+0 0.5 0
+21 0.25 0
+20 0.25 0.352941
+13 0 0.882353
+12 0.2 1
+kids 0

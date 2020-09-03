@@ -1,0 +1,6 @@
+OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac 21.1230495 55.7062048 -0.06 303.25
+OBJECT_SHARED Models/Communications/VOR-DME_3.ac 21.2438 55.715619 15.15 180
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Green.ac 21.0805 55.7273333 -0.26 259.93
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Green.ac 21.130778 55.655472 1.2 17.37
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Green.ac 21.143694 55.626222 -0.63 109.98
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Red.ac 21.132417 55.6565 0.61 101.16
