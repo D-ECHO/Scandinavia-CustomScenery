@@ -17,7 +17,7 @@ Following sources have been used:
 * SRTM-1 global elevation data from https://opendem.info  
 	*Produced using Copernicus data and information funded by the European Union - EU-DEM layers.*
 * Landcover Data from https://land.copernicus.eu/pan-european/corine-land-cover/clc2018
-* Landcover Data from http://download.geofabrik.de and https://osmdata.openstreetmap.de/data/land-polygons.html
+* Landcover Data from http://download.geofabrik.de and https://osmdata.openstreetmap.de/data/land-polygons.html under ODbL 1.0
 * Airport Data from https://gateway.x-plane.com
 * Objects from FlightGear's terrasync (see scenery.flightgear.org)
 
