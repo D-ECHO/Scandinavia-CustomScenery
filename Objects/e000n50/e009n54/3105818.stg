@@ -9,7 +9,7 @@ OBJECT_SHARED Models/Power/windturbine.xml 9.5741667 54.4102778 13.69 180
 OBJECT_SHARED Models/Power/windturbine.xml 9.5775 54.4172222 12.04 180
 OBJECT_SHARED Models/Power/windturbine.xml 9.5855556 54.4197222 14.53 180
 OBJECT_SHARED Models/Power/windturbine.xml 9.5875 54.4175 11.98 180
-OBJECT_SHARED Models/Airport/tacan.xml 9.5015 54.453667 15.54 180
+OBJECT_SHARED Models/Airport/tacan.ac 9.5015 54.453667 15.54 180
 OBJECT_SHARED Models/Communications/radio-medium.xml 9.6052778 54.4402778 -92.24 180
 OBJECT_SHARED Models/Communications/radio-medium.xml 9.6238889 54.4319444 -90.76 180
 OBJECT_SHARED Models/Communications/radio-medium.xml 9.6713889 54.4788889 -84.73 180

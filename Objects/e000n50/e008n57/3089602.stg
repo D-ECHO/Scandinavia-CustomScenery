@@ -16,7 +16,7 @@ OBJECT_SHARED Models/Power/windturbine.xml 8.7038446 57.0306166 10.98 180
 OBJECT_SHARED Models/Power/windturbine.xml 8.70491 57.0209169 30.19 180
 OBJECT_SHARED Models/Power/windturbine.xml 8.7054397 57.0289135 12.3 180
 OBJECT_SHARED Models/Power/windturbine.xml 8.7147175 57.0199604 23.59 180
-OBJECT_SHARED Models/Airport/ils.xml 8.712789 57.066978 5.64 79.53
+OBJECT_SHARED Models/Airport/ils.ac 8.712789 57.066978 5.64 79.53
 OBJECT_SHARED Models/Airport/marker.ac 8.745328 57.064944 5.03 180
 OBJECT_SHARED Models/Misc/generic_lighthouse.ac 8.598667 57.112833 46.32 180
 OBJECT_SHARED Models/Airport/localizer.xml 8.685939 57.070669 8.14 79.53

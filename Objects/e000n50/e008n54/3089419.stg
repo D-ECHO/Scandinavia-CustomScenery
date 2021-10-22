@@ -25,7 +25,7 @@ OBJECT_SHARED Models/Power/windturbine.xml 8.9658333 54.1922222 -0.41 180
 OBJECT_SHARED Models/Power/windturbine.xml 8.9675 54.1880556 0.7 180
 OBJECT_SHARED Models/Commercial/generic_skyscraper_02.ac 8.8444444 54.1316667 -435.96 180
 OBJECT_SHARED Models/Industrial/generic_silo_2.ac 8.8647222 54.1258333 -27.82 180
-OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 8.78715 54.1314433 -0.11 348.68
-OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 8.8210283 54.1291983 -0.08 92.6
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.ac 8.78715 54.1314433 -0.11 348.68
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.ac 8.8210283 54.1291983 -0.08 92.6
 OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Green.ac 8.7501483 54.128085 -0.03 290.87
 OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Green.ac 8.784575 54.1264067 -0.53 357.78

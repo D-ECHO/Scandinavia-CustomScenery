@@ -4,7 +4,7 @@ OBJECT_SHARED Models/Power/windturbine.xml 9.8064059 54.9833315 5.29 180
 OBJECT_SHARED Models/Power/windturbine.xml 9.869917 54.8793831 0 180
 OBJECT_SHARED Models/Power/windturbine.xml 9.8706215 54.8785153 0 180
 OBJECT_SHARED Models/Power/windturbine.xml 9.8837495 54.875293 8.55 180
-OBJECT_SHARED Models/Airport/ils.xml 9.798603 54.958106 5.68 39.03
+OBJECT_SHARED Models/Airport/ils.ac 9.798603 54.958106 5.68 39.03
 OBJECT_SHARED Models/Communications/vordme_1.xml 9.798619 54.958164 5.6 180
 OBJECT_SHARED Models/Communications/vordme_1.xml 9.993378 54.905414 33.29 180
 OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 9.7852778 54.9177778 -413.4 180

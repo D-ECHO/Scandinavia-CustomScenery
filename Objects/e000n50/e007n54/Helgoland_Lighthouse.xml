@@ -1,14 +1,6 @@
-<?xml version="1.0"?>
-
 <PropertyList>
 
  <path>Helgoland_Lighthouse.ac</path>
-
- <animation>
-  <type>range</type>
-  <min-m>0</min-m>
-  <max-m>56000</max-m>
- </animation>
 
  <animation>
   <object-name>Head</object-name>

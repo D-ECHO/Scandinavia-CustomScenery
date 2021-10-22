@@ -6,6 +6,6 @@ OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 9.4177778 54.7719444 -379
 OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 9.4325 54.8038889 -350.51 180
 OBJECT_SHARED Models/Misc/generic_church_02.ac 9.4347222 54.7830556 24.93 180
 OBJECT_SHARED Models/Misc/generic_church_03.ac 9.4413889 54.7911111 23.17 180
-OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml 9.4498018 54.8117055 -0.02 207.59
-OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml 9.4534067 54.8236376 -0.09 143.85
-OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 9.460118 54.8243446 -0.05 132.57
+OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.ac 9.4498018 54.8117055 -0.02 207.59
+OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.ac 9.4534067 54.8236376 -0.09 143.85
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.ac 9.460118 54.8243446 -0.05 132.57

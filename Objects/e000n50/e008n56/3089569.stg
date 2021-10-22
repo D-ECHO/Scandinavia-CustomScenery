@@ -17,5 +17,5 @@ OBJECT_SHARED Models/Power/windturbine.xml 8.4811732 56.5069262 37.91 180
 OBJECT_SHARED Models/Power/windturbine.xml 8.4817514 56.5047993 37.51 180
 OBJECT_SHARED Models/Power/windturbine.xml 8.4823296 56.5026634 36.58 180
 OBJECT_SHARED Models/Power/windturbine.xml 8.4829225 56.5005186 36.48 180
-OBJECT_SHARED Models/Maritime/Misc/MarkerBuoy.xml 8.2881592 56.5845354 -0.02 292.09
-OBJECT_SHARED Models/Maritime/Misc/MarkerBuoy.xml 8.294339 56.5863315 -0.01 94.79
+OBJECT_SHARED Models/Maritime/Misc/MarkerBuoy.ac 8.2881592 56.5845354 -0.02 292.09
+OBJECT_SHARED Models/Maritime/Misc/MarkerBuoy.ac 8.294339 56.5863315 -0.01 94.79

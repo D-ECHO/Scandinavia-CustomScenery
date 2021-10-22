@@ -42,7 +42,7 @@ OBJECT_SHARED Models/Airport/apt-light.xml 8.454886 55.455687 2.02 180
 OBJECT_SHARED Models/Airport/apt-light.xml 8.456469 55.455693 0.44 180
 OBJECT_SHARED Models/Airport/apt-light.xml 8.461951 55.452375 1.15 180
 OBJECT_SHARED Models/Airport/apt-light.xml 8.463764 55.451964 1.23 180
-OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 8.378089 55.4866091 -0.06 196.2
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.ac 8.378089 55.4866091 -0.06 196.2
 OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac 8.395855 55.4839529 -0.04 322.78
 OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac 8.4100361 55.4502961 0.19 197.15
 OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac 8.4125707 55.4528317 -0.01 248.49

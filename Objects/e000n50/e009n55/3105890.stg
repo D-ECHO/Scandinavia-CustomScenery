@@ -37,7 +37,7 @@ OBJECT_SHARED Models/Power/generic_pylon_100m.ac 9.701105 55.507238 19.65 180
 OBJECT_SHARED Models/Power/generic_pylon_100m.ac 9.701287 55.50179 24.45 180
 OBJECT_SHARED Models/Power/generic_pylon_100m.ac 9.701453 55.504458 27.98 180
 OBJECT_SHARED Models/Power/generic_pylon_100m.ac 9.701926 55.501815 28.37 180
-OBJECT_SHARED Models/Misc/generic_castle.xml 9.688107 55.506284 21.48 180
+OBJECT_SHARED Models/Misc/generic_castle.ac 9.688107 55.506284 21.48 180
 OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac 9.7326846 55.5515172 -0.01 279.56
 OBJECT_SHARED Models/Maritime/Misc/Buoy-Safe-Water.ac 9.6084 55.5017 -0.37 145.6
 OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-West.ac 9.6613586 55.5058446 -0.1 271.4
